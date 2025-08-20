@@ -90,7 +90,7 @@ const Footer = () => {
                   className="h-8 w-auto opacity-70 hover:opacity-100 transition-opacity"
                 />
                 <img
-                  src="/image.png"
+                  src="https://www.valu.com.eg/assets/images/valu.webp"
                   alt="valU"
                   className="h-8 w-auto opacity-70 hover:opacity-100 transition-opacity"
                 />
