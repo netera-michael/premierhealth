@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Search, ChevronDown, Calendar, MapPin, Star } from 'lucide-react';
 
 interface Doctor {
@@ -11,6 +11,7 @@ interface Doctor {
   rating: number;
   experience: number; // years
   languages: string[];
+  image: string; // URL for doctor's image
 }
 
 const Doctors: React.FC = () => {
@@ -28,7 +29,8 @@ const Doctors: React.FC = () => {
       specialties: ['Vitamin B12 Therapy', 'NAD+ Therapy', 'Myers\' Cocktail'],
       rating: 4.9,
       experience: 8,
-      languages: ['English', 'Arabic']
+      languages: ['English', 'Arabic'],
+      image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&q=80' // Photo of female doctor
     },
     {
       id: 2,
@@ -39,7 +41,8 @@ const Doctors: React.FC = () => {
       specialties: ['Nutritional Counseling', 'Detox Programs', 'Weight Management'],
       rating: 4.8,
       experience: 12,
-      languages: ['English', 'Spanish']
+      languages: ['English', 'Spanish'],
+      image: 'https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&q=80' // Photo of male doctor
     },
     {
       id: 3,
@@ -50,7 +53,8 @@ const Doctors: React.FC = () => {
       specialties: ['Hormone Optimization', 'Peptide Therapy', 'Biohacking'],
       rating: 4.9,
       experience: 10,
-      languages: ['English', 'French']
+      languages: ['English', 'French'],
+      image: 'https://images.unsplash.com/photo-1556435758-996aed9c60dc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&q=80' // Photo of female doctor
     },
     {
       id: 4,
@@ -61,7 +65,8 @@ const Doctors: React.FC = () => {
       specialties: ['Glutathione Therapy', 'Liver Detox', 'Chelation Therapy'],
       rating: 4.7,
       experience: 7,
-      languages: ['English', 'Arabic']
+      languages: ['English', 'Arabic'],
+      image: 'https://images.unsplash.com/photo-1594824476967-48c8b964273f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&q=80' // Photo of male doctor
     },
     {
       id: 5,
@@ -72,7 +77,8 @@ const Doctors: React.FC = () => {
       specialties: ['Energy Boost Therapy', 'Athletic Performance', 'Recovery Programs'],
       rating: 4.8,
       experience: 9,
-      languages: ['English', 'Spanish']
+      languages: ['English', 'Spanish'],
+      image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5cd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&q=80' // Photo of female doctor
     },
     {
       id: 6,
@@ -83,11 +89,45 @@ const Doctors: React.FC = () => {
       specialties: ['Immune Support', 'Preventive Care', 'Lifestyle Medicine'],
       rating: 4.9,
       experience: 15,
-      languages: ['English', 'Korean']
+      languages: ['English', 'Korean'],
+      image: 'https://images.unsplash.com/photo-1591370874773-6702e8f12fd8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&q=80' // Photo of male doctor
+    },
+    {
+      id: 7,
+      name: 'Dr. Fatima Al-Mahmoud',
+      title: 'Integrative Medicine Specialist',
+      department: 'Wellness',
+      description: 'Combines conventional and alternative medicine for holistic patient care.',
+      specialties: ['Integrative Medicine', 'Functional Medicine', 'Lifestyle Medicine'],
+      rating: 4.8,
+      experience: 11,
+      languages: ['English', 'Arabic'],
+      image: 'https://images.unsplash.com/photo-1559839734-2b71ea811ec6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&q=80' // Photo of female doctor
+    },
+    {
+      id: 8,
+      name: 'Dr. James Wilson',
+      title: 'Sports Medicine Specialist',
+      department: 'Vitamin Drips',
+      description: 'Specializes in sports injury prevention and performance optimization.',
+      specialties: ['Sports Injury Rehabilitation', 'Performance Enhancement', 'Recovery Therapy'],
+      rating: 4.7,
+      experience: 14,
+      languages: ['English'],
+      image: 'https://images.unsplash.com/photo-1622253692010-333f2da6031d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&q=80' // Photo of male doctor
     }
   ];
 
   const departments = ['all', 'Vitamin Drips', 'Nutrition', 'Aesthetic Medicine', 'Detox Programs', 'Wellness'];
+  
+  // Pagination state
+  const [currentPage, setCurrentPage] = useState(1);
+  const doctorsPerPage = 6; // Show 6 doctors per page
+
+  // Reset to first page when filters change
+  React.useEffect(() => {
+    setCurrentPage(1);
+  }, [searchTerm, selectedDepartment]);
 
   const filteredDoctors = doctors.filter(doctor => {
     const matchesSearch = doctor.name.toLowerCase().includes(searchTerm.toLowerCase()) || 
@@ -95,6 +135,12 @@ const Doctors: React.FC = () => {
     const matchesDepartment = selectedDepartment === 'all' || doctor.department === selectedDepartment;
     return matchesSearch && matchesDepartment;
   });
+
+  // Calculate pagination
+  const indexOfLastDoctor = currentPage * doctorsPerPage;
+  const indexOfFirstDoctor = indexOfLastDoctor - doctorsPerPage;
+  const currentDoctors = filteredDoctors.slice(indexOfFirstDoctor, indexOfLastDoctor);
+  const totalPages = Math.ceil(filteredDoctors.length / doctorsPerPage);
 
   return (
     <section id="doctors" className="py-20 bg-gray-50">
@@ -157,13 +203,21 @@ const Doctors: React.FC = () => {
 
         {/* Doctors Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
-          {filteredDoctors.map((doctor) => (
+          {currentDoctors.map((doctor) => (
             <div key={doctor.id} className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
               <div className="p-6">
                 <div className="flex items-start space-x-4">
-                  {/* Placeholder for doctor image */}
                   <div className="flex-shrink-0">
-                    <div className="bg-gray-200 border-2 border-dashed rounded-xl w-16 h-16" />
+                    <img 
+                      src={doctor.image} 
+                      alt={`${doctor.name} profile`}
+                      className="w-16 h-16 rounded-xl object-cover"
+                      onError={(e) => {
+                        const target = e.target as HTMLImageElement;
+                        target.onerror = null; // prevents infinite loop
+                        target.src = 'https://placehold.co/150x150?text=Doctor'; // fallback image
+                      }}
+                    />
                   </div>
                   
                   <div className="flex-1 min-w-0">
@@ -226,25 +280,49 @@ const Doctors: React.FC = () => {
         </div>
 
         {/* Pagination */}
-        <div className="flex justify-center">
-          <nav className="flex items-center space-x-2" aria-label="Pagination">
-            <button className="px-3 py-2 text-sm font-medium text-gray-500 bg-white border border-gray-300 rounded-lg hover:bg-gray-50">
-              Previous
-            </button>
-            <button className="px-3 py-2 text-sm font-medium text-primary-600 bg-primary-50 border border-primary-300 rounded-lg hover:bg-primary-100">
-              1
-            </button>
-            <button className="px-3 py-2 text-sm font-medium text-gray-500 bg-white border border-gray-300 rounded-lg hover:bg-gray-50">
-              2
-            </button>
-            <button className="px-3 py-2 text-sm font-medium text-gray-500 bg-white border border-gray-300 rounded-lg hover:bg-gray-50">
-              3
-            </button>
-            <button className="px-3 py-2 text-sm font-medium text-gray-500 bg-white border border-gray-300 rounded-lg hover:bg-gray-50">
-              Next
-            </button>
-          </nav>
-        </div>
+        {totalPages > 1 && (
+          <div className="flex justify-center">
+            <nav className="flex items-center space-x-2" aria-label="Pagination">
+              <button
+                className={`px-3 py-2 text-sm font-medium rounded-lg border ${
+                  currentPage === 1 
+                    ? 'text-gray-300 bg-gray-100 border-gray-200 cursor-not-allowed' 
+                    : 'text-gray-500 bg-white border-gray-300 hover:bg-gray-50'
+                }`}
+                onClick={() => setCurrentPage(prev => Math.max(prev - 1, 1))}
+                disabled={currentPage === 1}
+              >
+                Previous
+              </button>
+              
+              {Array.from({ length: totalPages }, (_, index) => index + 1).map((page) => (
+                <button
+                  key={page}
+                  className={`px-3 py-2 text-sm font-medium rounded-lg border ${
+                    currentPage === page
+                      ? 'text-primary-600 bg-primary-50 border-primary-300'
+                      : 'text-gray-500 bg-white border-gray-300 hover:bg-gray-50'
+                  }`}
+                  onClick={() => setCurrentPage(page)}
+                >
+                  {page}
+                </button>
+              ))}
+              
+              <button
+                className={`px-3 py-2 text-sm font-medium rounded-lg border ${
+                  currentPage === totalPages
+                    ? 'text-gray-300 bg-gray-100 border-gray-200 cursor-not-allowed'
+                    : 'text-gray-500 bg-white border-gray-300 hover:bg-gray-50'
+                }`}
+                onClick={() => setCurrentPage(prev => Math.min(prev + 1, totalPages))}
+                disabled={currentPage === totalPages}
+              >
+                Next
+              </button>
+            </nav>
+          </div>
+        )}
       </div>
     </section>
   );
