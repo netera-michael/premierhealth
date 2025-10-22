@@ -47,7 +47,7 @@ const Header = () => {
               <a href="#services" className="text-gray-700 hover:text-primary-600 font-medium transition-colors">
                 Services
               </a>
-              <a href="#vitamin-drips" className="text-primary-600 font-medium border-b-2 border-primary-600">
+              <a href="#vitamin-drips" className="text-gray-700 hover:text-primary-600 font-medium transition-colors">
                 Vitamin Drips
               </a>
               <a href="#about" className="text-gray-700 hover:text-primary-600 font-medium transition-colors">
@@ -88,9 +88,9 @@ const Header = () => {
                 >
                   Services
                 </a>
-                <a 
-                  href="#vitamin-drips" 
-                  className="text-primary-600 font-medium"
+                <a
+                  href="#vitamin-drips"
+                  className="text-gray-700 hover:text-primary-600 font-medium transition-colors"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   Vitamin Drips
