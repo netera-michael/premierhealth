@@ -11,7 +11,7 @@ const Testimonials = () => {
       rating: 5
     },
     {
-      image: "https://images.pexels.com/photos/612608/pexels-photo-612608.jpeg?auto=compress&cs=tinysrgb&w=400",
+      image: "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=400&h=400&fit=crop&q=80",
       rating: 5
     },
     {
