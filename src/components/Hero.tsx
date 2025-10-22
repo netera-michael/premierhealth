@@ -7,7 +7,7 @@ const Hero = () => {
 
   return (
     <section id="home" className="relative min-h-screen flex items-center bg-gradient-to-br from-primary-50 to-secondary-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 pb-32 lg:pb-36">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Content */}
           <div className="space-y-8">
@@ -64,8 +64,8 @@ const Hero = () => {
       </div>
 
       {/* Floating Stats */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 hidden lg:block">
-        <div className="bg-white/90 backdrop-blur-sm rounded-2xl p-6 shadow-xl">
+      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 hidden lg:block z-20 w-full max-w-2xl px-4">
+        <div className="bg-white/90 backdrop-blur-sm rounded-2xl p-6 shadow-xl mx-auto">
           <div className="flex items-center space-x-8">
             <div className="text-center">
               <div className="text-2xl font-bold text-primary-600">5000+</div>
