@@ -1,8 +1,11 @@
 import React, { useState } from 'react';
 import { Menu, X, Phone, MapPin, Clock } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
+import LanguageSwitcher from './LanguageSwitcher';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const { t } = useTranslation();
 
   return (
     <>
@@ -12,16 +15,16 @@ const Header = () => {
           <div className="flex items-center space-x-6">
             <div className="flex items-center space-x-2">
               <Phone className="w-4 h-4" />
-              <span>+2 01200644663</span>
+              <span>{t('header.phone')}</span>
             </div>
             <div className="flex items-center space-x-2">
               <MapPin className="w-4 h-4" />
-              <span>Cairo, Egypt</span>
+              <span>{t('header.location')}</span>
             </div>
           </div>
           <div className="flex items-center space-x-2">
             <Clock className="w-4 h-4" />
-            <span>Sat-Thu: 8AM-6PM | Fri: 2PM-8PM</span>
+            <span>{t('header.hours')}</span>
           </div>
         </div>
       </div>
@@ -42,27 +45,28 @@ const Header = () => {
             {/* Desktop Navigation */}
             <nav className="hidden lg:flex items-center space-x-8">
               <a href="#home" className="text-gray-700 hover:text-primary-600 font-medium transition-colors relative group">
-                Home
+                {t('header.nav.home')}
                 <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-primary-600 transition-all duration-300 group-hover:w-full"></span>
               </a>
               <a href="#services" className="text-gray-700 hover:text-primary-600 font-medium transition-colors relative group">
-                Services
+                {t('header.nav.services')}
                 <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-primary-600 transition-all duration-300 group-hover:w-full"></span>
               </a>
-              <a href="#vitamin-drips" className="text-primary-600 font-medium border-b-2 border-primary-600 relative group">
-                Vitamin Drips
+              <a href="#vitamin-drips" className="text-gray-700 hover:text-primary-600 font-medium transition-colors relative group">
+                {t('header.nav.vitaminDrips')}
                 <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-primary-600 transition-all duration-300 group-hover:w-full"></span>
               </a>
               <a href="#about" className="text-gray-700 hover:text-primary-600 font-medium transition-colors relative group">
-                About Us
+                {t('header.nav.about')}
                 <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-primary-600 transition-all duration-300 group-hover:w-full"></span>
               </a>
               <a href="#contact" className="text-gray-700 hover:text-primary-600 font-medium transition-colors relative group">
-                Contact
+                {t('header.nav.contact')}
                 <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-primary-600 transition-all duration-300 group-hover:w-full"></span>
               </a>
+              <LanguageSwitcher />
               <button className="bg-gradient-to-r from-primary-500 to-secondary-500 text-white px-6 py-2 rounded-full hover:from-primary-600 hover:to-secondary-600 transition-all duration-300 font-medium shadow-lg">
-                Book Appointment
+                {t('header.nav.bookAppointment')}
               </button>
             </nav>
 
@@ -79,48 +83,49 @@ const Header = () => {
           {isMenuOpen && (
             <div className="lg:hidden py-4 border-t border-gray-200">
               <nav className="flex flex-col space-y-4">
-                <a 
-                  href="#home" 
+                <a
+                  href="#home"
                   className="text-gray-700 hover:text-primary-600 font-medium transition-colors relative group"
                   onClick={() => setIsMenuOpen(false)}
                 >
-                  Home
+                  {t('header.nav.home')}
                   <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-primary-600 transition-all duration-300 group-hover:w-full"></span>
                 </a>
-                <a 
-                  href="#services" 
+                <a
+                  href="#services"
                   className="text-gray-700 hover:text-primary-600 font-medium transition-colors relative group"
                   onClick={() => setIsMenuOpen(false)}
                 >
-                  Services
+                  {t('header.nav.services')}
                   <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-primary-600 transition-all duration-300 group-hover:w-full"></span>
                 </a>
-                <a 
-                  href="#vitamin-drips" 
-                  className="text-primary-600 font-medium relative group"
-                  onClick={() => setIsMenuOpen(false)}
-                >
-                  Vitamin Drips
-                  <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-primary-600 transition-all duration-300 group-hover:w-full"></span>
-                </a>
-                <a 
-                  href="#about" 
+                <a
+                  href="#vitamin-drips"
                   className="text-gray-700 hover:text-primary-600 font-medium transition-colors relative group"
                   onClick={() => setIsMenuOpen(false)}
                 >
-                  About Us
+                  {t('header.nav.vitaminDrips')}
                   <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-primary-600 transition-all duration-300 group-hover:w-full"></span>
                 </a>
-                <a 
-                  href="#contact" 
+                <a
+                  href="#about"
                   className="text-gray-700 hover:text-primary-600 font-medium transition-colors relative group"
                   onClick={() => setIsMenuOpen(false)}
                 >
-                  Contact
+                  {t('header.nav.about')}
                   <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-primary-600 transition-all duration-300 group-hover:w-full"></span>
                 </a>
+                <a
+                  href="#contact"
+                  className="text-gray-700 hover:text-primary-600 font-medium transition-colors relative group"
+                  onClick={() => setIsMenuOpen(false)}
+                >
+                  {t('header.nav.contact')}
+                  <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-primary-600 transition-all duration-300 group-hover:w-full"></span>
+                </a>
+                <LanguageSwitcher />
                 <button className="bg-gradient-to-r from-primary-500 to-secondary-500 text-white px-6 py-2 rounded-full hover:from-primary-600 hover:to-secondary-600 transition-all duration-300 font-medium shadow-lg w-fit">
-                  Book Appointment
+                  {t('header.nav.bookAppointment')}
                 </button>
               </nav>
             </div>
