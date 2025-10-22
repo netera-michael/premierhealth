@@ -41,20 +41,25 @@ const Header = () => {
 
             {/* Desktop Navigation */}
             <nav className="hidden lg:flex items-center space-x-8">
-              <a href="#home" className="text-gray-700 hover:text-primary-600 font-medium transition-colors">
+              <a href="#home" className="text-gray-700 hover:text-primary-600 font-medium transition-colors relative group">
                 Home
+                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-primary-600 transition-all duration-300 group-hover:w-full"></span>
               </a>
-              <a href="#services" className="text-gray-700 hover:text-primary-600 font-medium transition-colors">
+              <a href="#services" className="text-gray-700 hover:text-primary-600 font-medium transition-colors relative group">
                 Services
+                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-primary-600 transition-all duration-300 group-hover:w-full"></span>
               </a>
-              <a href="#vitamin-drips" className="text-primary-600 font-medium border-b-2 border-primary-600">
+              <a href="#vitamin-drips" className="text-primary-600 font-medium border-b-2 border-primary-600 relative group">
                 Vitamin Drips
+                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-primary-600 transition-all duration-300 group-hover:w-full"></span>
               </a>
-              <a href="#about" className="text-gray-700 hover:text-primary-600 font-medium transition-colors">
+              <a href="#about" className="text-gray-700 hover:text-primary-600 font-medium transition-colors relative group">
                 About Us
+                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-primary-600 transition-all duration-300 group-hover:w-full"></span>
               </a>
-              <a href="#contact" className="text-gray-700 hover:text-primary-600 font-medium transition-colors">
+              <a href="#contact" className="text-gray-700 hover:text-primary-600 font-medium transition-colors relative group">
                 Contact
+                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-primary-600 transition-all duration-300 group-hover:w-full"></span>
               </a>
               <button className="bg-gradient-to-r from-primary-500 to-secondary-500 text-white px-6 py-2 rounded-full hover:from-primary-600 hover:to-secondary-600 transition-all duration-300 font-medium shadow-lg">
                 Book Appointment
@@ -76,38 +81,43 @@ const Header = () => {
               <nav className="flex flex-col space-y-4">
                 <a 
                   href="#home" 
-                  className="text-gray-700 hover:text-primary-600 font-medium transition-colors"
+                  className="text-gray-700 hover:text-primary-600 font-medium transition-colors relative group"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   Home
+                  <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-primary-600 transition-all duration-300 group-hover:w-full"></span>
                 </a>
                 <a 
                   href="#services" 
-                  className="text-gray-700 hover:text-primary-600 font-medium transition-colors"
+                  className="text-gray-700 hover:text-primary-600 font-medium transition-colors relative group"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   Services
+                  <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-primary-600 transition-all duration-300 group-hover:w-full"></span>
                 </a>
                 <a 
                   href="#vitamin-drips" 
-                  className="text-primary-600 font-medium"
+                  className="text-primary-600 font-medium relative group"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   Vitamin Drips
+                  <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-primary-600 transition-all duration-300 group-hover:w-full"></span>
                 </a>
                 <a 
                   href="#about" 
-                  className="text-gray-700 hover:text-primary-600 font-medium transition-colors"
+                  className="text-gray-700 hover:text-primary-600 font-medium transition-colors relative group"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   About Us
+                  <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-primary-600 transition-all duration-300 group-hover:w-full"></span>
                 </a>
                 <a 
                   href="#contact" 
-                  className="text-gray-700 hover:text-primary-600 font-medium transition-colors"
+                  className="text-gray-700 hover:text-primary-600 font-medium transition-colors relative group"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   Contact
+                  <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-primary-600 transition-all duration-300 group-hover:w-full"></span>
                 </a>
                 <button className="bg-gradient-to-r from-primary-500 to-secondary-500 text-white px-6 py-2 rounded-full hover:from-primary-600 hover:to-secondary-600 transition-all duration-300 font-medium shadow-lg w-fit">
                   Book Appointment
