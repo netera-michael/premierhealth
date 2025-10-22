@@ -1,37 +1,24 @@
 import React from 'react';
 import { UserCheck, Stethoscope, Droplets, Heart } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const Process = () => {
+  const { t } = useTranslation();
+
   const steps = [
-    {
-      icon: UserCheck,
-      title: "Consultation",
-      description: "Meet with our medical team to discuss your health goals and determine the best treatment plan for you."
-    },
-    {
-      icon: Stethoscope,
-      title: "Medical Assessment",
-      description: "Our licensed physicians conduct a thorough health assessment to ensure treatment safety and effectiveness."
-    },
-    {
-      icon: Droplets,
-      title: "IV Treatment",
-      description: "Relax in our comfortable treatment rooms while receiving your personalized vitamin drip therapy."
-    },
-    {
-      icon: Heart,
-      title: "Follow-up Care",
-      description: "We monitor your progress and adjust your treatment plan to ensure optimal results and continued wellness."
-    }
+    { icon: UserCheck, key: 'consultation' },
+    { icon: Stethoscope, key: 'assessment' },
+    { icon: Droplets, key: 'treatment' },
+    { icon: Heart, key: 'followUp' }
   ];
 
   return (
     <section className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Our Treatment Process</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">{t('process.title')}</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Experience our comprehensive approach to wellness with our proven 4-step treatment process
+            {t('process.description')}
           </p>
         </div>
 
@@ -48,8 +35,8 @@ const Process = () => {
                     {index + 1}
                   </div>
                 </div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-4">{step.title}</h3>
-                <p className="text-gray-600 leading-relaxed">{step.description}</p>
+                <h3 className="text-xl font-semibold text-gray-900 mb-4">{t(`process.steps.${step.key}.title`)}</h3>
+                <p className="text-gray-600 leading-relaxed">{t(`process.steps.${step.key}.description`)}</p>
               </div>
             );
           })}
@@ -67,12 +54,12 @@ const Process = () => {
 
         <div className="mt-16 text-center">
           <div className="bg-gradient-to-r from-primary-500 to-secondary-500 rounded-2xl p-8 text-white">
-            <h3 className="text-2xl font-bold mb-4">Ready to Begin Your Wellness Journey?</h3>
+            <h3 className="text-2xl font-bold mb-4">{t('process.cta.title')}</h3>
             <p className="text-lg mb-6 opacity-90">
-              Schedule your consultation today and discover how IV vitamin therapy can transform your health
+              {t('process.cta.description')}
             </p>
             <button className="bg-white text-primary-600 px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors">
-              Schedule Consultation
+              {t('process.cta.button')}
             </button>
           </div>
         </div>

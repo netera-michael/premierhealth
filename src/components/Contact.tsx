@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import { Phone, Mail, MapPin, Clock, Send } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const Contact = () => {
+  const { t } = useTranslation();
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -27,9 +29,9 @@ const Contact = () => {
     <section id="contact" className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Contact Premier Health</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">{t('contact.title')}</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Ready to start your wellness journey? Get in touch with our team to schedule your consultation
+            {t('contact.description')}
           </p>
         </div>
 
@@ -37,9 +39,9 @@ const Contact = () => {
           {/* Contact Information */}
           <div className="space-y-8">
             <div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-6">Get in Touch</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-6">{t('contact.info.heading')}</h3>
               <p className="text-gray-600 mb-8">
-                Our friendly team is here to help you choose the perfect treatment for your wellness goals.
+                {t('contact.info.description')}
               </p>
             </div>
 
@@ -50,7 +52,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-900">Phone</h4>
-                  <p className="text-gray-600">+2 01200644663</p>
+                  <p className="text-gray-600">{t('contact.info.phone')}</p>
                 </div>
               </div>
 
@@ -60,7 +62,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-900">Email</h4>
-                  <p className="text-gray-600">info@premierhealth.com</p>
+                  <p className="text-gray-600">{t('contact.info.email')}</p>
                 </div>
               </div>
 
@@ -70,7 +72,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-900">Location</h4>
-                  <p className="text-gray-600">New Cairo Medical District<br />Cairo, Egypt</p>
+                  <p className="text-gray-600">{t('contact.info.location')}</p>
                 </div>
               </div>
 
@@ -80,10 +82,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-900">Hours</h4>
-                  <p className="text-gray-600">
-                    Sat-Thu: 8AM-6PM<br />
-                    Fri: 2PM-8PM
-                  </p>
+                  <p className="text-gray-600">{t('contact.info.hours')}</p>
                 </div>
               </div>
             </div>
@@ -91,12 +90,12 @@ const Contact = () => {
 
           {/* Contact Form */}
           <div className="bg-white p-8 rounded-2xl shadow-lg">
-            <h3 className="text-2xl font-bold text-gray-900 mb-6">Book a Consultation</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-6">{t('contact.form.title')}</h3>
             <form onSubmit={handleSubmit} className="space-y-6">
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
-                    Full Name
+                    {t('contact.form.fullName')}
                   </label>
                   <input
                     type="text"
@@ -110,7 +109,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
-                    Email Address
+                    {t('contact.form.email')}
                   </label>
                   <input
                     type="email"
@@ -127,7 +126,7 @@ const Contact = () => {
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
                   <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-2">
-                    Phone Number
+                    {t('contact.form.phone')}
                   </label>
                   <input
                     type="tel"
@@ -140,7 +139,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <label htmlFor="service" className="block text-sm font-medium text-gray-700 mb-2">
-                    Interested Service
+                    {t('contact.form.service')}
                   </label>
                   <select
                     id="service"
@@ -149,20 +148,20 @@ const Contact = () => {
                     onChange={handleChange}
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent"
                   >
-                    <option value="">Select a service</option>
-                    <option value="energy-boost">Energy Boost Drip</option>
-                    <option value="immunity-shield">Immunity Shield</option>
-                    <option value="mental-clarity">Mental Clarity</option>
-                    <option value="beauty-glow">Beauty Glow</option>
-                    <option value="detox-cleanse">Detox Cleanse</option>
-                    <option value="consultation">General Consultation</option>
+                    <option value="">{t('contact.form.serviceOptions.select')}</option>
+                    <option value="energy-boost">{t('contact.form.serviceOptions.energyBoost')}</option>
+                    <option value="immunity-shield">{t('contact.form.serviceOptions.immunityShield')}</option>
+                    <option value="mental-clarity">{t('contact.form.serviceOptions.mentalClarity')}</option>
+                    <option value="beauty-glow">{t('contact.form.serviceOptions.beautyGlow')}</option>
+                    <option value="detox-cleanse">{t('contact.form.serviceOptions.detoxCleanse')}</option>
+                    <option value="consultation">{t('contact.form.serviceOptions.consultation')}</option>
                   </select>
                 </div>
               </div>
 
               <div>
                 <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
-                  Message
+                  {t('contact.form.message')}
                 </label>
                 <textarea
                   id="message"
@@ -171,7 +170,7 @@ const Contact = () => {
                   value={formData.message}
                   onChange={handleChange}
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent"
-                  placeholder="Tell us about your wellness goals..."
+                  placeholder={t('contact.form.messagePlaceholder')}
                 ></textarea>
               </div>
 
@@ -180,7 +179,7 @@ const Contact = () => {
                 className="w-full bg-gradient-to-r from-primary-500 to-secondary-500 text-white py-3 px-6 rounded-lg font-semibold hover:from-primary-600 hover:to-secondary-600 transition-all duration-300 flex items-center justify-center"
               >
                 <Send className="w-5 h-5 mr-2" />
-                Send Message
+                {t('contact.form.submit')}
               </button>
             </form>
           </div>

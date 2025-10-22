@@ -1,0 +1,312 @@
+{
+  "header": {
+    "phone": "+2 01200644663",
+    "location": "Cairo, Egypt",
+    "hours": "Sat-Thu: 8AM-6PM | Fri: 2PM-8PM",
+    "nav": {
+      "home": "Home",
+      "services": "Services",
+      "vitaminDrips": "Vitamin Drips",
+      "about": "About Us",
+      "contact": "Contact",
+      "bookAppointment": "Book Appointment"
+    }
+  },
+  "hero": {
+    "badge": "Premium Wellness Center",
+    "title": "Revitalize Your Health with IV Vitamin Therapy",
+    "description": "Experience the ultimate in wellness with our premium IV vitamin drips. Boost energy, enhance immunity, and optimize your health with direct nutrient delivery.",
+    "bookTreatment": "Book Your Treatment",
+    "learnMore": "Learn More",
+    "stats": {
+      "medicalTeam": "Licensed Medical Team",
+      "experience": "10+ Years Experience",
+      "clients": "5000+ Happy Clients",
+      "treatments": "15+ Treatment Types",
+      "safety": "100% Safety Record"
+    }
+  },
+  "vitaminDrips": {
+    "title": "Premium IV Vitamin Treatments",
+    "description": "Choose from our carefully crafted vitamin drip formulations, each designed to target specific health and wellness goals",
+    "treatments": {
+      "energyBoost": {
+        "name": "Energy Boost Drip",
+        "description": "Combat fatigue and boost energy levels with B-complex vitamins, vitamin C, and essential minerals.",
+        "benefits": [
+          "Increased energy",
+          "Reduced fatigue",
+          "Enhanced metabolism",
+          "Improved mood"
+        ],
+        "duration": "45 minutes",
+        "price": "1,200 EGP"
+      },
+      "immunityShield": {
+        "name": "Immunity Shield",
+        "description": "Strengthen your immune system with high-dose vitamin C, zinc, and powerful antioxidants.",
+        "benefits": [
+          "Stronger immunity",
+          "Faster recovery",
+          "Antioxidant protection",
+          "Reduced inflammation"
+        ],
+        "duration": "50 minutes",
+        "price": "1,400 EGP"
+      },
+      "mentalClarity": {
+        "name": "Mental Clarity",
+        "description": "Enhance cognitive function and mental focus with brain-boosting nutrients and amino acids.",
+        "benefits": [
+          "Improved focus",
+          "Better memory",
+          "Mental clarity",
+          "Stress reduction"
+        ],
+        "duration": "40 minutes",
+        "price": "1,300 EGP"
+      },
+      "beautyGlow": {
+        "name": "Beauty Glow",
+        "description": "Achieve radiant skin and healthy hair with collagen-boosting vitamins and antioxidants.",
+        "benefits": [
+          "Glowing skin",
+          "Stronger hair",
+          "Anti-aging effects",
+          "Collagen support"
+        ],
+        "duration": "55 minutes",
+        "price": "1,500 EGP"
+      },
+      "detoxCleanse": {
+        "name": "Detox Cleanse",
+        "description": "Eliminate toxins and support liver function with glutathione and detoxifying nutrients.",
+        "benefits": [
+          "Liver support",
+          "Toxin elimination",
+          "Improved digestion",
+          "Enhanced wellness"
+        ],
+        "duration": "60 minutes",
+        "price": "1,600 EGP"
+      }
+    },
+    "keyBenefits": "Key Benefits:",
+    "bookTreatment": "Book This Treatment",
+    "cta": {
+      "title": "Not Sure Which Treatment is Right for You?",
+      "description": "Our medical team will help you choose the perfect vitamin drip based on your individual health needs and goals.",
+      "button": "Schedule Free Consultation"
+    }
+  },
+  "benefits": {
+    "title": "Why Choose IV Vitamin Therapy?",
+    "description": "Experience the superior benefits of intravenous vitamin delivery for optimal health and wellness",
+    "items": {
+      "instantEnergy": {
+        "title": "Instant Energy Boost",
+        "description": "Feel energized immediately with direct nutrient delivery to your bloodstream"
+      },
+      "enhancedImmunity": {
+        "title": "Enhanced Immunity",
+        "description": "Strengthen your immune system with high-dose vitamin C and antioxidants"
+      },
+      "quickRecovery": {
+        "title": "Quick Recovery",
+        "description": "Accelerate recovery from illness, workouts, or jet lag"
+      },
+      "improvedWellness": {
+        "title": "Improved Wellness",
+        "description": "Support overall health with essential vitamins and minerals"
+      },
+      "mentalClarity": {
+        "title": "Mental Clarity",
+        "description": "Enhance cognitive function and mental focus"
+      },
+      "superiorHydration": {
+        "title": "Superior Hydration",
+        "description": "Achieve optimal hydration levels more effectively than oral supplements"
+      }
+    },
+    "cta": {
+      "title": "Ready to Experience the Difference?",
+      "description": "Join thousands of satisfied clients who have transformed their health with our premium IV therapy treatments",
+      "button": "Book Your Session Today"
+    }
+  },
+  "process": {
+    "title": "Our Treatment Process",
+    "description": "Experience our comprehensive approach to wellness with our proven 4-step treatment process",
+    "steps": {
+      "consultation": {
+        "title": "Consultation",
+        "description": "Meet with our medical team to discuss your health goals and determine the best treatment plan for you."
+      },
+      "assessment": {
+        "title": "Medical Assessment",
+        "description": "Our licensed physicians conduct a thorough health assessment to ensure treatment safety and effectiveness."
+      },
+      "treatment": {
+        "title": "IV Treatment",
+        "description": "Relax in our comfortable treatment rooms while receiving your personalized vitamin drip therapy."
+      },
+      "followUp": {
+        "title": "Follow-up Care",
+        "description": "We monitor your progress and adjust your treatment plan to ensure optimal results and continued wellness."
+      }
+    },
+    "cta": {
+      "title": "Ready to Begin Your Wellness Journey?",
+      "description": "Schedule your consultation today and discover how IV vitamin therapy can transform your health",
+      "button": "Schedule Consultation"
+    }
+  },
+  "about": {
+    "title": "About Premier Health",
+    "description": "Leading the way in premium wellness and IV therapy treatments in Cairo, Egypt",
+    "heading": "Your Trusted Partner in Wellness",
+    "paragraph1": "At Premier Health, we combine cutting-edge medical technology with personalized care to deliver exceptional IV therapy and wellness treatments. Our state-of-the-art facility in Cairo provides a luxurious, safe environment for your health journey.",
+    "paragraph2": "With over 10 years of experience in wellness medicine, our team of certified medical professionals is dedicated to helping you achieve optimal health through innovative vitamin drip therapies and comprehensive wellness solutions.",
+    "stats": {
+      "experience": "10+ Years Experience",
+      "clients": "5000+ Happy Clients",
+      "treatments": "15+ Treatment Types",
+      "safety": "100% Safety Record"
+    },
+    "features": {
+      "safetyFirst": {
+        "title": "Safety First",
+        "description": "All treatments follow strict medical protocols with certified healthcare professionals."
+      },
+      "premiumQuality": {
+        "title": "Premium Quality",
+        "description": "We use only the highest quality vitamins and minerals from trusted suppliers."
+      },
+      "expertTeam": {
+        "title": "Expert Team",
+        "description": "Our medical team includes licensed physicians and certified IV therapy specialists."
+      },
+      "personalizedCare": {
+        "title": "Personalized Care",
+        "description": "Every treatment is customized to your specific health needs and wellness goals."
+      }
+    }
+  },
+  "testimonials": {
+    "title": "What Our Clients Say",
+    "description": "Discover why thousands of clients trust Premier Health for their wellness journey",
+    "items": [
+      {
+        "name": "Sarah Ahmed",
+        "role": "Business Executive",
+        "text": "The energy boost drip has completely transformed my daily productivity. I feel more energized and focused than I have in years. The team at Premier Health is incredibly professional."
+      },
+      {
+        "name": "Dr. Mohamed Hassan",
+        "role": "Physician",
+        "text": "As a medical professional myself, I appreciate the high standards and quality of care at Premier Health. Their IV therapy treatments are top-notch and delivered with excellence."
+      },
+      {
+        "name": "Layla Mansour",
+        "role": "Fitness Enthusiast",
+        "text": "The recovery drip after my workouts has been a game-changer. I recover faster and feel stronger. The facility is beautiful and the staff is amazing."
+      }
+    ],
+    "rating": "4.9/5 Average Rating",
+    "reviews": "500+ Reviews"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "description": "Get answers to common questions about IV vitamin therapy",
+    "items": [
+      {
+        "question": "What is IV vitamin therapy?",
+        "answer": "IV vitamin therapy is a medical treatment that delivers vitamins, minerals, and nutrients directly into your bloodstream through an intravenous drip. This method bypasses the digestive system, allowing for 100% absorption and immediate benefits. It's used to boost energy, enhance immunity, improve hydration, and support overall wellness."
+      },
+      {
+        "question": "Is IV vitamin therapy safe?",
+        "answer": "Yes, IV vitamin therapy is very safe when administered by licensed medical professionals. At Premier Health, all treatments are performed by certified physicians and nurses following strict medical protocols. We conduct thorough health assessments before each treatment to ensure safety and effectiveness."
+      },
+      {
+        "question": "How long does a treatment take?",
+        "answer": "Most IV vitamin drip sessions take between 30-60 minutes, depending on the specific treatment you choose. During this time, you can relax in our comfortable treatment rooms, read, work on your laptop, or simply rest while the nutrients are delivered."
+      },
+      {
+        "question": "How often should I get IV vitamin therapy?",
+        "answer": "The frequency depends on your individual health goals and needs. Some clients benefit from weekly sessions, while others prefer monthly treatments. Our medical team will create a personalized treatment plan during your consultation to achieve your specific wellness objectives."
+      },
+      {
+        "question": "What should I expect during my first visit?",
+        "answer": "Your first visit begins with a consultation where our medical team reviews your health history and discusses your wellness goals. We'll then recommend the most appropriate treatment for you. The IV drip is administered in a comfortable treatment room, and most clients feel relaxed and energized during and after the session."
+      },
+      {
+        "question": "Are there any side effects?",
+        "answer": "IV vitamin therapy is generally very well tolerated. Some clients may experience minor side effects such as coolness at the injection site or a mineral taste during the infusion. Serious side effects are extremely rare. Our medical team monitors you throughout the treatment to ensure your comfort and safety."
+      },
+      {
+        "question": "Can I eat before my treatment?",
+        "answer": "Yes, we recommend eating a light meal before your IV vitamin therapy session. Being well-hydrated and having eaten recently can help you feel more comfortable during the treatment. Avoid heavy meals immediately before your appointment."
+      },
+      {
+        "question": "Do you accept insurance?",
+        "answer": "IV vitamin therapy is typically considered an elective wellness treatment and is not covered by most insurance plans. We offer competitive pricing and various payment options including cash, credit cards, and popular payment plans like valU, Tabby, and Tamara."
+      }
+    ],
+    "cta": {
+      "text": "Still have questions?",
+      "button": "Contact Our Team"
+    }
+  },
+  "contact": {
+    "title": "Contact Premier Health",
+    "description": "Ready to start your wellness journey? Get in touch with our team to schedule your consultation",
+    "info": {
+      "heading": "Get in Touch",
+      "description": "Our friendly team is here to help you choose the perfect treatment for your wellness goals.",
+      "phone": "+2 01200644663",
+      "email": "info@premierhealth.com",
+      "location": "New Cairo Medical District, Cairo, Egypt",
+      "hours": "Sat-Thu: 8AM-6PM, Fri: 2PM-8PM"
+    },
+    "form": {
+      "title": "Book a Consultation",
+      "fullName": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "service": "Interested Service",
+      "message": "Message",
+      "messagePlaceholder": "Tell us about your wellness goals...",
+      "submit": "Send Message",
+      "serviceOptions": {
+        "select": "Select a service",
+        "energyBoost": "Energy Boost Drip",
+        "immunityShield": "Immunity Shield",
+        "mentalClarity": "Mental Clarity",
+        "beautyGlow": "Beauty Glow",
+        "detoxCleanse": "Detox Cleanse",
+        "consultation": "General Consultation"
+      }
+    }
+  },
+  "footer": {
+    "description": "Premier Health is Cairo's leading wellness center, specializing in premium IV vitamin therapy and comprehensive health treatments. We're committed to helping you achieve optimal wellness through innovative medical solutions.",
+    "quickLinks": {
+      "title": "Quick Links",
+      "home": "Home",
+      "vitaminDrips": "Vitamin Drips",
+      "about": "About Us",
+      "contact": "Contact",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service"
+    },
+    "contactInfo": {
+      "title": "Contact Info",
+      "phone": "+2 01200644663",
+      "email": "info@premierhealth.com",
+      "location": "New Cairo Medical District, Cairo, Egypt",
+      "hours": "Sat-Thu: 8AM-6PM, Fri: 2PM-8PM"
+    },
+    "paymentMethods": "Accepted Payment Methods",
+    "copyright": "© 2025 Premier Health. All rights reserved."
+  }
+}
