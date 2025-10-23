@@ -48,16 +48,16 @@ const Header = () => {
                 {t('header.nav.home')}
                 <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-primary-600 transition-all duration-300 group-hover:w-full"></span>
               </a>
-              <a href="#services" className="text-gray-700 hover:text-primary-600 font-medium transition-colors relative group">
-                {t('header.nav.services')}
-                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-primary-600 transition-all duration-300 group-hover:w-full"></span>
-              </a>
-              <a href="#doctors" className="text-gray-700 hover:text-primary-600 font-medium transition-colors relative group">
-                {t('header.nav.doctors')}
+              <a href="#plastic-surgery" className="text-gray-700 hover:text-primary-600 font-medium transition-colors relative group">
+                {t('header.nav.plasticSurgery')}
                 <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-primary-600 transition-all duration-300 group-hover:w-full"></span>
               </a>
               <a href="#vitamin-drips" className="text-gray-700 hover:text-primary-600 font-medium transition-colors relative group">
                 {t('header.nav.vitaminDrips')}
+                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-primary-600 transition-all duration-300 group-hover:w-full"></span>
+              </a>
+              <a href="#doctors" className="text-gray-700 hover:text-primary-600 font-medium transition-colors relative group">
+                {t('header.nav.doctors')}
                 <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-primary-600 transition-all duration-300 group-hover:w-full"></span>
               </a>
               <a href="#about" className="text-gray-700 hover:text-primary-600 font-medium transition-colors relative group">
@@ -96,19 +96,11 @@ const Header = () => {
                   <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-primary-600 transition-all duration-300 group-hover:w-full"></span>
                 </a>
                 <a
-                  href="#services"
+                  href="#plastic-surgery"
                   className="text-gray-700 hover:text-primary-600 font-medium transition-colors relative group"
                   onClick={() => setIsMenuOpen(false)}
                 >
-                  {t('header.nav.services')}
-                  <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-primary-600 transition-all duration-300 group-hover:w-full"></span>
-                </a>
-                <a
-                  href="#doctors"
-                  className="text-gray-700 hover:text-primary-600 font-medium transition-colors relative group"
-                  onClick={() => setIsMenuOpen(false)}
-                >
-                  {t('header.nav.doctors')}
+                  {t('header.nav.plasticSurgery')}
                   <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-primary-600 transition-all duration-300 group-hover:w-full"></span>
                 </a>
                 <a
@@ -117,6 +109,14 @@ const Header = () => {
                   onClick={() => setIsMenuOpen(false)}
                 >
                   {t('header.nav.vitaminDrips')}
+                  <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-primary-600 transition-all duration-300 group-hover:w-full"></span>
+                </a>
+                <a
+                  href="#doctors"
+                  className="text-gray-700 hover:text-primary-600 font-medium transition-colors relative group"
+                  onClick={() => setIsMenuOpen(false)}
+                >
+                  {t('header.nav.doctors')}
                   <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-primary-600 transition-all duration-300 group-hover:w-full"></span>
                 </a>
                 <a

@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
+import PlasticSurgery from './components/PlasticSurgery';
 import VitaminDrips from './components/VitaminDrips';
 import Doctors from './components/Doctors';
 import Benefits from './components/Benefits';
@@ -17,6 +18,7 @@ function App() {
       <Header />
       <main>
         <Hero />
+        <PlasticSurgery />
         <VitaminDrips />
         <Doctors />
         <Benefits />

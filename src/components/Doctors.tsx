@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Search, ChevronDown, Calendar, MapPin, Star } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 interface Doctor {
   id: number;
@@ -15,6 +16,7 @@ interface Doctor {
 }
 
 const Doctors: React.FC = () => {
+  const { t } = useTranslation();
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedDepartment, setSelectedDepartment] = useState('all');
   
@@ -118,7 +120,14 @@ const Doctors: React.FC = () => {
     }
   ];
 
-  const departments = ['all', 'Vitamin Drips', 'Nutrition', 'Aesthetic Medicine', 'Detox Programs', 'Wellness'];
+  const departmentOptions = [
+    { value: 'all', label: t('doctors.departments.all') },
+    { value: 'Vitamin Drips', label: t('doctors.departments.vitaminDrips') },
+    { value: 'Nutrition', label: t('doctors.departments.nutrition') },
+    { value: 'Aesthetic Medicine', label: t('doctors.departments.aestheticMedicine') },
+    { value: 'Detox Programs', label: t('doctors.departments.detoxPrograms') },
+    { value: 'Wellness', label: t('doctors.departments.wellness') }
+  ];
   
   // Pagination state
   const [currentPage, setCurrentPage] = useState(1);
@@ -147,9 +156,9 @@ const Doctors: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Our Medical Team</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">{t('doctors.title')}</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Meet our experienced team of healthcare professionals dedicated to your wellness and vitality.
+            {t('doctors.description')}
           </p>
         </div>
 
@@ -163,7 +172,7 @@ const Doctors: React.FC = () => {
               </div>
               <input
                 type="text"
-                placeholder="Search doctors by name or specialty..."
+                placeholder={t('doctors.searchPlaceholder')}
                 className="block w-full pl-10 pr-3 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500"
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
@@ -177,9 +186,9 @@ const Doctors: React.FC = () => {
                 value={selectedDepartment}
                 onChange={(e) => setSelectedDepartment(e.target.value)}
               >
-                {departments.map((dept) => (
-                  <option key={dept} value={dept}>
-                    {dept === 'all' ? 'All Departments' : dept}
+                {departmentOptions.map((dept) => (
+                  <option key={dept.value} value={dept.value}>
+                    {dept.label}
                   </option>
                 ))}
               </select>
@@ -196,7 +205,7 @@ const Doctors: React.FC = () => {
                 setSelectedDepartment('all');
               }}
             >
-              Clear Filters
+              {t('doctors.clearFilters')}
             </button>
           </div>
         </div>
@@ -248,7 +257,7 @@ const Doctors: React.FC = () => {
                 </p>
                 
                 <div className="mt-4">
-                  <h4 className="text-sm font-medium text-gray-900">Specialties:</h4>
+                  <h4 className="text-sm font-medium text-gray-900">{t('doctors.specialties')}:</h4>
                   <div className="mt-1 flex flex-wrap gap-1">
                     {doctor.specialties.map((specialty, idx) => (
                       <span key={idx} className="bg-gray-100 text-gray-800 text-xs px-2 py-1 rounded">
@@ -271,7 +280,7 @@ const Doctors: React.FC = () => {
                 
                 <div className="mt-6">
                   <button className="w-full bg-gradient-to-r from-primary-500 to-secondary-500 text-white py-2 px-4 rounded-lg font-medium hover:from-primary-600 hover:to-secondary-600 transition-all duration-300">
-                    View Profile
+                    {t('doctors.viewProfile')}
                   </button>
                 </div>
               </div>
@@ -292,7 +301,7 @@ const Doctors: React.FC = () => {
                 onClick={() => setCurrentPage(prev => Math.max(prev - 1, 1))}
                 disabled={currentPage === 1}
               >
-                Previous
+                {t('doctors.pagination.previous')}
               </button>
               
               {Array.from({ length: totalPages }, (_, index) => index + 1).map((page) => (
@@ -318,7 +327,7 @@ const Doctors: React.FC = () => {
                 onClick={() => setCurrentPage(prev => Math.min(prev + 1, totalPages))}
                 disabled={currentPage === totalPages}
               >
-                Next
+                {t('doctors.pagination.next')}
               </button>
             </nav>
           </div>
