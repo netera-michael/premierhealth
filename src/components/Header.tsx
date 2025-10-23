@@ -35,11 +35,11 @@ const Header = () => {
           <div className="flex justify-between items-center py-4">
             {/* Logo */}
             <div className="flex items-center">
-              <div className="h-20 w-40 flex items-center justify-center">
+              <div className="h-24 w-48 flex items-center justify-center">
                 <img
                   src="/logo-png.png"
                   alt="Premier Health Logo"
-                  className="h-full w-full object-contain scale-150"
+                  className="h-full w-full object-contain scale-200"
                 />
               </div>
             </div>
