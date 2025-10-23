@@ -35,13 +35,16 @@ const Header = () => {
           <div className="flex justify-between items-center py-4">
             {/* Logo */}
             <div className="flex items-center">
-              <div className="relative scale-175 origin-left">
-                <img
-                  src="/logo-png.png"
-                  alt="Premier Health Logo"
-                  className="h-20 w-auto"
-                />
-              </div>
+              <img
+                src="/logo-png.png"
+                alt="Premier Health Logo"
+                className="h-24 object-contain"
+                style={{ 
+                  width: 'auto',
+                  transform: 'scale(2) translateX(-25%)',
+                  transformOrigin: 'center left'
+                }}
+              />
             </div>
 
             {/* Desktop Navigation */}
