@@ -38,7 +38,7 @@ const Header = () => {
               <img
                 src="/logo-png.png"
                 alt="Premier Health Logo"
-                className="h-16 w-auto max-h-16 object-contain"
+                className="h-20 w-auto max-h-20 object-contain p-2"
               />
             </div>
 
