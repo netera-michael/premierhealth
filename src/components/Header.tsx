@@ -35,12 +35,13 @@ const Header = () => {
           <div className="flex justify-between items-center py-4">
             {/* Logo */}
             <div className="flex items-center">
-              <img
-                src="/logo-png.png"
-                alt="Premier Health Logo"
-                className="h-24 w-auto object-contain"
-                style={{ imageRendering: 'pixelated', transform: 'scale(2.5)', transformOrigin: 'left center' }}
-              />
+              <div className="relative scale-175 origin-left">
+                <img
+                  src="/logo-png.png"
+                  alt="Premier Health Logo"
+                  className="h-20 w-auto"
+                />
+              </div>
             </div>
 
             {/* Desktop Navigation */}
