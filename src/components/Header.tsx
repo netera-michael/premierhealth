@@ -36,7 +36,7 @@ const Header = () => {
             {/* Logo */}
             <div className="flex items-center">
               <img
-                src="https://premiercare-eg.com/assets/img/logo.png"
+                src="/logo-png.png"
                 alt="Premier Health Logo"
                 className="h-12 w-auto"
               />
