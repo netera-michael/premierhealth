@@ -61,10 +61,6 @@ const Header = () => {
                 {t('header.nav.vitaminDrips')}
                 <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-primary-600 transition-all duration-300 group-hover:w-full"></span>
               </a>
-              <a href="#doctors" className="text-gray-700 hover:text-primary-600 font-medium transition-colors relative group">
-                {t('header.nav.doctors')}
-                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-primary-600 transition-all duration-300 group-hover:w-full"></span>
-              </a>
               <a href="#about" className="text-gray-700 hover:text-primary-600 font-medium transition-colors relative group">
                 {t('header.nav.about')}
                 <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-primary-600 transition-all duration-300 group-hover:w-full"></span>
@@ -114,14 +110,6 @@ const Header = () => {
                   onClick={() => setIsMenuOpen(false)}
                 >
                   {t('header.nav.vitaminDrips')}
-                  <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-primary-600 transition-all duration-300 group-hover:w-full"></span>
-                </a>
-                <a
-                  href="#doctors"
-                  className="text-gray-700 hover:text-primary-600 font-medium transition-colors relative group"
-                  onClick={() => setIsMenuOpen(false)}
-                >
-                  {t('header.nav.doctors')}
                   <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-primary-600 transition-all duration-300 group-hover:w-full"></span>
                 </a>
                 <a
