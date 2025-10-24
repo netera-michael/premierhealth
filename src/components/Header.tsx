@@ -38,11 +38,12 @@ const Header = () => {
               <img
                 src="/logo-png.png"
                 alt="Premier Health Logo"
-                className="h-16 sm:h-20 md:h-24 object-contain"
+                className="h-16 sm:h-20 md:h-24 object-contain max-w-[120px] sm:max-w-[150px] md:max-w-[180px]"
                 style={{ 
                   width: 'auto',
-                  transform: 'scale(1) translateX(0)',
-                  transformOrigin: 'center left'
+                  height: 'auto',
+                  objectFit: 'contain',
+                  objectPosition: 'left center'
                 }}
               />
             </div>

@@ -15,7 +15,11 @@ const Footer = () => {
               <img
                 src="/logo-png.png"
                 alt="Premier Health Logo"
-                className="h-16 w-auto"
+                className="h-16 w-auto max-w-[150px]"
+                style={{
+                  objectFit: 'contain',
+                  objectPosition: 'left center'
+                }}
               />
             </div>
             <p className="text-gray-300 mb-6 leading-relaxed">
