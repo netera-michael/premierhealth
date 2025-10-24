@@ -13,9 +13,9 @@ const Footer = () => {
           <div className="lg:col-span-2">
             <div className="flex items-center mb-6">
               <img
-                src="https://premiercare-eg.com/assets/img/logo.png"
+                src="/logo-png.png"
                 alt="Premier Health Logo"
-                className="h-12 w-auto"
+                className="h-16 w-auto"
               />
             </div>
             <p className="text-gray-300 mb-6 leading-relaxed">
