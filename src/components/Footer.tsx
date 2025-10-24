@@ -14,7 +14,7 @@ const Footer = () => {
             <div className="flex items-center mb-6">
               <div className="relative" style={{ width: '100px', height: '48px' }}>
                 <img
-                  src="/logo-png.png"
+                  src="/logo-png-lean.png"
                   alt="Premier Health Logo"
                   className="absolute inset-0 w-full h-full object-contain"
                   style={{

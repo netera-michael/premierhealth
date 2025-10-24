@@ -37,7 +37,7 @@ const Header = () => {
             <div className="flex items-center">
               <div className="relative" style={{ width: '120px', height: '64px' }}>
                 <img
-                  src="/logo-png.png"
+                  src="/logo-png-lean.png"
                   alt="Premier Health Logo"
                   className="absolute inset-0 w-full h-full object-contain"
                   style={{
