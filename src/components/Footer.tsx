@@ -12,7 +12,7 @@ const Footer = () => {
           {/* Company Info */}
           <div className="lg:col-span-2">
             <div className="flex items-center mb-6">
-              <div className="relative" style={{ width: '100px', height: '48px' }}>
+              <div className="relative" style={{ width: '220px', height: '80px' }}>
                 <img
                   src="/logo-png-lean.png"
                   alt="Premier Health Logo"

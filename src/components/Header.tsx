@@ -35,7 +35,7 @@ const Header = () => {
           <div className="flex justify-between items-center py-4">
             {/* Logo */}
             <div className="flex items-center">
-              <div className="relative" style={{ width: '120px', height: '64px' }}>
+              <div className="relative" style={{ width: '220px', height: '80px' }}>
                 <img
                   src="/logo-png-lean.png"
                   alt="Premier Health Logo"
