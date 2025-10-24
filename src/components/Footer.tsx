@@ -12,15 +12,16 @@ const Footer = () => {
           {/* Company Info */}
           <div className="lg:col-span-2">
             <div className="flex items-center mb-6">
-              <img
-                src="/logo-png.png"
-                alt="Premier Health Logo"
-                className="h-16 w-auto max-w-[150px]"
-                style={{
-                  objectFit: 'contain',
-                  objectPosition: 'left center'
-                }}
-              />
+              <div className="relative" style={{ width: '100px', height: '48px' }}>
+                <img
+                  src="/logo-png.png"
+                  alt="Premier Health Logo"
+                  className="absolute inset-0 w-full h-full object-contain"
+                  style={{
+                    objectPosition: 'left center'
+                  }}
+                />
+              </div>
             </div>
             <p className="text-gray-300 mb-6 leading-relaxed">
               {t('footer.description')}

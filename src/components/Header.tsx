@@ -35,17 +35,16 @@ const Header = () => {
           <div className="flex justify-between items-center py-4">
             {/* Logo */}
             <div className="flex items-center">
-              <img
-                src="/logo-png.png"
-                alt="Premier Health Logo"
-                className="h-16 sm:h-20 md:h-24 object-contain max-w-[120px] sm:max-w-[150px] md:max-w-[180px]"
-                style={{ 
-                  width: 'auto',
-                  height: 'auto',
-                  objectFit: 'contain',
-                  objectPosition: 'left center'
-                }}
-              />
+              <div className="relative" style={{ width: '120px', height: '64px' }}>
+                <img
+                  src="/logo-png.png"
+                  alt="Premier Health Logo"
+                  className="absolute inset-0 w-full h-full object-contain"
+                  style={{
+                    objectPosition: 'left center'
+                  }}
+                />
+              </div>
             </div>
 
             {/* Desktop Navigation */}
