@@ -45,7 +45,7 @@ const PlasticSurgery = () => {
             </div>
             <div className="flex items-center justify-center w-full h-80">
               <img
-                src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+                src="https://images.unsplash.com/photo-1552693673-1bf958298935?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=2073"
                 alt="Plastic surgery procedures"
                 className="w-full h-full object-cover rounded-xl shadow-lg"
               />
