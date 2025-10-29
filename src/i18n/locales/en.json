@@ -5,6 +5,7 @@
     "hours": "Sat-Thu: 8AM-6PM | Fri: 2PM-8PM",
     "nav": {
       "home": "Home",
+      "departments": "Departments",
       "plasticSurgery": "Plastic Surgery",
       "doctors": "Our Doctors",
       "vitaminDrips": "Vitamin Drips",
@@ -13,64 +14,21 @@
       "bookAppointment": "Book Appointment"
     }
   },
-  "plasticSurgery": {
-    "title": "Plastic Surgery Department",
-    "description": "Modern Day Surgery Clinic with advanced operating theaters and the best plastic surgeons in the region",
-    "intro": {
-      "title": "Advanced Plastic Surgery Services",
-      "description": "We offer a comprehensive range of plastic surgery procedures from simple to sophisticated, with a focus on safety and patient satisfaction",
-      "feature1": "State-of-the-art surgical facilities",
-      "feature2": "Board-certified plastic surgeons",
-      "feature3": "Personalized treatment plans"
-    },
-    "categories": {
-      "title": "Our Plastic Surgery Services",
-      "face": {
-        "title": "Face Procedures",
-        "procedures": {
-          "0": "Blepharoplasty (Eyelid Surgery)",
-          "1": "Buccal Fat Removal",
-          "2": "Septoplasty",
-          "3": "Otoplasty (Ear Surgery)",
-          "4": "Facelift",
-          "5": "Rhinoplasty (Nose Surgery)",
-          "6": "Neck Lift",
-          "7": "Double Chin Liposuction",
-          "8": "Chin Augmentation"
-        }
-      },
-      "body": {
-        "title": "Body Procedures",
-        "procedures": {
-          "0": "Brachioplasty (Arm Lift)",
-          "1": "Panniculectomy",
-          "2": "Body Contouring 360",
-          "3": "Tummy Tuck",
-          "4": "Gluteal Augmentation and Remodeling",
-          "5": "Thigh Lift",
-          "6": "Mommy Makeover",
-          "7": "Body Lift Surgery after Weight Loss",
-          "8": "J-Plasma",
-          "9": "Fat Grafting",
-          "10": "Liposuction"
-        }
-      },
-      "breast": {
-        "title": "Breast Procedures",
-        "procedures": {
-          "0": "Breast Implant Removal",
-          "1": "Breast Lift",
-          "2": "Breast Augmentation",
-          "3": "Breast Reduction",
-          "4": "Gynecomastia"
-        }
-      }
-    },
-    "cta": {
-      "title": "Ready to Transform Your Appearance?",
-      "description": "Schedule a consultation with our board-certified plastic surgeons to discuss your personalized treatment plan",
-      "button": "Schedule Consultation"
-    }
+  "departments": {
+    "plasticSurgery": "Plastic Surgery",
+    "dermatology": "Dermatology",
+    "skincare": "Skincare",
+    "laser": "Laser",
+    "wellness": "Wellness",
+    "physiotherapy": "Physiotherapy",
+    "osteopathy": "Osteopathy",
+    "dental": "Dental",
+    "obGyn": "OB-Gyn & Couple Counseling",
+    "vitaminDrips": "Reviv® Vitamin Drips",
+    "integrativeMedicine": "Integrative Medicine",
+    "fertilityIVF": "Nabda Unit for Fertility and IVF",
+    "stepahead": "Stepahead",
+    "diabeter": "Diabeter"
   },
   "hero": {
     "badge": "Premium Wellness Center",
@@ -84,65 +42,6 @@
       "clients": "5000+ Happy Clients",
       "treatments": "15+ Treatment Types",
       "safety": "100% Safety Record"
-    }
-  },
-  "plasticSurgery": {
-    "title": "Plastic Surgery Department",
-    "description": "Modern Day Surgery Clinic with advanced operating theaters and the best plastic surgeons in the region",
-    "intro": {
-      "title": "Advanced Plastic Surgery Services",
-      "description": "We offer a comprehensive range of plastic surgery procedures from simple to sophisticated, with a focus on safety and patient satisfaction",
-      "feature1": "State-of-the-art surgical facilities",
-      "feature2": "Board-certified plastic surgeons",
-      "feature3": "Personalized treatment plans"
-    },
-    "categories": {
-      "title": "Our Plastic Surgery Services",
-      "face": {
-        "title": "Face Procedures",
-        "procedures": {
-          "0": "Blepharoplasty (Eyelid Surgery)",
-          "1": "Buccal Fat Removal",
-          "2": "Septoplasty",
-          "3": "Otoplasty (Ear Surgery)",
-          "4": "Facelift",
-          "5": "Rhinoplasty (Nose Surgery)",
-          "6": "Neck Lift",
-          "7": "Double Chin Liposuction",
-          "8": "Chin Augmentation"
-        }
-      },
-      "body": {
-        "title": "Body Procedures",
-        "procedures": {
-          "0": "Brachioplasty (Arm Lift)",
-          "1": "Panniculectomy",
-          "2": "Body Contouring 360",
-          "3": "Tummy Tuck",
-          "4": "Gluteal Augmentation and Remodeling",
-          "5": "Thigh Lift",
-          "6": "Mommy Makeover",
-          "7": "Body Lift Surgery after Weight Loss",
-          "8": "J-Plasma",
-          "9": "Fat Grafting",
-          "10": "Liposuction"
-        }
-      },
-      "breast": {
-        "title": "Breast Procedures",
-        "procedures": {
-          "0": "Breast Implant Removal",
-          "1": "Breast Lift",
-          "2": "Breast Augmentation",
-          "3": "Breast Reduction",
-          "4": "Gynecomastia"
-        }
-      }
-    },
-    "cta": {
-      "title": "Ready to Transform Your Appearance?",
-      "description": "Schedule a consultation with our board-certified plastic surgeons to discuss your personalized treatment plan",
-      "button": "Schedule Consultation"
     }
   },
   "vitaminDrips": {
@@ -312,65 +211,6 @@
       "button": "Book Your Session Today"
     }
   },
-  "plasticSurgery": {
-    "title": "Plastic Surgery Department",
-    "description": "Modern Day Surgery Clinic with advanced operating theaters and the best plastic surgeons in the region",
-    "intro": {
-      "title": "Advanced Plastic Surgery Services",
-      "description": "We offer a comprehensive range of plastic surgery procedures from simple to sophisticated, with a focus on safety and patient satisfaction",
-      "feature1": "State-of-the-art surgical facilities",
-      "feature2": "Board-certified plastic surgeons",
-      "feature3": "Personalized treatment plans"
-    },
-    "categories": {
-      "title": "Our Plastic Surgery Services",
-      "face": {
-        "title": "Face Procedures",
-        "procedures": {
-          "0": "Blepharoplasty (Eyelid Surgery)",
-          "1": "Buccal Fat Removal",
-          "2": "Septoplasty",
-          "3": "Otoplasty (Ear Surgery)",
-          "4": "Facelift",
-          "5": "Rhinoplasty (Nose Surgery)",
-          "6": "Neck Lift",
-          "7": "Double Chin Liposuction",
-          "8": "Chin Augmentation"
-        }
-      },
-      "body": {
-        "title": "Body Procedures",
-        "procedures": {
-          "0": "Brachioplasty (Arm Lift)",
-          "1": "Panniculectomy",
-          "2": "Body Contouring 360",
-          "3": "Tummy Tuck",
-          "4": "Gluteal Augmentation and Remodeling",
-          "5": "Thigh Lift",
-          "6": "Mommy Makeover",
-          "7": "Body Lift Surgery after Weight Loss",
-          "8": "J-Plasma",
-          "9": "Fat Grafting",
-          "10": "Liposuction"
-        }
-      },
-      "breast": {
-        "title": "Breast Procedures",
-        "procedures": {
-          "0": "Breast Implant Removal",
-          "1": "Breast Lift",
-          "2": "Breast Augmentation",
-          "3": "Breast Reduction",
-          "4": "Gynecomastia"
-        }
-      }
-    },
-    "cta": {
-      "title": "Ready to Transform Your Appearance?",
-      "description": "Schedule a consultation with our board-certified plastic surgeons to discuss your personalized treatment plan",
-      "button": "Schedule Consultation"
-    }
-  },
   "process": {
     "title": "Our Treatment Process",
     "description": "Experience our comprehensive approach to wellness with our proven 4-step treatment process",
@@ -395,65 +235,6 @@
     "cta": {
       "title": "Ready to Begin Your Wellness Journey?",
       "description": "Schedule your consultation today and discover how IV vitamin therapy can transform your health",
-      "button": "Schedule Consultation"
-    }
-  },
-  "plasticSurgery": {
-    "title": "Plastic Surgery Department",
-    "description": "Modern Day Surgery Clinic with advanced operating theaters and the best plastic surgeons in the region",
-    "intro": {
-      "title": "Advanced Plastic Surgery Services",
-      "description": "We offer a comprehensive range of plastic surgery procedures from simple to sophisticated, with a focus on safety and patient satisfaction",
-      "feature1": "State-of-the-art surgical facilities",
-      "feature2": "Board-certified plastic surgeons",
-      "feature3": "Personalized treatment plans"
-    },
-    "categories": {
-      "title": "Our Plastic Surgery Services",
-      "face": {
-        "title": "Face Procedures",
-        "procedures": {
-          "0": "Blepharoplasty (Eyelid Surgery)",
-          "1": "Buccal Fat Removal",
-          "2": "Septoplasty",
-          "3": "Otoplasty (Ear Surgery)",
-          "4": "Facelift",
-          "5": "Rhinoplasty (Nose Surgery)",
-          "6": "Neck Lift",
-          "7": "Double Chin Liposuction",
-          "8": "Chin Augmentation"
-        }
-      },
-      "body": {
-        "title": "Body Procedures",
-        "procedures": {
-          "0": "Brachioplasty (Arm Lift)",
-          "1": "Panniculectomy",
-          "2": "Body Contouring 360",
-          "3": "Tummy Tuck",
-          "4": "Gluteal Augmentation and Remodeling",
-          "5": "Thigh Lift",
-          "6": "Mommy Makeover",
-          "7": "Body Lift Surgery after Weight Loss",
-          "8": "J-Plasma",
-          "9": "Fat Grafting",
-          "10": "Liposuction"
-        }
-      },
-      "breast": {
-        "title": "Breast Procedures",
-        "procedures": {
-          "0": "Breast Implant Removal",
-          "1": "Breast Lift",
-          "2": "Breast Augmentation",
-          "3": "Breast Reduction",
-          "4": "Gynecomastia"
-        }
-      }
-    },
-    "cta": {
-      "title": "Ready to Transform Your Appearance?",
-      "description": "Schedule a consultation with our board-certified plastic surgeons to discuss your personalized treatment plan",
       "button": "Schedule Consultation"
     }
   },
@@ -488,65 +269,6 @@
       }
     }
   },
-  "plasticSurgery": {
-    "title": "Plastic Surgery Department",
-    "description": "Modern Day Surgery Clinic with advanced operating theaters and the best plastic surgeons in the region",
-    "intro": {
-      "title": "Advanced Plastic Surgery Services",
-      "description": "We offer a comprehensive range of plastic surgery procedures from simple to sophisticated, with a focus on safety and patient satisfaction",
-      "feature1": "State-of-the-art surgical facilities",
-      "feature2": "Board-certified plastic surgeons",
-      "feature3": "Personalized treatment plans"
-    },
-    "categories": {
-      "title": "Our Plastic Surgery Services",
-      "face": {
-        "title": "Face Procedures",
-        "procedures": {
-          "0": "Blepharoplasty (Eyelid Surgery)",
-          "1": "Buccal Fat Removal",
-          "2": "Septoplasty",
-          "3": "Otoplasty (Ear Surgery)",
-          "4": "Facelift",
-          "5": "Rhinoplasty (Nose Surgery)",
-          "6": "Neck Lift",
-          "7": "Double Chin Liposuction",
-          "8": "Chin Augmentation"
-        }
-      },
-      "body": {
-        "title": "Body Procedures",
-        "procedures": {
-          "0": "Brachioplasty (Arm Lift)",
-          "1": "Panniculectomy",
-          "2": "Body Contouring 360",
-          "3": "Tummy Tuck",
-          "4": "Gluteal Augmentation and Remodeling",
-          "5": "Thigh Lift",
-          "6": "Mommy Makeover",
-          "7": "Body Lift Surgery after Weight Loss",
-          "8": "J-Plasma",
-          "9": "Fat Grafting",
-          "10": "Liposuction"
-        }
-      },
-      "breast": {
-        "title": "Breast Procedures",
-        "procedures": {
-          "0": "Breast Implant Removal",
-          "1": "Breast Lift",
-          "2": "Breast Augmentation",
-          "3": "Breast Reduction",
-          "4": "Gynecomastia"
-        }
-      }
-    },
-    "cta": {
-      "title": "Ready to Transform Your Appearance?",
-      "description": "Schedule a consultation with our board-certified plastic surgeons to discuss your personalized treatment plan",
-      "button": "Schedule Consultation"
-    }
-  },
   "testimonials": {
     "title": "What Our Clients Say",
     "description": "Discover why thousands of clients trust Premier Health for their wellness journey",
@@ -557,73 +279,15 @@
       },
       {
         "name": "Maria Dimitri",
-        "text": "Dr. Lydia is truly exceptional! I had Botox for wrinkles, and the results were beyond my expectations\u2014smooth, natural, and exactly what I wanted. Her skill and attention to detail are unmatched, and I always feel confident in her hands. This wasn\u2019t my first visit, and it certainly won\u2019t be my last. Thank you for making me feel and look my best!"
+        "text": "Dr. Lydia is truly exceptional! I had Botox for wrinkles, and the results were beyond my expectations—smooth, natural, and exactly what I wanted. Her skill and attention to detail are unmatched, and I always feel confident in her hands. This wasn't my first visit, and it certainly won't be my last. Thank you for making me feel and look my best!"
       },
       {
         "name": "Maryam Adel",
         "text": "I had an amazing experience. I went in for Botox and filler, and they answered all my questions and made me feel incredibly comfortable. Great staff and assistants, super helpful and always smiling. I highly recommend Dr. Lydia to everyone, she has truly transformed my face, and I am absolutely thrilled with the results. Dr. Lydia is truly an artist!"
-      }    ],
+      }
+    ],
     "rating": "4.9/5 Average Rating",
     "reviews": "500+ Reviews"
-  },
-  "plasticSurgery": {
-    "title": "Plastic Surgery Department",
-    "description": "Modern Day Surgery Clinic with advanced operating theaters and the best plastic surgeons in the region",
-    "intro": {
-      "title": "Advanced Plastic Surgery Services",
-      "description": "We offer a comprehensive range of plastic surgery procedures from simple to sophisticated, with a focus on safety and patient satisfaction",
-      "feature1": "State-of-the-art surgical facilities",
-      "feature2": "Board-certified plastic surgeons",
-      "feature3": "Personalized treatment plans"
-    },
-    "categories": {
-      "title": "Our Plastic Surgery Services",
-      "face": {
-        "title": "Face Procedures",
-        "procedures": {
-          "0": "Blepharoplasty (Eyelid Surgery)",
-          "1": "Buccal Fat Removal",
-          "2": "Septoplasty",
-          "3": "Otoplasty (Ear Surgery)",
-          "4": "Facelift",
-          "5": "Rhinoplasty (Nose Surgery)",
-          "6": "Neck Lift",
-          "7": "Double Chin Liposuction",
-          "8": "Chin Augmentation"
-        }
-      },
-      "body": {
-        "title": "Body Procedures",
-        "procedures": {
-          "0": "Brachioplasty (Arm Lift)",
-          "1": "Panniculectomy",
-          "2": "Body Contouring 360",
-          "3": "Tummy Tuck",
-          "4": "Gluteal Augmentation and Remodeling",
-          "5": "Thigh Lift",
-          "6": "Mommy Makeover",
-          "7": "Body Lift Surgery after Weight Loss",
-          "8": "J-Plasma",
-          "9": "Fat Grafting",
-          "10": "Liposuction"
-        }
-      },
-      "breast": {
-        "title": "Breast Procedures",
-        "procedures": {
-          "0": "Breast Implant Removal",
-          "1": "Breast Lift",
-          "2": "Breast Augmentation",
-          "3": "Breast Reduction",
-          "4": "Gynecomastia"
-        }
-      }
-    },
-    "cta": {
-      "title": "Ready to Transform Your Appearance?",
-      "description": "Schedule a consultation with our board-certified plastic surgeons to discuss your personalized treatment plan",
-      "button": "Schedule Consultation"
-    }
   },
   "faq": {
     "title": "Frequently Asked Questions",
@@ -667,65 +331,6 @@
       "button": "Contact Our Team"
     }
   },
-  "plasticSurgery": {
-    "title": "Plastic Surgery Department",
-    "description": "Modern Day Surgery Clinic with advanced operating theaters and the best plastic surgeons in the region",
-    "intro": {
-      "title": "Advanced Plastic Surgery Services",
-      "description": "We offer a comprehensive range of plastic surgery procedures from simple to sophisticated, with a focus on safety and patient satisfaction",
-      "feature1": "State-of-the-art surgical facilities",
-      "feature2": "Board-certified plastic surgeons",
-      "feature3": "Personalized treatment plans"
-    },
-    "categories": {
-      "title": "Our Plastic Surgery Services",
-      "face": {
-        "title": "Face Procedures",
-        "procedures": {
-          "0": "Blepharoplasty (Eyelid Surgery)",
-          "1": "Buccal Fat Removal",
-          "2": "Septoplasty",
-          "3": "Otoplasty (Ear Surgery)",
-          "4": "Facelift",
-          "5": "Rhinoplasty (Nose Surgery)",
-          "6": "Neck Lift",
-          "7": "Double Chin Liposuction",
-          "8": "Chin Augmentation"
-        }
-      },
-      "body": {
-        "title": "Body Procedures",
-        "procedures": {
-          "0": "Brachioplasty (Arm Lift)",
-          "1": "Panniculectomy",
-          "2": "Body Contouring 360",
-          "3": "Tummy Tuck",
-          "4": "Gluteal Augmentation and Remodeling",
-          "5": "Thigh Lift",
-          "6": "Mommy Makeover",
-          "7": "Body Lift Surgery after Weight Loss",
-          "8": "J-Plasma",
-          "9": "Fat Grafting",
-          "10": "Liposuction"
-        }
-      },
-      "breast": {
-        "title": "Breast Procedures",
-        "procedures": {
-          "0": "Breast Implant Removal",
-          "1": "Breast Lift",
-          "2": "Breast Augmentation",
-          "3": "Breast Reduction",
-          "4": "Gynecomastia"
-        }
-      }
-    },
-    "cta": {
-      "title": "Ready to Transform Your Appearance?",
-      "description": "Schedule a consultation with our board-certified plastic surgeons to discuss your personalized treatment plan",
-      "button": "Schedule Consultation"
-    }
-  },
   "contact": {
     "title": "Contact Premier Health",
     "description": "Ready to start your wellness journey? Get in touch with our team to schedule your consultation",
@@ -760,65 +365,6 @@
       }
     }
   },
-  "plasticSurgery": {
-    "title": "Plastic Surgery Department",
-    "description": "Modern Day Surgery Clinic with advanced operating theaters and the best plastic surgeons in the region",
-    "intro": {
-      "title": "Advanced Plastic Surgery Services",
-      "description": "We offer a comprehensive range of plastic surgery procedures from simple to sophisticated, with a focus on safety and patient satisfaction",
-      "feature1": "State-of-the-art surgical facilities",
-      "feature2": "Board-certified plastic surgeons",
-      "feature3": "Personalized treatment plans"
-    },
-    "categories": {
-      "title": "Our Plastic Surgery Services",
-      "face": {
-        "title": "Face Procedures",
-        "procedures": {
-          "0": "Blepharoplasty (Eyelid Surgery)",
-          "1": "Buccal Fat Removal",
-          "2": "Septoplasty",
-          "3": "Otoplasty (Ear Surgery)",
-          "4": "Facelift",
-          "5": "Rhinoplasty (Nose Surgery)",
-          "6": "Neck Lift",
-          "7": "Double Chin Liposuction",
-          "8": "Chin Augmentation"
-        }
-      },
-      "body": {
-        "title": "Body Procedures",
-        "procedures": {
-          "0": "Brachioplasty (Arm Lift)",
-          "1": "Panniculectomy",
-          "2": "Body Contouring 360",
-          "3": "Tummy Tuck",
-          "4": "Gluteal Augmentation and Remodeling",
-          "5": "Thigh Lift",
-          "6": "Mommy Makeover",
-          "7": "Body Lift Surgery after Weight Loss",
-          "8": "J-Plasma",
-          "9": "Fat Grafting",
-          "10": "Liposuction"
-        }
-      },
-      "breast": {
-        "title": "Breast Procedures",
-        "procedures": {
-          "0": "Breast Implant Removal",
-          "1": "Breast Lift",
-          "2": "Breast Augmentation",
-          "3": "Breast Reduction",
-          "4": "Gynecomastia"
-        }
-      }
-    },
-    "cta": {
-      "title": "Ready to Transform Your Appearance?",
-      "description": "Schedule a consultation with our board-certified plastic surgeons to discuss your personalized treatment plan",
-      "button": "Schedule Consultation"
-    }
-  },
   "footer": {
     "description": "Premier Health is Cairo's leading wellness center, specializing in premium IV vitamin therapy and comprehensive health treatments. We're committed to helping you achieve optimal wellness through innovative medical solutions.",
     "quickLinks": {
@@ -839,64 +385,5 @@
     },
     "paymentMethods": "Accepted Payment Methods",
     "copyright": "© 2025 Premier Health. All rights reserved."
-  },
-  "plasticSurgery": {
-    "title": "Plastic Surgery Department",
-    "description": "Modern Day Surgery Clinic with advanced operating theaters and the best plastic surgeons in the region",
-    "intro": {
-      "title": "Advanced Plastic Surgery Services",
-      "description": "We offer a comprehensive range of plastic surgery procedures from simple to sophisticated, with a focus on safety and patient satisfaction",
-      "feature1": "State-of-the-art surgical facilities",
-      "feature2": "Board-certified plastic surgeons",
-      "feature3": "Personalized treatment plans"
-    },
-    "categories": {
-      "title": "Our Plastic Surgery Services",
-      "face": {
-        "title": "Face Procedures",
-        "procedures": {
-          "0": "Blepharoplasty (Eyelid Surgery)",
-          "1": "Buccal Fat Removal",
-          "2": "Septoplasty",
-          "3": "Otoplasty (Ear Surgery)",
-          "4": "Facelift",
-          "5": "Rhinoplasty (Nose Surgery)",
-          "6": "Neck Lift",
-          "7": "Double Chin Liposuction",
-          "8": "Chin Augmentation"
-        }
-      },
-      "body": {
-        "title": "Body Procedures",
-        "procedures": {
-          "0": "Brachioplasty (Arm Lift)",
-          "1": "Panniculectomy",
-          "2": "Body Contouring 360",
-          "3": "Tummy Tuck",
-          "4": "Gluteal Augmentation and Remodeling",
-          "5": "Thigh Lift",
-          "6": "Mommy Makeover",
-          "7": "Body Lift Surgery after Weight Loss",
-          "8": "J-Plasma",
-          "9": "Fat Grafting",
-          "10": "Liposuction"
-        }
-      },
-      "breast": {
-        "title": "Breast Procedures",
-        "procedures": {
-          "0": "Breast Implant Removal",
-          "1": "Breast Lift",
-          "2": "Breast Augmentation",
-          "3": "Breast Reduction",
-          "4": "Gynecomastia"
-        }
-      }
-    },
-    "cta": {
-      "title": "Ready to Transform Your Appearance?",
-      "description": "Schedule a consultation with our board-certified plastic surgeons to discuss your personalized treatment plan",
-      "button": "Schedule Consultation"
-    }
   }
 }

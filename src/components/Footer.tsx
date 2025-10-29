@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Phone, Mail, MapPin, Clock, Facebook, Instagram, Twitter, Linkedin } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
@@ -46,10 +47,10 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-6">{t('footer.quickLinks.title')}</h3>
             <ul className="space-y-3">
-              <li><a href="#home" className="text-gray-300 hover:text-white transition-colors">{t('footer.quickLinks.home')}</a></li>
-              <li><a href="#vitamin-drips" className="text-gray-300 hover:text-white transition-colors">{t('footer.quickLinks.vitaminDrips')}</a></li>
-              <li><a href="#about" className="text-gray-300 hover:text-white transition-colors">{t('footer.quickLinks.about')}</a></li>
-              <li><a href="#contact" className="text-gray-300 hover:text-white transition-colors">{t('footer.quickLinks.contact')}</a></li>
+              <li><Link to="/" className="text-gray-300 hover:text-white transition-colors">{t('footer.quickLinks.home')}</Link></li>
+              <li><Link to="/departments" className="text-gray-300 hover:text-white transition-colors">{t('footer.quickLinks.vitaminDrips', 'Departments')}</Link></li>
+              <li><Link to="/about" className="text-gray-300 hover:text-white transition-colors">{t('footer.quickLinks.about')}</Link></li>
+              <li><Link to="/contact" className="text-gray-300 hover:text-white transition-colors">{t('footer.quickLinks.contact')}</Link></li>
               <li><a href="#" className="text-gray-300 hover:text-white transition-colors">{t('footer.quickLinks.privacy')}</a></li>
               <li><a href="#" className="text-gray-300 hover:text-white transition-colors">{t('footer.quickLinks.terms')}</a></li>
             </ul>
