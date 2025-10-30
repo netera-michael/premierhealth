@@ -16,53 +16,48 @@ import {
 } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
+const toArray = <T,>(value: unknown, fallback: T[] = []): T[] =>
+  Array.isArray(value) ? (value as T[]) : fallback;
+
 const DermatologyDepartment: React.FC = () => {
   const { t } = useTranslation();
 
-  const heroHighlights = t('dermatologyDepartment.hero.highlights', {
-    returnObjects: true
-  }) as string[];
+  const heroHighlights = toArray<string>(
+    t('dermatologyDepartment.hero.highlights', { returnObjects: true })
+  );
 
-  const introParagraphs = t('dermatologyDepartment.intro.paragraphs', {
-    returnObjects: true
-  }) as string[];
+  const introParagraphs = toArray<string>(
+    t('dermatologyDepartment.intro.paragraphs', { returnObjects: true })
+  );
 
-  const serviceGroups = t('dermatologyDepartment.services.groups', {
-    returnObjects: true
-  }) as Array<{
+  const serviceGroups = toArray<{
     title: string;
     description: string;
     items: string[];
-  }>;
+  }>(t('dermatologyDepartment.services.groups', { returnObjects: true }));
 
-  const conditions = t('dermatologyDepartment.conditions.items', {
-    returnObjects: true
-  }) as string[];
+  const conditions = toArray<string>(
+    t('dermatologyDepartment.conditions.items', { returnObjects: true })
+  );
 
-  const technologies = t('dermatologyDepartment.technologies.items', {
-    returnObjects: true
-  }) as Array<{
+  const technologies = toArray<{
     title: string;
     description: string;
-  }>;
+  }>(t('dermatologyDepartment.technologies.items', { returnObjects: true }));
 
-  const experienceStats = t('dermatologyDepartment.experience.stats', {
-    returnObjects: true
-  }) as Array<{
+  const experienceStats = toArray<{
     value: string;
     label: string;
-  }>;
+  }>(t('dermatologyDepartment.experience.stats', { returnObjects: true }));
 
-  const experienceBullets = t('dermatologyDepartment.experience.bullets', {
-    returnObjects: true
-  }) as string[];
+  const experienceBullets = toArray<string>(
+    t('dermatologyDepartment.experience.bullets', { returnObjects: true })
+  );
 
-  const careProcess = t('dermatologyDepartment.process.steps', {
-    returnObjects: true
-  }) as Array<{
+  const careProcess = toArray<{
     title: string;
     description: string;
-  }>;
+  }>(t('dermatologyDepartment.process.steps', { returnObjects: true }));
 
   return (
     <div className="bg-gray-50">
@@ -173,7 +168,7 @@ const DermatologyDepartment: React.FC = () => {
                 <h3 className="text-xl font-semibold text-gray-900">{group.title}</h3>
                 <p className="mt-2 text-sm text-gray-600">{group.description}</p>
                 <ul className="mt-6 space-y-3">
-                  {group.items.map((item, itemIndex) => (
+                  {toArray(group.items).map((item, itemIndex) => (
                     <li key={itemIndex} className="flex items-start text-sm text-gray-600">
                       <CheckCircle2 className="mr-3 mt-0.5 h-4 w-4 text-primary-500" />
                       <span>{item}</span>
