@@ -172,9 +172,163 @@
     },
     "cta": {
       "title": "Ready to Transform Your Appearance?",
-      "description": "Schedule a consultation with our board-certified plastic surgeons to discuss your personalized treatment plan",
-      "button": "Schedule Consultation"
+    "description": "Schedule a consultation with our board-certified plastic surgeons to discuss your personalized treatment plan",
+    "button": "Schedule Consultation"
+  },
+  "dermatologyDepartment": {
+    "hero": {
+      "badge": "Advanced Skin Health Center",
+      "title": "Comprehensive Dermatology & Aesthetic Care",
+      "description": "Restore and protect your skin with evidence-based dermatology, advanced laser technologies, and personalized aesthetic programs designed by consultant dermatologists.",
+      "highlights": [
+        "Consultant dermatologists & dermatologic surgeons",
+        "Medical, cosmetic, and laser dermatology in one clinic",
+        "Dedicated programs for chronic skin conditions",
+        "State-of-the-art technology with FDA approvals"
+      ],
+      "primaryAction": "Book Dermatology Consultation",
+      "secondaryAction": "Explore Treatments",
+      "imageAlt": "Dermatologist examining a patient's skin under magnification"
+    },
+    "intro": {
+      "title": "Expert Care for Every Skin Concern",
+      "paragraphs": [
+        "Our Dermatology Department delivers holistic skin care covering medical, surgical, and aesthetic dermatology. From complex conditions to routine maintenance, we blend clinical expertise with the latest innovations to achieve exceptional outcomes.",
+        "You will receive individualized treatment plans that take your skin type, lifestyle, and goals into account. Each consultation is handled by an experienced dermatology specialist supported by certified nurses and therapists."
+      ],
+      "highlight": {
+        "title": "Personalized Skin Wellness Journeys",
+        "description": "Tailored treatment plans that begin with advanced diagnostics and continue with guided follow-up, home-care recommendations, and preventive strategies."
+      },
+      "consultants": {
+        "title": "Consultant-Led Clinic",
+        "description": "Our team is composed of board-certified dermatologists, dermato-pathologists, and aesthetic physicians with international training."
+      }
+    },
+    "services": {
+      "title": "Comprehensive Dermatology Services",
+      "description": "Discover an extensive menu of dermatologic and aesthetic procedures performed with medical-grade protocols and strict safety measures.",
+      "groups": [
+        {
+          "title": "Medical Dermatology",
+          "description": "Diagnosis and management of chronic and acute skin diseases for adults and children.",
+          "items": [
+            "Acne and acne scarring treatment programs",
+            "Eczema, psoriasis, and chronic dermatitis management",
+            "Pigmentation disorders and melasma correction",
+            "Hair and scalp disorders including alopecia",
+            "Pediatric dermatology consultations"
+          ]
+        },
+        {
+          "title": "Laser & Energy-Based Therapies",
+          "description": "Cutting-edge technologies for pigmentation, vascular concerns, and skin resurfacing.",
+          "items": [
+            "Fractional laser resurfacing for texture improvement",
+            "Laser hair reduction for all skin phototypes",
+            "Vascular and redness reduction laser",
+            "Tattoo and pigment removal solutions",
+            "Non-invasive tightening and collagen stimulation"
+          ]
+        },
+        {
+          "title": "Aesthetic & Cosmetic Dermatology",
+          "description": "Results-driven cosmetic treatments performed by expert dermatologists.",
+          "items": [
+            "Injectables including neuromodulators and dermal fillers",
+            "Skin boosters, profhilo, and collagen stimulators",
+            "Customized chemical peels and mesotherapy",
+            "Medical facials and hydro-dermabrasion",
+            "Body contouring and cellulite protocols"
+          ]
+        }
+      ]
+    },
+    "conditions": {
+      "title": "Conditions We Commonly Treat",
+      "description": "We manage a wide range of complex dermatologic conditions with multidisciplinary collaboration when required.",
+      "items": [
+        "Acne and post-acne scarring",
+        "Rosacea and facial redness",
+        "Vitiligo and pigmentation disorders",
+        "Psoriasis and chronic eczema",
+        "Hair loss and scalp issues",
+        "Fungal and bacterial infections",
+        "Skin allergies and contact dermatitis",
+        "Benign and pre-cancerous lesions",
+        "Nail diseases and disorders"
+      ]
+    },
+    "technologies": {
+      "title": "Technology & Innovation",
+      "description": "We invest in globally recognized dermatology platforms to ensure consistent, high-quality outcomes.",
+      "items": [
+        {
+          "title": "Advanced Diagnostic Imaging",
+          "description": "Digital dermoscopy, complexion analysis, and 3D imaging to support accurate diagnoses and treatment planning."
+        },
+        {
+          "title": "FDA-Approved Laser Suites",
+          "description": "A full spectrum of fractional CO2, Nd:YAG, Alexandrite, and pulsed dye lasers tailored to different skin concerns."
+        },
+        {
+          "title": "Regenerative Therapies",
+          "description": "Platelet-rich plasma, exosome-based treatments, and growth factor protocols to accelerate healing and rejuvenation."
+        }
+      ]
+    },
+    "experience": {
+      "title": "Experience Dermatology Without Compromise",
+      "description": "From the first consultation to ongoing maintenance, we deliver compassionate care with measurable results.",
+      "bullets": [
+        "Comprehensive skin assessments with imaging and laboratory support",
+        "Integrated medical and cosmetic treatment plans",
+        "Post-procedure follow-up with healing accelerators",
+        "Home-care regimens curated by dermatologists"
+      ],
+      "stats": [
+        {
+          "value": "30+",
+          "label": "Advanced dermatology procedures available"
+        },
+        {
+          "value": "15",
+          "label": "Consultant dermatology and aesthetic physicians"
+        },
+        {
+          "value": "98%",
+          "label": "Patient satisfaction across treatment journeys"
+        }
+      ]
+    },
+    "process": {
+      "title": "Your Dermatology Journey",
+      "description": "A seamless four-step process designed to deliver clarity, comfort, and confidence at every stage.",
+      "steps": [
+        {
+          "title": "Specialist Consultation",
+          "description": "Comprehensive history, evaluation, and lifestyle review with consultant dermatologists."
+        },
+        {
+          "title": "Advanced Diagnostics",
+          "description": "Skin imaging, dermoscopy, or laboratory investigations to confirm diagnoses and tailor care."
+        },
+        {
+          "title": "Personalized Treatment Plan",
+          "description": "Evidence-based therapies combining medical treatments, laser protocols, and targeted skincare."
+        },
+        {
+          "title": "Ongoing Monitoring",
+          "description": "Follow-up visits, digital check-ins, and maintenance plans to preserve results long-term."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ready to Transform Your Skin Health?",
+      "description": "Schedule a consultation with our dermatology experts and receive a tailored treatment roadmap for lasting results.",
+      "button": "Book Your Visit"
     }
+  }
   },
   "benefits": {
     "title": "Why Choose IV Vitamin Therapy?",
