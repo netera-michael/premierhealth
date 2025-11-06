@@ -21,8 +21,15 @@ const ProcedurePage: React.FC<ProcedurePageProps> = ({ procedureKey, section }) 
   const [submitStatus, setSubmitStatus] = useState<'success' | 'error' | null>(null);
 
   const procedureName = t(`plasticSurgery.${section}.procedures.${procedureKey}`);
-  const procedureDescription = t(`plasticSurgery.procedures.${procedureKey}.description`, { defaultValue: '' });
-  const procedureDetails = t(`plasticSurgery.procedures.${procedureKey}.details`, { returnObjects: true, defaultValue: [] }) as string[];
+  const introDescription = t(`plasticSurgery.procedures.${procedureKey}.introDescription`, { defaultValue: '' });
+  const whatIs = t(`plasticSurgery.procedures.${procedureKey}.whatIs`, { returnObjects: true, defaultValue: [] }) as string[];
+  const whyHave = t(`plasticSurgery.procedures.${procedureKey}.whyHave`, { returnObjects: true, defaultValue: [] }) as string[];
+  const faqs = t(`plasticSurgery.procedures.${procedureKey}.faqs`, { returnObjects: true, defaultValue: [] }) as Array<{ question: string; answer: string }>;
+  const quickFacts = t(`plasticSurgery.procedures.${procedureKey}.quickFacts`, { returnObjects: true, defaultValue: {} }) as { cost?: string; duration?: string; hospitalStay?: string; stitchesRemoved?: string; socialDowntime?: string };
+  const afterSurgery = t(`plasticSurgery.procedures.${procedureKey}.afterSurgery`, { returnObjects: true, defaultValue: {} }) as { [key: string]: string | string[] };
+  const beforeSurgery = t(`plasticSurgery.procedures.${procedureKey}.beforeSurgery`, { returnObjects: true, defaultValue: [] }) as string[];
+  const howToPrepare = t(`plasticSurgery.procedures.${procedureKey}.howToPrepare`, { returnObjects: true, defaultValue: [] }) as Array<{ title: string; description: string }>;
+  const eligibility = t(`plasticSurgery.procedures.${procedureKey}.eligibility`, { returnObjects: true, defaultValue: {} }) as { description?: string; factors?: string[] };
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -86,8 +93,6 @@ const ProcedurePage: React.FC<ProcedurePageProps> = ({ procedureKey, section }) 
           <nav className="flex items-center space-x-2 text-sm text-gray-600">
             <Link to="/" className="hover:text-primary-600">{t('header.nav.home')}</Link>
             <span>/</span>
-            <Link to="/departments" className="hover:text-primary-600">{t('header.nav.departments')}</Link>
-            <span>/</span>
             <Link to="/departments/plastic-surgery" className="hover:text-primary-600">{t('plasticSurgery.title')}</Link>
             <span>/</span>
             <span className="text-gray-900 font-medium">{procedureName}</span>
@@ -110,9 +115,9 @@ const ProcedurePage: React.FC<ProcedurePageProps> = ({ procedureKey, section }) 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
               {procedureName}
             </h1>
-            {procedureDescription && (
+            {introDescription && (
               <p className="text-lg md:text-xl text-white/90 max-w-3xl mx-auto">
-                {procedureDescription}
+                {introDescription}
               </p>
             )}
           </div>
@@ -121,16 +126,184 @@ const ProcedurePage: React.FC<ProcedurePageProps> = ({ procedureKey, section }) 
 
       {/* Main Content */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        {/* Procedure Details */}
-        {procedureDetails && Array.isArray(procedureDetails) && procedureDetails.length > 0 && (
+        
+        {/* What is [Procedure]? Section */}
+        {whatIs && whatIs.length > 0 && (
           <section className="mb-16">
+            <h2 className="text-3xl font-bold text-gray-900 mb-6">What is {procedureName}?</h2>
             <div className="prose prose-lg max-w-none">
-              <div className="space-y-4 text-gray-700">
-                {procedureDetails.map((detail, index) => (
-                  <p key={index}>{detail}</p>
+              {whatIs.map((paragraph, index) => (
+                <p key={index} className="text-gray-700 mb-4">{paragraph}</p>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {/* Why Have [Procedure]? Section */}
+        {whyHave && whyHave.length > 0 && (
+          <section className="mb-16">
+            <h3 className="text-2xl font-bold text-gray-900 mb-4">Why Have {procedureName}?</h3>
+            <div className="prose prose-lg max-w-none">
+              {whyHave.map((paragraph, index) => (
+                <p key={index} className="text-gray-700 mb-4">{paragraph}</p>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {/* FAQ's Section */}
+        {faqs && faqs.length > 0 && (
+          <section className="mb-16">
+            <h3 className="text-2xl font-bold text-gray-900 mb-6">FAQ's</h3>
+            <div className="space-y-6">
+              {faqs.map((faq, index) => (
+                <div key={index} className="border-b border-gray-200 pb-6">
+                  <h4 className="text-lg font-semibold text-gray-900 mb-2">{faq.question}</h4>
+                  <p className="text-gray-700">{faq.answer}</p>
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {/* Quick Facts Table */}
+        {quickFacts && Object.keys(quickFacts).length > 0 && (
+          <section className="mb-16">
+            <h3 className="text-2xl font-bold text-gray-900 mb-6">{procedureName} Quick Facts:</h3>
+            <div className="bg-white border border-gray-200 rounded-lg overflow-hidden">
+              <table className="w-full">
+                <tbody className="divide-y divide-gray-200">
+                  {quickFacts.cost && (
+                    <tr>
+                      <td className="px-6 py-4 font-semibold text-gray-900 bg-gray-50">Cost of {procedureName}</td>
+                      <td className="px-6 py-4 text-gray-700">{quickFacts.cost}</td>
+                    </tr>
+                  )}
+                  {quickFacts.duration && (
+                    <tr>
+                      <td className="px-6 py-4 font-semibold text-gray-900 bg-gray-50">Duration of Surgery</td>
+                      <td className="px-6 py-4 text-gray-700">{quickFacts.duration}</td>
+                    </tr>
+                  )}
+                  {quickFacts.hospitalStay && (
+                    <tr>
+                      <td className="px-6 py-4 font-semibold text-gray-900 bg-gray-50">Hospital Stay Required?</td>
+                      <td className="px-6 py-4 text-gray-700">{quickFacts.hospitalStay}</td>
+                    </tr>
+                  )}
+                  {quickFacts.stitchesRemoved && (
+                    <tr>
+                      <td className="px-6 py-4 font-semibold text-gray-900 bg-gray-50">Stitches Removed</td>
+                      <td className="px-6 py-4 text-gray-700">{quickFacts.stitchesRemoved}</td>
+                    </tr>
+                  )}
+                  {quickFacts.socialDowntime && (
+                    <tr>
+                      <td className="px-6 py-4 font-semibold text-gray-900 bg-gray-50">Days of Social Downtime</td>
+                      <td className="px-6 py-4 text-gray-700">{quickFacts.socialDowntime}</td>
+                    </tr>
+                  )}
+                </tbody>
+              </table>
+            </div>
+          </section>
+        )}
+
+        {/* After Surgery Section */}
+        {afterSurgery && Object.keys(afterSurgery).length > 0 && (
+          <section className="mb-16">
+            <h3 className="text-2xl font-bold text-gray-900 mb-6">After Surgery:</h3>
+            {afterSurgery.downtimeRecovery && (
+              <p className="text-gray-700 mb-4">
+                <strong>Downtime and recovery:</strong> {afterSurgery.downtimeRecovery}
+              </p>
+            )}
+            <div className="space-y-6">
+              {afterSurgery.day1 && (
+                <div>
+                  <h4 className="text-lg font-semibold text-gray-900 mb-2">1 Day Post-Op:</h4>
+                  <p className="text-gray-700">{afterSurgery.day1}</p>
+                </div>
+              )}
+              {afterSurgery.week1 && (
+                <div>
+                  <h4 className="text-lg font-semibold text-gray-900 mb-2">1 Week Post-Op:</h4>
+                  <p className="text-gray-700">{afterSurgery.week1}</p>
+                </div>
+              )}
+              {afterSurgery.weeks2to3 && (
+                <div>
+                  <h4 className="text-lg font-semibold text-gray-900 mb-2">2-3 Weeks Post-Op:</h4>
+                  <p className="text-gray-700">{afterSurgery.weeks2to3}</p>
+                </div>
+              )}
+              {afterSurgery.longTerm && (
+                <div>
+                  <h4 className="text-lg font-semibold text-gray-900 mb-2">Long-term recovery:</h4>
+                  <p className="text-gray-700">{afterSurgery.longTerm}</p>
+                </div>
+              )}
+            </div>
+          </section>
+        )}
+
+        {/* What to Expect Before Surgery Section */}
+        {beforeSurgery && beforeSurgery.length > 0 && (
+          <section className="mb-16">
+            <h3 className="text-2xl font-bold text-gray-900 mb-6">What to Expect Before Surgery:</h3>
+            <div className="space-y-4">
+              {beforeSurgery.map((item, index) => (
+                <div key={index} className="text-gray-700">
+                  {item.split(':').length > 1 ? (
+                    <>
+                      <strong>{item.split(':')[0]}:</strong> {item.split(':').slice(1).join(':')}
+                    </>
+                  ) : (
+                    <p>{item}</p>
+                  )}
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {/* How to Prepare Section */}
+        {howToPrepare && howToPrepare.length > 0 && (
+          <section className="mb-16">
+            <h3 className="text-2xl font-bold text-gray-900 mb-6">How to Prepare for {procedureName}</h3>
+            <div className="grid md:grid-cols-2 gap-8">
+              {howToPrepare.map((step, index) => (
+                <div key={index} className="bg-gray-50 p-6 rounded-lg">
+                  <h4 className="text-lg font-semibold text-gray-900 mb-3">{step.title}</h4>
+                  <p className="text-gray-700">{step.description}</p>
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {/* Eligibility Section */}
+        {eligibility && (eligibility.description || (eligibility.factors && eligibility.factors.length > 0)) && (
+          <section className="mb-16">
+            <h3 className="text-2xl font-bold text-gray-900 mb-6">ELEGIBILITY The Ideal Candidate for {procedureName}</h3>
+            {eligibility.description && (
+              <p className="text-gray-700 mb-4">{eligibility.description}</p>
+            )}
+            {eligibility.factors && eligibility.factors.length > 0 && (
+              <div className="space-y-4 mt-6">
+                {eligibility.factors.map((factor, index) => (
+                  <div key={index} className="text-gray-700">
+                    {factor.split(':').length > 1 ? (
+                      <>
+                        <strong>{factor.split(':')[0]}:</strong> {factor.split(':').slice(1).join(':')}
+                      </>
+                    ) : (
+                      <p>{factor}</p>
+                    )}
+                  </div>
                 ))}
               </div>
-            </div>
+            )}
           </section>
         )}
 
@@ -249,4 +422,3 @@ const ProcedurePage: React.FC<ProcedurePageProps> = ({ procedureKey, section }) 
 };
 
 export default ProcedurePage;
-

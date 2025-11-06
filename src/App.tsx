@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Layout from './components/Layout';
+import ScrollToTop from './components/ScrollToTop';
 import Home from './pages/Home';
 import Departments from './pages/Departments';
 import PlasticSurgeryDepartment from './pages/PlasticSurgeryDepartment';
@@ -42,6 +43,7 @@ import Gynecomastia from './pages/procedures/Gynecomastia';
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <div className="min-h-screen">
         <Routes>
           <Route 
