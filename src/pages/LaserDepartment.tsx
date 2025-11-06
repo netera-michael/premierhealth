@@ -1,40 +1,36 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
-import { 
-  Zap, 
-  Trash2, 
-  Radio,
-  Sparkles,
-  Circle,
-  Activity
-} from 'lucide-react';
 
 const LaserDepartment: React.FC = () => {
   const { t } = useTranslation();
 
-  // Laser treatments with icons
+  // Laser treatments
   const laserTreatments = [
-    { key: 'laserHairRemoval', icon: Zap },
-    { key: 'laserTattooRemoval', icon: Trash2 }
+    'laserHairRemoval',
+    'laserTattooRemoval'
   ];
 
-  // Laser devices with icons
+  // Laser devices
   const laserDevices = [
-    { key: 'cynosure', icon: Radio },
-    { key: 'splendorX', icon: Sparkles },
-    { key: 'fotona', icon: Circle },
-    { key: 'clarityII', icon: Activity },
-    { key: 'gentleMaxPro', icon: Zap }
+    'cynosure',
+    'splendorX',
+    'fotona',
+    'clarityII',
+    'gentleMaxPro'
   ];
 
-  const ItemCard = ({ itemKey, section, IconComponent }: { itemKey: string; section: 'treatments' | 'devices'; IconComponent: React.ComponentType<any> }) => {
+  const ItemCard = ({ itemKey, section }: { itemKey: string; section: 'treatments' | 'devices' }) => {
     const itemName = t(`laser.${section}.${itemKey}`);
     
     return (
       <div className="group flex flex-col items-center justify-center p-6 bg-white rounded-lg border border-gray-200 hover:border-primary-500 hover:shadow-lg transition-all duration-300 cursor-pointer">
-        <div className="w-20 h-20 bg-gradient-to-br from-primary-500 to-secondary-500 rounded-full flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
-          <IconComponent className="w-10 h-10 text-white" />
+        <div className="w-20 h-20 mb-4 group-hover:scale-110 transition-transform duration-300 flex items-center justify-center">
+          <img
+            src="/laser.png"
+            alt={itemName}
+            className="w-full h-full object-contain"
+          />
         </div>
         <h3 className="text-center text-gray-900 font-medium text-sm leading-tight">{itemName}</h3>
       </div>
@@ -85,12 +81,11 @@ const LaserDepartment: React.FC = () => {
         <section className="mb-16">
           <h2 className="text-3xl font-bold text-gray-900 mb-8">{t('laser.treatments.title', 'Laser Treatments')}</h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-5 gap-4">
-            {laserTreatments.map((treatment) => (
+            {laserTreatments.map((treatmentKey) => (
               <ItemCard 
-                key={treatment.key} 
-                itemKey={treatment.key}
+                key={treatmentKey} 
+                itemKey={treatmentKey}
                 section="treatments"
-                IconComponent={treatment.icon}
               />
             ))}
           </div>
@@ -100,12 +95,11 @@ const LaserDepartment: React.FC = () => {
         <section className="mb-16">
           <h2 className="text-3xl font-bold text-gray-900 mb-8">{t('laser.devices.title', 'Laser Devices')}</h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-5 gap-4">
-            {laserDevices.map((device) => (
+            {laserDevices.map((deviceKey) => (
               <ItemCard 
-                key={device.key} 
-                itemKey={device.key}
+                key={deviceKey} 
+                itemKey={deviceKey}
                 section="devices"
-                IconComponent={device.icon}
               />
             ))}
           </div>
