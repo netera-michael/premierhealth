@@ -136,13 +136,21 @@ const ProcedurePage: React.FC<ProcedurePageProps> = ({ procedureKey, section }) 
                 <p key={index} className="text-gray-700 mb-4">{paragraph}</p>
               ))}
             </div>
+            {/* Image placeholder - can be replaced with actual procedure image */}
+            <div className="mt-8 mb-8">
+              <img
+                src="https://images.unsplash.com/photo-1552693673-1bf958298935?ixlib=rb-4.1.0&auto=format&fit=crop&w=1200&q=80"
+                alt={procedureName}
+                className="w-full h-64 object-cover rounded-lg"
+              />
+            </div>
           </section>
         )}
 
         {/* Why Have [Procedure]? Section */}
         {whyHave && whyHave.length > 0 && (
           <section className="mb-16">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">Why Have {procedureName}?</h3>
+            <h4 className="text-xl font-bold text-gray-900 mb-4">Why Have {procedureName}?</h4>
             <div className="prose prose-lg max-w-none">
               {whyHave.map((paragraph, index) => (
                 <p key={index} className="text-gray-700 mb-4">{paragraph}</p>
@@ -163,6 +171,9 @@ const ProcedurePage: React.FC<ProcedurePageProps> = ({ procedureKey, section }) 
                 </div>
               ))}
             </div>
+            <p className="text-gray-700 mt-6 italic">
+              We invite you to book a consultation with one of our expert plastic surgeons to find out if {procedureName} is right for you.
+            </p>
           </section>
         )}
 
@@ -170,12 +181,12 @@ const ProcedurePage: React.FC<ProcedurePageProps> = ({ procedureKey, section }) 
         {quickFacts && Object.keys(quickFacts).length > 0 && (
           <section className="mb-16">
             <h3 className="text-2xl font-bold text-gray-900 mb-6">{procedureName} Quick Facts:</h3>
-            <div className="bg-white border border-gray-200 rounded-lg overflow-hidden">
+            <div className="bg-white border border-gray-200 rounded-lg overflow-hidden mb-8">
               <table className="w-full">
                 <tbody className="divide-y divide-gray-200">
                   {quickFacts.cost && (
                     <tr>
-                      <td className="px-6 py-4 font-semibold text-gray-900 bg-gray-50">Cost of {procedureName}</td>
+                      <td className="px-6 py-4 font-semibold text-gray-900 bg-gray-50 w-1/2">Cost of {procedureName}</td>
                       <td className="px-6 py-4 text-gray-700">{quickFacts.cost}</td>
                     </tr>
                   )}
@@ -205,6 +216,14 @@ const ProcedurePage: React.FC<ProcedurePageProps> = ({ procedureKey, section }) 
                   )}
                 </tbody>
               </table>
+            </div>
+            {/* Image placeholder */}
+            <div className="mt-8 mb-8">
+              <img
+                src="https://images.unsplash.com/photo-1552693673-1bf958298935?ixlib=rb-4.1.0&auto=format&fit=crop&w=1200&q=80"
+                alt={procedureName}
+                className="w-full h-64 object-cover rounded-lg"
+              />
             </div>
           </section>
         )}

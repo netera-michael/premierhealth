@@ -193,13 +193,65 @@
     },
     "procedures": {
       "blepharoplasty": {
-        "description": "Blepharoplasty, also known as eyelid surgery, is a cosmetic procedure that improves the appearance of the upper eyelids, lower eyelids, or both. This procedure can remove excess skin, muscle, and fat that may be causing drooping or puffiness.",
-        "details": [
-          "Blepharoplasty can address drooping upper eyelids that impair vision, bags under the eyes, and excess skin on the lower eyelids.",
-          "The procedure is typically performed under local anesthesia with sedation or general anesthesia.",
-          "Recovery time is usually 7-10 days, with most patients returning to normal activities within 2 weeks.",
-          "Results are long-lasting and can help you achieve a more youthful and refreshed appearance."
-        ]
+        "introDescription": "The eye area is the first to show the visible signs of aging. Blepharoplasty is a surgical procedure designed to rejuvenate the eyes by reshaping the skin around the eyelids.",
+        "whatIs": [
+          "The eye area is the first to show the visible signs of aging. Blepharoplasty is a surgical procedure designed to rejuvenate the eyes by reshaping the skin around the eyelids. Also known as \"eyelid surgery\" or \"eyelid rejuvenation,\" blepharoplasty can be performed on the upper eyelids, lower eyelids (or both) depending on the patient's needs, objectives and amount of correction required.",
+          "In addition to removing excess skin, the surgeon may also adjust the underlying muscle and eliminate fat from the eyelids. In the case of upper eyelid surgery, incisions are placed in the natural creases of the eyelids. For lower eyelid surgery, incisions are often made just below the lash line or inside the lower lid."
+        ],
+        "whyHave": [
+          "Blepharoplasty is often sought for cosmetic reasons to revitalize the eye area and to trim away sagging skin. In some cases, especially among older individuals, it's undertaken for functional purposes to address issues such as loose skin that may obstruct vision."
+        ],
+        "faqs": [
+          {
+            "question": "How long do the results of blepharoplasty last?",
+            "answer": "Results can last for many years. Keep in mind that your individual lifestyle choices can influence the longevity of the procedure. Factors such as sun exposure, smoking and poor diet can accelerate the aging process."
+          },
+          {
+            "question": "Can I combine blepharoplasty with other cosmetic procedures?",
+            "answer": "Yes, your surgeon may recommend combining blepharoplasty with other facial procedures such as a facelift, brow lift and even rhinoplasty for a more dramatic improvement. During your initial consultation your surgeon will provide a personalized treatment plan based on your specific goals and objectives."
+          },
+          {
+            "question": "What are the complications of blepharoplasty?",
+            "answer": "Eyelid surgery complications can include infection, bleeding, scarring and reaction to the anesthesia. It's also possible to be dissatisfied with the final results. For this reason it's very important to choose a qualified and experienced surgeon."
+          }
+        ],
+        "quickFacts": {
+          "cost": "TBD",
+          "duration": "1-2 hours",
+          "hospitalStay": "No",
+          "stitchesRemoved": "5-7 days",
+          "socialDowntime": "2-3 weeks"
+        },
+        "afterSurgery": {
+          "downtimeRecovery": "Each person experiences the recovery period differently. Your unique healing journey will be based on your general health and how well you take care of your incisions after surgery. Below are some general guidelines for what you can expect:",
+          "day1": "Pain, discomfort, and swelling around the eyes is normal. Take medication as prescribed by your surgeon and apply ice packs or cold compresses to the eyes every few hours. Doing so will help to soothe the eyes and minimize swelling and bruising. Never apply ice directly to the skin.",
+          "week1": "Make sure to get plenty of rest during the first week. Avoid strenuous physical activity and keep your head elevated when sleeping. Your surgeon will also provide instructions on how to care for your eyes, such as applying lubricating eye drops and limiting the amount of time spent reading or watching television. If your surgeon used non-dissolvable stitches or staples, they will be removed within a week after surgery.",
+          "weeks2to3": "You will be able to return to work and resume light activities at this time although strenuous activities should be avoided for up to 4 weeks.",
+          "longTerm": "The final results of the surgery may take several weeks to months to be fully visible as it takes time for swelling to subside."
+        },
+        "beforeSurgery": [
+          "Follow pre-operative instructions: You will be provided with detailed pre-operative instructions by your surgeon. These may include avoiding medications that promote bleeding, making sure you have all the medications you'll need post-operatively and when to stop eating and drinking the night before.",
+          "Arrange for help: You will need someone to pick you up from the clinic or hospital and take you home. Having someone nearby to help you with basic tasks and medications for the first few days following surgery is recommended.",
+          "Plan for your recovery: You should prepare for some swelling, bruising and some pain after surgery and once the anesthetic wears off. You will be provided with thorough instructions on post-care and how to manage any discomfort to promote a smooth recovery."
+        ],
+        "howToPrepare": [
+          {
+            "title": "Do your research",
+            "description": "A consultation and medical evaluation with a qualified Plastic Surgeon is the first step in preparing for Blepharoplasty. During your initial meeting you can learn more about the procedure, discuss your eye structures and treatment objectives."
+          },
+          {
+            "title": "Quit smoking",
+            "description": "If you're a smoker it's best to quit smoking at least six weeks in advance. Nicotine and other chemicals in tobacco can constrict blood vessels and impair your body's ability to heal adequately post surgery."
+          }
+        ],
+        "eligibility": {
+          "description": "The ideal candidate for eyelid surgery is someone with excess skin, drooping eyelids and tired appearance. The procedure is especially beneficial for individuals with drooping upper eyelids that may impair vision and proper eye function. Patients with puffy bags or fat deposits under the eye are also excellent candidates for blepharoplasty. Below are some other factors to consider:",
+          "factors": [
+            "Good overall health: A person should be in excellent health and a non-smoker. This includes having no serious physical conditions that could affect the outcome or be a contraindication to surgery and general anesthesia.",
+            "No serious eye conditions: Candidates should be free from serious eye disorders such as glaucoma, cataract, or any other condition that could complicate surgery.",
+            "Have realistic expectations: A clear understanding of what can and cannot be achieved with blepharoplasty can ensure that an individual is happy with the results."
+          ]
+        }
       },
       "buccalFatRemoval": {
         "description": "Buccal fat removal is a cosmetic surgical procedure that reduces fullness in the lower portion of the face by removing the buccal fat pads located in the cheeks.",
