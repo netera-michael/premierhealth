@@ -192,6 +192,23 @@
       "button": "Request An Appointment"
     }
   },
+  "skincare": {
+    "title": "Skincare",
+    "description": "At our Skincare Department, we are committed to improving your skin's health and beauty through personalized care and advanced treatments. Our team of experts provides a comprehensive range of services, including facials, chemical peels, and specialized skincare solutions. We utilize high-quality, effective products and emphasize education to empower you on your journey to achieving healthy, radiant skin!",
+    "treatments": {
+      "title": "Skincare",
+      "oxygenLab": "Oxygen Lab",
+      "stemCells": "Stem Cells",
+      "hyperpigmentation": "Hyperpigmentation",
+      "skinPeels": "Skin Peels",
+      "hydraFacial": "HydraFacial"
+    },
+    "cta": {
+      "title": "REQUEST An Appointment",
+      "description": "Kindly complete the form, and one of our customer service representatives will reach out to you during our business hours.",
+      "button": "Request An Appointment"
+    }
+  },
   "dermatologyDepartment": {
     "hero": {
       "badge": "Advanced Skin Health Center",
