@@ -254,31 +254,187 @@
         }
       },
       "buccalFatRemoval": {
-        "description": "Buccal fat removal is a cosmetic surgical procedure that reduces fullness in the lower portion of the face by removing the buccal fat pads located in the cheeks.",
-        "details": [
-          "This procedure creates a more defined, contoured facial appearance by reducing cheek fullness.",
-          "The surgery is performed through small incisions inside the mouth, leaving no visible scars.",
-          "Recovery is typically quick, with most patients returning to normal activities within a few days.",
-          "Results are permanent and can enhance facial symmetry and definition."
-        ]
+        "introDescription": "Buccal fat removal is a cosmetic surgical procedure designed to create a more defined, contoured facial appearance by reducing fullness in the lower portion of the face.",
+        "whatIs": [
+          "Buccal fat removal is a cosmetic surgical procedure that reduces fullness in the lower portion of the face by removing the buccal fat pads located in the cheeks. This procedure creates a more defined, contoured facial appearance by reducing cheek fullness.",
+          "The surgery is performed through small incisions inside the mouth, leaving no visible external scars. The buccal fat pads are carefully removed, resulting in a slimmer, more sculpted facial contour. This procedure is particularly popular among individuals seeking a more angular, defined jawline and cheekbone structure."
+        ],
+        "whyHave": [
+          "Buccal fat removal is sought for cosmetic reasons to achieve a more defined facial structure and reduce the appearance of round or full cheeks. It's ideal for individuals who have naturally full cheeks and desire a more contoured, angular appearance. The procedure can enhance facial symmetry and create a more balanced, aesthetically pleasing profile."
+        ],
+        "faqs": [
+          {
+            "question": "How long do the results of buccal fat removal last?",
+            "answer": "Results are permanent since the buccal fat pads are permanently removed. However, natural aging and weight fluctuations can still affect facial appearance over time."
+          },
+          {
+            "question": "Is buccal fat removal reversible?",
+            "answer": "No, buccal fat removal is not reversible. The fat pads that are removed cannot be restored. It's important to have realistic expectations and thorough consultation before proceeding with this procedure."
+          },
+          {
+            "question": "What are the risks of buccal fat removal?",
+            "answer": "Potential risks include infection, bleeding, nerve damage, asymmetry, and dissatisfaction with results. Choosing an experienced surgeon is crucial to minimize these risks."
+          }
+        ],
+        "quickFacts": {
+          "cost": "TBD",
+          "duration": "30-45 minutes",
+          "hospitalStay": "No",
+          "stitchesRemoved": "5-7 days",
+          "socialDowntime": "3-5 days"
+        },
+        "afterSurgery": {
+          "downtimeRecovery": "Recovery from buccal fat removal is typically quick, with most patients returning to normal activities within a few days. Your healing journey will depend on your individual response to surgery and how well you follow post-operative care instructions.",
+          "day1": "Swelling and mild discomfort are normal. You may experience some difficulty with eating and speaking initially. Apply ice packs to the outside of your cheeks to reduce swelling. Take prescribed medications as directed.",
+          "week1": "Swelling should begin to subside. Continue with soft foods and avoid strenuous activities. Keep the incision sites clean and follow your surgeon's oral care instructions. Stitches will be removed if non-dissolvable.",
+          "weeks2to3": "Most swelling should resolve, and you can return to normal activities and diet. Final results will continue to improve as residual swelling subsides.",
+          "longTerm": "Final results are typically visible after 2-3 months once all swelling has completely resolved. The new facial contour will be permanent."
+        },
+        "beforeSurgery": [
+          "Follow pre-operative instructions: Your surgeon will provide detailed instructions including when to stop eating and drinking before surgery, medications to avoid, and what to expect during the procedure.",
+          "Arrange for transportation: You will need someone to drive you home after the procedure as you may be under sedation.",
+          "Plan your recovery: Prepare soft foods for the first few days and arrange time off from work if needed."
+        ],
+        "howToPrepare": [
+          {
+            "title": "Consultation and evaluation",
+            "description": "Schedule a consultation with a qualified plastic surgeon to discuss your goals, evaluate your facial structure, and determine if you're a good candidate for buccal fat removal."
+          },
+          {
+            "title": "Quit smoking",
+            "description": "If you smoke, quit at least 4-6 weeks before surgery. Smoking can impair healing and increase the risk of complications."
+          }
+        ],
+        "eligibility": {
+          "description": "Ideal candidates for buccal fat removal are individuals with naturally full or round cheeks who desire a more defined, contoured facial appearance. Good candidates should be in overall good health and have realistic expectations about the results.",
+          "factors": [
+            "Good overall health: Candidates should be in good physical health with no serious medical conditions that could affect healing.",
+            "Realistic expectations: Understanding that results are permanent and may change with aging or weight fluctuations is important.",
+            "Stable weight: Being at or near your ideal weight helps ensure optimal and lasting results."
+          ]
+        }
       },
       "septoplasty": {
-        "description": "Septoplasty is a surgical procedure to correct a deviated septum, improving nasal breathing and function.",
-        "details": [
-          "This procedure straightens the nasal septum, the wall between the two nasal passages.",
-          "It can improve breathing, reduce snoring, and enhance overall nasal function.",
-          "The surgery is typically performed under general anesthesia.",
-          "Recovery time is usually 1-2 weeks, with full results visible after several months."
-        ]
+        "introDescription": "Septoplasty is a surgical procedure designed to correct a deviated septum, improving nasal breathing and overall nasal function.",
+        "whatIs": [
+          "Septoplasty is a surgical procedure to correct a deviated septum, improving nasal breathing and function. The nasal septum is the wall of bone and cartilage that divides the nasal cavity into two nostrils. When this wall is crooked or deviated, it can cause breathing difficulties, snoring, and other nasal issues.",
+          "During septoplasty, the surgeon straightens and repositions the septum to improve airflow through both nostrils. The procedure is typically performed through incisions inside the nose, so there are no visible external scars. This procedure can be performed alone or in combination with rhinoplasty for both functional and cosmetic improvements."
+        ],
+        "whyHave": [
+          "Septoplasty is often performed to address breathing difficulties caused by a deviated septum. It can significantly improve nasal airflow, reduce snoring, and enhance overall quality of life. Some patients also choose to combine septoplasty with cosmetic rhinoplasty to improve both function and appearance of the nose."
+        ],
+        "faqs": [
+          {
+            "question": "How long do the results of septoplasty last?",
+            "answer": "Results are permanent. Once the septum is straightened, it should remain in the corrected position. However, trauma to the nose could potentially cause the septum to deviate again."
+          },
+          {
+            "question": "Can septoplasty be combined with rhinoplasty?",
+            "answer": "Yes, septoplasty is commonly combined with cosmetic rhinoplasty in a procedure called septorhinoplasty. This allows for both functional improvement and aesthetic enhancement of the nose."
+          },
+          {
+            "question": "What are the risks of septoplasty?",
+            "answer": "Potential risks include bleeding, infection, changes in nasal shape, perforation of the septum, and persistent breathing problems. Choosing an experienced surgeon minimizes these risks."
+          }
+        ],
+        "quickFacts": {
+          "cost": "TBD",
+          "duration": "1-2 hours",
+          "hospitalStay": "No",
+          "stitchesRemoved": "7-10 days",
+          "socialDowntime": "1-2 weeks"
+        },
+        "afterSurgery": {
+          "downtimeRecovery": "Recovery from septoplasty varies by individual. Most patients can return to normal activities within a week, though complete healing takes several weeks.",
+          "day1": "You may experience nasal congestion, mild bleeding, and discomfort. Keep your head elevated and use cold compresses to reduce swelling. Avoid blowing your nose.",
+          "week1": "Nasal packing and splints may be removed. Breathing should gradually improve. Continue to avoid strenuous activities and follow your surgeon's care instructions.",
+          "weeks2to3": "Most swelling and congestion should resolve. You can return to normal activities, though contact sports should be avoided for several more weeks.",
+          "longTerm": "Final results and optimal breathing improvement are typically achieved after 3-6 months once all internal swelling has completely resolved."
+        },
+        "beforeSurgery": [
+          "Follow pre-operative instructions: Your surgeon will provide detailed instructions including medications to avoid, when to stop eating and drinking, and what to expect.",
+          "Arrange for help: Plan for someone to drive you home and assist you during the first 24-48 hours after surgery.",
+          "Plan your recovery: Prepare for nasal congestion and have saline nasal spray and other recommended supplies ready."
+        ],
+        "howToPrepare": [
+          {
+            "title": "Medical evaluation",
+            "description": "Undergo a thorough medical evaluation and nasal examination. Your surgeon will assess the degree of deviation and plan the appropriate correction."
+          },
+          {
+            "title": "Avoid medications",
+            "description": "Stop taking blood-thinning medications and supplements as directed by your surgeon, typically 1-2 weeks before surgery."
+          }
+        ],
+        "eligibility": {
+          "description": "Ideal candidates for septoplasty are individuals experiencing breathing difficulties, chronic nasal congestion, or snoring due to a deviated septum. Good candidates should be in overall good health.",
+          "factors": [
+            "Breathing difficulties: Candidates should have documented breathing problems or nasal obstruction caused by a deviated septum.",
+            "Good overall health: Being in good physical health with no serious medical conditions that could affect healing.",
+            "Realistic expectations: Understanding what the procedure can and cannot achieve regarding both function and appearance."
+          ]
+        }
       },
       "otoplasty": {
-        "description": "Otoplasty, also known as ear surgery, is a procedure to change the shape, position, or size of the ears.",
-        "details": [
-          "This procedure can correct protruding ears, reshape ears, or reduce ear size.",
-          "It is commonly performed on children and adults to improve ear appearance.",
-          "The surgery is typically performed under local or general anesthesia.",
-          "Recovery time is usually 1-2 weeks, with results being permanent."
-        ]
+        "introDescription": "Otoplasty, also known as ear surgery, is a cosmetic procedure designed to reshape, reposition, or resize the ears to create a more balanced and harmonious facial appearance.",
+        "whatIs": [
+          "Otoplasty, also known as ear surgery, is a procedure to change the shape, position, or size of the ears. This procedure can correct protruding ears, reshape ears, or reduce ear size. It's commonly performed on both children and adults to improve ear appearance and boost self-confidence.",
+          "The surgery involves reshaping the cartilage framework of the ear to create a more natural appearance. For protruding ears, the surgeon creates or enhances the antihelical fold and reduces the conchal bowl. Incisions are typically made behind the ear, making scars virtually invisible."
+        ],
+        "whyHave": [
+          "Otoplasty is sought for cosmetic reasons to correct protruding or misshapen ears that may cause self-consciousness or embarrassment. It's particularly beneficial for children who may experience teasing or bullying due to ear appearance. The procedure can significantly improve facial harmony and boost confidence."
+        ],
+        "faqs": [
+          {
+            "question": "At what age can otoplasty be performed?",
+            "answer": "Otoplasty can be performed on children as young as 5-6 years old, once the ears have reached about 90% of their adult size. It can also be performed on adults of any age."
+          },
+          {
+            "question": "Are the results of otoplasty permanent?",
+            "answer": "Yes, results are permanent. Once the ear cartilage is reshaped, it maintains its new position. However, trauma to the ear could potentially affect results."
+          },
+          {
+            "question": "What are the risks of otoplasty?",
+            "answer": "Potential risks include infection, bleeding, scarring, asymmetry, and changes in skin sensation. Complications are rare when performed by an experienced surgeon."
+          }
+        ],
+        "quickFacts": {
+          "cost": "TBD",
+          "duration": "1-2 hours",
+          "hospitalStay": "No",
+          "stitchesRemoved": "7-10 days",
+          "socialDowntime": "1-2 weeks"
+        },
+        "afterSurgery": {
+          "downtimeRecovery": "Recovery from otoplasty is generally straightforward. Most patients can return to school or work within a week, though complete healing takes several weeks.",
+          "day1": "You'll wear a headband dressing to protect the ears. Some discomfort, swelling, and bruising are normal. Keep your head elevated and take prescribed medications.",
+          "week1": "The headband dressing will be removed or changed. Stitches may be removed if non-dissolvable. Continue to protect the ears and avoid sleeping on your side.",
+          "weeks2to3": "Most swelling should subside. You may need to wear a headband at night for several more weeks. Avoid contact sports and activities that could injure the ears.",
+          "longTerm": "Final results are typically visible after 6-8 weeks once all swelling has resolved. The new ear shape will be permanent."
+        },
+        "beforeSurgery": [
+          "Follow pre-operative instructions: Your surgeon will provide detailed instructions including medications to avoid and when to stop eating and drinking before surgery.",
+          "Arrange for help: Plan for someone to drive you home and assist you, especially if the patient is a child.",
+          "Plan your recovery: Prepare comfortable clothing that doesn't need to be pulled over the head and arrange time off from school or work."
+        ],
+        "howToPrepare": [
+          {
+            "title": "Consultation and evaluation",
+            "description": "Schedule a consultation to discuss your goals, evaluate ear structure, and determine the best surgical approach. For children, ensure they understand the procedure and are ready for surgery."
+          },
+          {
+            "title": "Medical clearance",
+            "description": "Complete any required medical evaluations and ensure you're in good health for surgery. For children, ensure they're healthy and free from ear infections."
+          }
+        ],
+        "eligibility": {
+          "description": "Ideal candidates for otoplasty are individuals with protruding, misshapen, or asymmetrical ears who desire improved ear appearance. Good candidates should be in good health and have realistic expectations.",
+          "factors": [
+            "Ear concerns: Candidates should have specific concerns about ear shape, size, or position that can be addressed through surgery.",
+            "Good overall health: Being in good physical health with no serious medical conditions that could affect healing.",
+            "Realistic expectations: Understanding what the procedure can achieve and having realistic expectations about results."
+          ]
+        }
       },
       "facelift": {
         "description": "A facelift is a cosmetic surgical procedure that reduces visible signs of aging in the face and neck.",
