@@ -98,64 +98,10 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
                       {t('departments.laser')}
                     </Link>
                     <Link 
-                      to="/departments/wellness" 
-                      className="block px-4 py-2 text-gray-700 hover:bg-primary-100 hover:text-primary-600 transition-colors"
-                    >
-                      {t('departments.wellness')}
-                    </Link>
-                    <Link 
-                      to="/departments/physiotherapy" 
-                      className="block px-4 py-2 text-gray-700 hover:bg-primary-100 hover:text-primary-600 transition-colors"
-                    >
-                      {t('departments.physiotherapy')}
-                    </Link>
-                    <Link 
-                      to="/departments/osteopathy" 
-                      className="block px-4 py-2 text-gray-700 hover:bg-primary-100 hover:text-primary-600 transition-colors"
-                    >
-                      {t('departments.osteopathy')}
-                    </Link>
-                    <Link 
-                      to="/departments/dental" 
-                      className="block px-4 py-2 text-gray-700 hover:bg-primary-100 hover:text-primary-600 transition-colors"
-                    >
-                      {t('departments.dental')}
-                    </Link>
-                    <Link 
-                      to="/departments/ob-gyn" 
-                      className="block px-4 py-2 text-gray-700 hover:bg-primary-100 hover:text-primary-600 transition-colors"
-                    >
-                      {t('departments.obGyn')}
-                    </Link>
-                    <Link 
                       to="/departments/vitamin-drips" 
                       className="block px-4 py-2 text-gray-700 hover:bg-primary-100 hover:text-primary-600 transition-colors"
                     >
                       {t('departments.vitaminDrips')}
-                    </Link>
-                    <Link 
-                      to="/departments/integrative-medicine" 
-                      className="block px-4 py-2 text-gray-700 hover:bg-primary-100 hover:text-primary-600 transition-colors"
-                    >
-                      {t('departments.integrativeMedicine')}
-                    </Link>
-                    <Link 
-                      to="/departments/fertility-ivf" 
-                      className="block px-4 py-2 text-gray-700 hover:bg-primary-100 hover:text-primary-600 transition-colors"
-                    >
-                      {t('departments.fertilityIVF')}
-                    </Link>
-                    <Link 
-                      to="/departments/stepahead" 
-                      className="block px-4 py-2 text-gray-700 hover:bg-primary-100 hover:text-primary-600 transition-colors"
-                    >
-                      {t('departments.stepahead')}
-                    </Link>
-                    <Link 
-                      to="/departments/diabeter" 
-                      className="block px-4 py-2 text-gray-700 hover:bg-primary-100 hover:text-primary-600 transition-colors"
-                    >
-                      {t('departments.diabeter')}
                     </Link>
                   </div>
                 </div>
@@ -241,74 +187,11 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
                       {t('departments.laser')}
                     </Link>
                     <Link 
-                      to="/departments/wellness" 
-                      className="block py-1 text-gray-700 hover:text-primary-600 transition-colors"
-                      onClick={() => setIsMenuOpen(false)}
-                    >
-                      {t('departments.wellness')}
-                    </Link>
-                    <Link 
-                      to="/departments/physiotherapy" 
-                      className="block py-1 text-gray-700 hover:text-primary-600 transition-colors"
-                      onClick={() => setIsMenuOpen(false)}
-                    >
-                      {t('departments.physiotherapy')}
-                    </Link>
-                    <Link 
-                      to="/departments/osteopathy" 
-                      className="block py-1 text-gray-700 hover:text-primary-600 transition-colors"
-                      onClick={() => setIsMenuOpen(false)}
-                    >
-                      {t('departments.osteopathy')}
-                    </Link>
-                    <Link 
-                      to="/departments/dental" 
-                      className="block py-1 text-gray-700 hover:text-primary-600 transition-colors"
-                      onClick={() => setIsMenuOpen(false)}
-                    >
-                      {t('departments.dental')}
-                    </Link>
-                    <Link 
-                      to="/departments/ob-gyn" 
-                      className="block py-1 text-gray-700 hover:text-primary-600 transition-colors"
-                      onClick={() => setIsMenuOpen(false)}
-                    >
-                      {t('departments.obGyn')}
-                    </Link>
-                    <Link 
                       to="/departments/vitamin-drips" 
                       className="block py-1 text-gray-700 hover:text-primary-600 transition-colors"
                       onClick={() => setIsMenuOpen(false)}
                     >
                       {t('departments.vitaminDrips')}
-                    </Link>
-                    <Link 
-                      to="/departments/integrative-medicine" 
-                      className="block py-1 text-gray-700 hover:text-primary-600 transition-colors"
-                      onClick={() => setIsMenuOpen(false)}
-                    >
-                      {t('departments.integrativeMedicine')}
-                    </Link>
-                    <Link 
-                      to="/departments/fertility-ivf" 
-                      className="block py-1 text-gray-700 hover:text-primary-600 transition-colors"
-                      onClick={() => setIsMenuOpen(false)}
-                    >
-                      {t('departments.fertilityIVF')}
-                    </Link>
-                    <Link 
-                      to="/departments/stepahead" 
-                      className="block py-1 text-gray-700 hover:text-primary-600 transition-colors"
-                      onClick={() => setIsMenuOpen(false)}
-                    >
-                      {t('departments.stepahead')}
-                    </Link>
-                    <Link 
-                      to="/departments/diabeter" 
-                      className="block py-1 text-gray-700 hover:text-primary-600 transition-colors"
-                      onClick={() => setIsMenuOpen(false)}
-                    >
-                      {t('departments.diabeter')}
                     </Link>
                   </div>
                 </div>

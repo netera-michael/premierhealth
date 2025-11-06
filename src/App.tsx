@@ -7,16 +7,7 @@ import PlasticSurgeryDepartment from './pages/PlasticSurgeryDepartment';
 import DermatologyDepartment from './pages/DermatologyDepartment';
 import SkincareDepartment from './pages/SkincareDepartment';
 import LaserDepartment from './pages/LaserDepartment';
-import WellnessDepartment from './pages/WellnessDepartment';
-import PhysiotherapyDepartment from './pages/PhysiotherapyDepartment';
-import OsteopathyDepartment from './pages/OsteopathyDepartment';
-import DentalDepartment from './pages/DentalDepartment';
-import ObGynDepartment from './pages/ObGynDepartment';
 import VitaminDripsDepartment from './pages/VitaminDripsDepartment';
-import IntegrativeMedicineDepartment from './pages/IntegrativeMedicineDepartment';
-import FertilityIvfDepartment from './pages/FertilityIvfDepartment';
-import StepaheadDepartment from './pages/StepaheadDepartment';
-import DiabeterDepartment from './pages/DiabeterDepartment';
 import About from './pages/About';
 import Contact from './pages/Contact';
 
@@ -74,82 +65,10 @@ function App() {
             } 
           />
           <Route 
-            path="/departments/wellness" 
-            element={
-              <Layout>
-                <WellnessDepartment />
-              </Layout>
-            } 
-          />
-          <Route 
-            path="/departments/physiotherapy" 
-            element={
-              <Layout>
-                <PhysiotherapyDepartment />
-              </Layout>
-            } 
-          />
-          <Route 
-            path="/departments/osteopathy" 
-            element={
-              <Layout>
-                <OsteopathyDepartment />
-              </Layout>
-            } 
-          />
-          <Route 
-            path="/departments/dental" 
-            element={
-              <Layout>
-                <DentalDepartment />
-              </Layout>
-            } 
-          />
-          <Route 
-            path="/departments/ob-gyn" 
-            element={
-              <Layout>
-                <ObGynDepartment />
-              </Layout>
-            } 
-          />
-          <Route 
             path="/departments/vitamin-drips" 
             element={
               <Layout>
                 <VitaminDripsDepartment />
-              </Layout>
-            } 
-          />
-          <Route 
-            path="/departments/integrative-medicine" 
-            element={
-              <Layout>
-                <IntegrativeMedicineDepartment />
-              </Layout>
-            } 
-          />
-          <Route 
-            path="/departments/fertility-ivf" 
-            element={
-              <Layout>
-                <FertilityIvfDepartment />
-              </Layout>
-            } 
-          />
-          <Route 
-            path="/departments/stepahead" 
-            element={
-              <Layout>
-                <StepaheadDepartment />
-              </Layout>
-            } 
-          />
-          <Route 
-            path="/departments/diabeter" 
-            element={
-              <Layout>
-                <DiabeterDepartment />
               </Layout>
             } 
           />
