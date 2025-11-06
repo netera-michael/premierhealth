@@ -231,6 +231,50 @@
       "button": "Request An Appointment"
     }
   },
+  "dermatology": {
+    "title": "Dermatology",
+    "description": "Whether you're seeking to revitalize your complexion, address specific skin conditions, or simply enhance your natural beauty, we offer a wide range of innovative therapies tailored to your needs. We believe that healthy, radiant skin is achievable for everyone, and we're here to support you on your journey to confidence and well-being. Experience the difference with our dedicated professionals who truly care about helping you look and feel your best!",
+    "aesthetic": {
+      "title": "Aesthetic Dermatology",
+      "procedures": {
+        "botox": "Botox",
+        "dermalFillers": "Dermal Fillers",
+        "sculptra": "Sculptra",
+        "tranexamicAcid": "Tranexamic acid injection for dark circles",
+        "chemicalPeels": "Chemical Peels",
+        "scarTreatment": "Scar Treatment",
+        "threadLift": "Thread Lift",
+        "prp": "Platelet-rich Plasma (PRP)",
+        "ultherapy": "Ultherapy",
+        "morpheus8": "Morpheus8",
+        "exosomes": "Exosomes",
+        "microneedling": "Microneedling",
+        "fractional": "Fractional",
+        "mesotherapy": "Mesotherapy",
+        "hipDipsFiller": "Hip Dips Filler"
+      }
+    },
+    "medical": {
+      "title": "Medical Dermatology",
+      "procedures": {
+        "fungalInfections": "Fungal Infections",
+        "acneScarTreatment": "Acne Scar Treatment",
+        "birthmarksRemoval": "Birthmarks Removal",
+        "rosaceaTreatment": "Rosacea Treatment",
+        "frecklesAndSpots": "Freckles and Spots Treatment",
+        "surgicalScarTreatment": "Surgical Scar Treatment",
+        "wartsRemoval": "Warts Removal",
+        "acneTreatment": "Acne Treatment",
+        "laserVeinTreatment": "Laser Vein Treatment",
+        "hairLossTreatment": "Hair Loss Treatment"
+      }
+    },
+    "cta": {
+      "title": "REQUEST An Appointment",
+      "description": "Kindly complete the form, and one of our customer service representatives will reach out to you during our business hours.",
+      "button": "Request An Appointment"
+    }
+  },
   "dermatologyDepartment": {
     "hero": {
       "badge": "Advanced Skin Health Center",
