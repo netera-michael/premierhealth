@@ -15,6 +15,7 @@ import {
   UserCheck
 } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 
 const toArray = <T,>(value: unknown, fallback: T[] = []): T[] =>
   Array.isArray(value) ? (value as T[]) : fallback;
@@ -60,9 +61,22 @@ const DermatologyDepartment: React.FC = () => {
   }>(t('dermatologyDepartment.process.steps', { returnObjects: true }));
 
   return (
-    <div className="bg-gray-50">
+    <div className="bg-gray-50 min-h-screen">
+      {/* Breadcrumb */}
+      <div className="bg-white border-b border-gray-200">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+          <nav className="flex items-center space-x-2 text-sm text-gray-600">
+            <Link to="/" className="hover:text-primary-600">Home</Link>
+            <span>/</span>
+            <Link to="/departments" className="hover:text-primary-600">Departments</Link>
+            <span>/</span>
+            <span className="text-gray-900 font-medium">{t('departments.dermatology')}</span>
+          </nav>
+        </div>
+      </div>
+
       {/* Hero Section */}
-      <section className="relative overflow-hidden bg-gradient-to-br from-primary-50 via-white to-secondary-50">
+      <section className="relative overflow-hidden bg-gradient-to-br from-primary-50 via-white to-secondary-50 pt-8">
         <div className="absolute inset-0">
           <img
             src="https://images.unsplash.com/photo-1594046781833-599bdd059b0f?auto=format&fit=crop&w=1600&q=80"
@@ -71,7 +85,7 @@ const DermatologyDepartment: React.FC = () => {
           />
         </div>
 
-        <div className="relative mx-auto max-w-7xl px-4 py-24 sm:px-6 lg:flex lg:items-center lg:gap-16 lg:px-8 lg:py-32">
+        <div className="relative mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:flex lg:items-center lg:gap-16 lg:px-8 lg:py-24">
           <div className="max-w-2xl space-y-8">
             <span className="inline-flex items-center rounded-full bg-white/80 px-4 py-1 text-sm font-semibold text-primary-600 shadow-sm">
               <Sparkles className="mr-2 h-4 w-4" />
