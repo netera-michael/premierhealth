@@ -190,6 +190,233 @@
       "title": "REQUEST An Appointment",
       "description": "Kindly complete the form, and one of our customer service representatives will reach out to you during our business hours.",
       "button": "Request An Appointment"
+    },
+    "procedures": {
+      "blepharoplasty": {
+        "description": "Blepharoplasty, also known as eyelid surgery, is a cosmetic procedure that improves the appearance of the upper eyelids, lower eyelids, or both. This procedure can remove excess skin, muscle, and fat that may be causing drooping or puffiness.",
+        "details": [
+          "Blepharoplasty can address drooping upper eyelids that impair vision, bags under the eyes, and excess skin on the lower eyelids.",
+          "The procedure is typically performed under local anesthesia with sedation or general anesthesia.",
+          "Recovery time is usually 7-10 days, with most patients returning to normal activities within 2 weeks.",
+          "Results are long-lasting and can help you achieve a more youthful and refreshed appearance."
+        ]
+      },
+      "buccalFatRemoval": {
+        "description": "Buccal fat removal is a cosmetic surgical procedure that reduces fullness in the lower portion of the face by removing the buccal fat pads located in the cheeks.",
+        "details": [
+          "This procedure creates a more defined, contoured facial appearance by reducing cheek fullness.",
+          "The surgery is performed through small incisions inside the mouth, leaving no visible scars.",
+          "Recovery is typically quick, with most patients returning to normal activities within a few days.",
+          "Results are permanent and can enhance facial symmetry and definition."
+        ]
+      },
+      "septoplasty": {
+        "description": "Septoplasty is a surgical procedure to correct a deviated septum, improving nasal breathing and function.",
+        "details": [
+          "This procedure straightens the nasal septum, the wall between the two nasal passages.",
+          "It can improve breathing, reduce snoring, and enhance overall nasal function.",
+          "The surgery is typically performed under general anesthesia.",
+          "Recovery time is usually 1-2 weeks, with full results visible after several months."
+        ]
+      },
+      "otoplasty": {
+        "description": "Otoplasty, also known as ear surgery, is a procedure to change the shape, position, or size of the ears.",
+        "details": [
+          "This procedure can correct protruding ears, reshape ears, or reduce ear size.",
+          "It is commonly performed on children and adults to improve ear appearance.",
+          "The surgery is typically performed under local or general anesthesia.",
+          "Recovery time is usually 1-2 weeks, with results being permanent."
+        ]
+      },
+      "facelift": {
+        "description": "A facelift is a cosmetic surgical procedure that reduces visible signs of aging in the face and neck.",
+        "details": [
+          "This procedure can address sagging skin, deep creases, jowls, and loose neck skin.",
+          "The surgery involves tightening underlying muscles and removing excess skin.",
+          "Recovery time is typically 2-3 weeks, with full results visible after several months.",
+          "Results can last 10-15 years, providing a more youthful appearance."
+        ]
+      },
+      "rhinoplasty": {
+        "description": "Rhinoplasty, commonly known as a nose job, is a surgical procedure that changes the shape, size, or proportions of the nose.",
+        "details": [
+          "This procedure can address a hump, wide nostrils, a drooping tip, or other nasal concerns.",
+          "It can be performed for cosmetic reasons or to improve breathing function.",
+          "Recovery time is typically 1-2 weeks, with full results visible after 6-12 months.",
+          "Results are permanent and can significantly enhance facial harmony."
+        ]
+      },
+      "neckLift": {
+        "description": "A neck lift is a cosmetic surgical procedure that improves the appearance of the neck by removing excess skin and fat.",
+        "details": [
+          "This procedure can address sagging skin, excess fat, and muscle banding in the neck.",
+          "It can be performed alone or in combination with a facelift.",
+          "Recovery time is typically 1-2 weeks, with full results visible after several months.",
+          "Results can last 10-15 years, providing a more defined and youthful neck appearance."
+        ]
+      },
+      "doubleChinLiposuction": {
+        "description": "Double chin liposuction is a cosmetic procedure that removes excess fat from under the chin and jawline area.",
+        "details": [
+          "This procedure creates a more defined jawline and reduces the appearance of a double chin.",
+          "The surgery is minimally invasive and typically performed under local anesthesia.",
+          "Recovery time is usually 3-5 days, with results visible immediately.",
+          "Results are permanent, as fat cells are permanently removed."
+        ]
+      },
+      "chinAugmentation": {
+        "description": "Chin augmentation is a cosmetic procedure that enhances the size and shape of the chin using implants or fat grafting.",
+        "details": [
+          "This procedure can improve facial balance and create a more defined jawline.",
+          "It can be performed using silicone implants or the patient's own fat.",
+          "Recovery time is typically 1-2 weeks, with full results visible after several months.",
+          "Results are long-lasting and can significantly improve facial harmony."
+        ]
+      },
+      "brachioplasty": {
+        "description": "Brachioplasty, also known as an arm lift, is a surgical procedure that removes excess skin and fat from the upper arms.",
+        "details": [
+          "This procedure is ideal for individuals with sagging skin on the upper arms, often after significant weight loss.",
+          "The surgery involves removing excess skin and fat, resulting in tighter, more toned arms.",
+          "Recovery time is typically 2-3 weeks, with full results visible after several months.",
+          "Results are long-lasting, providing improved arm contour and appearance."
+        ]
+      },
+      "panniculectomy": {
+        "description": "Panniculectomy is a surgical procedure that removes excess skin and fat from the lower abdomen, typically after significant weight loss.",
+        "details": [
+          "This procedure addresses the hanging apron of skin and fat that can develop after weight loss or pregnancy.",
+          "It differs from a tummy tuck in that it focuses primarily on removing excess tissue rather than muscle tightening.",
+          "Recovery time is typically 2-4 weeks, with full results visible after several months.",
+          "Results are permanent and can significantly improve comfort and appearance."
+        ]
+      },
+      "bodyContouring360": {
+        "description": "360 body contouring is a comprehensive surgical procedure that addresses excess skin and fat around the entire torso.",
+        "details": [
+          "This procedure combines multiple techniques to contour the front, back, and sides of the body.",
+          "It is ideal for individuals who have lost significant weight and have excess skin.",
+          "Recovery time is typically 4-6 weeks, with full results visible after several months.",
+          "Results are transformative, providing a more sculpted and toned body appearance."
+        ]
+      },
+      "tummyTuck": {
+        "description": "A tummy tuck, or abdominoplasty, is a surgical procedure that removes excess skin and fat from the abdomen and tightens abdominal muscles.",
+        "details": [
+          "This procedure can address loose abdominal skin, stretch marks, and separated abdominal muscles.",
+          "It is ideal for individuals who have lost weight or had multiple pregnancies.",
+          "Recovery time is typically 2-4 weeks, with full results visible after several months.",
+          "Results are long-lasting, providing a flatter, more toned abdomen."
+        ]
+      },
+      "glutealAugmentation": {
+        "description": "Gluteal augmentation, also known as a Brazilian butt lift, enhances the size and shape of the buttocks using implants or fat transfer.",
+        "details": [
+          "This procedure can create a fuller, more rounded buttock appearance.",
+          "It can be performed using silicone implants or the patient's own fat (fat transfer).",
+          "Recovery time is typically 2-3 weeks, with full results visible after several months.",
+          "Results are long-lasting and can significantly enhance body proportions."
+        ]
+      },
+      "thighLift": {
+        "description": "A thigh lift is a surgical procedure that removes excess skin and fat from the thighs to create a smoother, more toned appearance.",
+        "details": [
+          "This procedure can address sagging skin on the inner or outer thighs, often after weight loss.",
+          "It involves removing excess tissue and tightening the remaining skin.",
+          "Recovery time is typically 2-3 weeks, with full results visible after several months.",
+          "Results are long-lasting, providing improved thigh contour and appearance."
+        ]
+      },
+      "mommyMakeover": {
+        "description": "A mommy makeover is a combination of cosmetic procedures designed to restore a woman's body after pregnancy and childbirth.",
+        "details": [
+          "This typically includes a tummy tuck, breast augmentation or lift, and liposuction.",
+          "Procedures are customized based on individual needs and goals.",
+          "Recovery time varies depending on the procedures performed, typically 2-4 weeks.",
+          "Results can be transformative, helping women regain their pre-pregnancy body confidence."
+        ]
+      },
+      "bodyLiftSurgery": {
+        "description": "Body lift surgery is a comprehensive procedure that removes excess skin and fat from multiple areas of the body after significant weight loss.",
+        "details": [
+          "This procedure addresses loose, hanging skin on the abdomen, thighs, buttocks, and arms.",
+          "It can be performed in stages or as a single comprehensive procedure.",
+          "Recovery time is typically 4-6 weeks, with full results visible after several months.",
+          "Results are transformative, providing a more contoured and toned body appearance."
+        ]
+      },
+      "jPlasma": {
+        "description": "J-Plasma, also known as Renuvion, is a minimally invasive procedure that uses cold plasma energy to tighten skin and reduce fat.",
+        "details": [
+          "This procedure can be used on the face, neck, and body to improve skin laxity.",
+          "It combines helium plasma with radiofrequency energy for precise skin tightening.",
+          "Recovery time is typically 3-5 days, with results visible immediately and improving over time.",
+          "Results are long-lasting and can provide significant skin tightening without major surgery."
+        ]
+      },
+      "fatGrafting": {
+        "description": "Fat grafting, also known as fat transfer, is a procedure that uses your own fat to enhance or restore volume in various areas of the body.",
+        "details": [
+          "Fat is harvested from one area of the body and injected into another area to add volume.",
+          "Common areas include the face, breasts, and buttocks.",
+          "Recovery time is typically 1-2 weeks, with full results visible after several months.",
+          "Results are natural-looking and long-lasting, as the transferred fat becomes permanent."
+        ]
+      },
+      "liposuction": {
+        "description": "Liposuction is a surgical procedure that removes excess fat from specific areas of the body to improve contours and proportions.",
+        "details": [
+          "This procedure can target areas such as the abdomen, thighs, arms, and neck.",
+          "It is not a weight loss solution but rather a body contouring procedure.",
+          "Recovery time is typically 1-2 weeks, with full results visible after several months.",
+          "Results are permanent, as fat cells are permanently removed from treated areas."
+        ]
+      },
+      "breastImplantRemoval": {
+        "description": "Breast implant removal is a surgical procedure to remove previously placed breast implants, with or without replacement.",
+        "details": [
+          "This procedure may be performed for medical reasons, aesthetic preferences, or implant complications.",
+          "It can be combined with a breast lift to restore natural breast appearance.",
+          "Recovery time is typically 1-2 weeks, with full results visible after several months.",
+          "Results provide a return to natural breast appearance or improved breast shape."
+        ]
+      },
+      "breastLift": {
+        "description": "A breast lift, or mastopexy, is a surgical procedure that raises and reshapes sagging breasts.",
+        "details": [
+          "This procedure removes excess skin and tightens surrounding tissue to restore a more youthful breast position.",
+          "It can be combined with breast augmentation for enhanced size and shape.",
+          "Recovery time is typically 1-2 weeks, with full results visible after several months.",
+          "Results are long-lasting, providing improved breast shape and position."
+        ]
+      },
+      "breastAugmentation": {
+        "description": "Breast augmentation is a surgical procedure that increases breast size and improves breast shape using implants or fat transfer.",
+        "details": [
+          "This procedure can enhance breast size, improve symmetry, and restore volume lost after pregnancy or weight loss.",
+          "Implants can be silicone or saline, placed above or below the muscle.",
+          "Recovery time is typically 1-2 weeks, with full results visible after several months.",
+          "Results are long-lasting and can significantly enhance body proportions and confidence."
+        ]
+      },
+      "breastReduction": {
+        "description": "Breast reduction, or reduction mammoplasty, is a surgical procedure that reduces breast size and reshapes the breasts.",
+        "details": [
+          "This procedure can relieve physical discomfort, improve posture, and enhance body proportions.",
+          "It involves removing excess breast tissue, fat, and skin.",
+          "Recovery time is typically 2-3 weeks, with full results visible after several months.",
+          "Results are permanent and can significantly improve quality of life and comfort."
+        ]
+      },
+      "gynecomastia": {
+        "description": "Gynecomastia surgery is a procedure to reduce enlarged male breasts through the removal of excess glandular tissue and fat.",
+        "details": [
+          "This procedure can address male breast enlargement caused by excess tissue, fat, or both.",
+          "It typically involves liposuction and/or surgical excision of glandular tissue.",
+          "Recovery time is typically 1-2 weeks, with full results visible after several months.",
+          "Results are permanent and can significantly improve chest appearance and confidence."
+        ]
+      }
     }
   },
   "skincare": {

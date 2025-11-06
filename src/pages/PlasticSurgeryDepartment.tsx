@@ -42,11 +42,47 @@ const PlasticSurgeryDepartment: React.FC = () => {
     'gynecomastia'
   ];
 
+  // Helper function to convert procedure key to URL slug
+  const getProcedureSlug = (procedureKey: string): string => {
+    const slugMap: { [key: string]: string } = {
+      'blepharoplasty': 'blepharoplasty',
+      'buccalFatRemoval': 'buccal-fat-removal',
+      'septoplasty': 'septoplasty',
+      'otoplasty': 'otoplasty',
+      'facelift': 'facelift',
+      'rhinoplasty': 'rhinoplasty',
+      'neckLift': 'neck-lift',
+      'doubleChinLiposuction': 'double-chin-liposuction',
+      'chinAugmentation': 'chin-augmentation',
+      'brachioplasty': 'brachioplasty',
+      'panniculectomy': 'panniculectomy',
+      'bodyContouring360': 'body-contouring-360',
+      'tummyTuck': 'tummy-tuck',
+      'glutealAugmentation': 'gluteal-augmentation',
+      'thighLift': 'thigh-lift',
+      'mommyMakeover': 'mommy-makeover',
+      'bodyLiftSurgery': 'body-lift-surgery',
+      'jPlasma': 'j-plasma',
+      'fatGrafting': 'fat-grafting',
+      'liposuction': 'liposuction',
+      'breastImplantRemoval': 'breast-implant-removal',
+      'breastLift': 'breast-lift',
+      'breastAugmentation': 'breast-augmentation',
+      'breastReduction': 'breast-reduction',
+      'gynecomastia': 'gynecomastia'
+    };
+    return slugMap[procedureKey] || procedureKey.toLowerCase();
+  };
+
   const ProcedureCard = ({ procedureKey, section }: { procedureKey: string; section: 'face' | 'body' | 'breast' }) => {
     const procedureName = t(`plasticSurgery.${section}.procedures.${procedureKey}`);
+    const procedureSlug = getProcedureSlug(procedureKey);
     
     return (
-      <div className="group flex flex-col items-center justify-center p-6 bg-white rounded-lg border border-gray-200 hover:border-primary-500 hover:shadow-lg transition-all duration-300 cursor-pointer">
+      <Link 
+        to={`/departments/plastic-surgery/${procedureSlug}`}
+        className="group flex flex-col items-center justify-center p-6 bg-white rounded-lg border border-gray-200 hover:border-primary-500 hover:shadow-lg transition-all duration-300 cursor-pointer"
+      >
         <div className="w-20 h-20 mb-4 group-hover:scale-110 transition-transform duration-300 flex items-center justify-center">
           <img
             src="/abdominoplasty.png"
@@ -55,7 +91,7 @@ const PlasticSurgeryDepartment: React.FC = () => {
           />
         </div>
         <h3 className="text-center text-gray-900 font-medium text-sm leading-tight">{procedureName}</h3>
-      </div>
+      </Link>
     );
   };
 
