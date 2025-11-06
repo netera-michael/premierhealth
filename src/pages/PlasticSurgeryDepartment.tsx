@@ -96,15 +96,30 @@ const PlasticSurgeryDepartment: React.FC = () => {
         </div>
       </div>
 
+      {/* Page Hero Section */}
+      <section className="pagehero relative overflow-hidden bg-gray-900">
+        <div className="absolute inset-0">
+          <img
+            src="https://images.unsplash.com/photo-1552693673-1bf958298935?ixlib=rb-4.1.0&auto=format&fit=crop&w=1920&q=80"
+            alt={t('plasticSurgery.title')}
+            className="h-full w-full object-cover opacity-60"
+          />
+          <div className="absolute inset-0 bg-gradient-to-b from-black/50 to-black/70"></div>
+        </div>
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 sm:py-32">
+          <div className="text-center">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
+              {t('plasticSurgery.title')}
+            </h1>
+            <p className="text-lg md:text-xl text-white/90 max-w-3xl mx-auto">
+              {t('plasticSurgery.description')}
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Main Content */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        {/* Page Header */}
-        <div className="mb-12">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">{t('plasticSurgery.title')}</h1>
-          <p className="text-lg text-gray-600 leading-relaxed max-w-4xl">
-            {t('plasticSurgery.description')}
-          </p>
-        </div>
 
         {/* Face Section */}
         <section className="mb-16">
