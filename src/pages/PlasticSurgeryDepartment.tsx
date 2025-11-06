@@ -1,73 +1,67 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
-import { 
-  Eye, 
-  User, 
-  Smile, 
-  Ear, 
-  Circle, 
-  Scissors,
-  TrendingUp,
-  Trash2,
-  Heart,
-  Baby,
-  Dumbbell,
-  Zap,
-  Droplets,
-  Syringe,
-  Shield,
-  Grid,
-  Activity
-} from 'lucide-react';
 
 const PlasticSurgeryDepartment: React.FC = () => {
   const { t } = useTranslation();
 
-  // Face procedures with icons
+  // Face procedures
   const faceProcedures = [
-    { key: 'blepharoplasty', icon: Eye },
-    { key: 'buccalFatRemoval', icon: Smile },
-    { key: 'septoplasty', icon: Circle },
-    { key: 'otoplasty', icon: Ear },
-    { key: 'facelift', icon: User },
-    { key: 'rhinoplasty', icon: Circle },
-    { key: 'neckLift', icon: User },
-    { key: 'doubleChinLiposuction', icon: Droplets },
-    { key: 'chinAugmentation', icon: User }
+    'blepharoplasty',
+    'buccalFatRemoval',
+    'septoplasty',
+    'otoplasty',
+    'facelift',
+    'rhinoplasty',
+    'neckLift',
+    'doubleChinLiposuction',
+    'chinAugmentation'
   ];
 
-  // Body procedures with icons
+  // Body procedures
   const bodyProcedures = [
-    { key: 'brachioplasty', icon: Activity },
-    { key: 'panniculectomy', icon: Scissors },
-    { key: 'bodyContouring360', icon: Grid },
-    { key: 'tummyTuck', icon: Circle },
-    { key: 'glutealAugmentation', icon: TrendingUp },
-    { key: 'thighLift', icon: Dumbbell },
-    { key: 'mommyMakeover', icon: Baby },
-    { key: 'bodyLiftSurgery', icon: Dumbbell },
-    { key: 'jPlasma', icon: Zap },
-    { key: 'fatGrafting', icon: Droplets },
-    { key: 'liposuction', icon: Syringe }
+    'brachioplasty',
+    'panniculectomy',
+    'bodyContouring360',
+    'tummyTuck',
+    'glutealAugmentation',
+    'thighLift',
+    'mommyMakeover',
+    'bodyLiftSurgery',
+    'jPlasma',
+    'fatGrafting',
+    'liposuction'
   ];
 
-  // Breast procedures with icons
+  // Breast procedures
   const breastProcedures = [
-    { key: 'breastImplantRemoval', icon: Trash2 },
-    { key: 'breastLift', icon: TrendingUp },
-    { key: 'breastAugmentation', icon: Heart },
-    { key: 'breastReduction', icon: Shield },
-    { key: 'gynecomastia', icon: User }
+    'breastImplantRemoval',
+    'breastLift',
+    'breastAugmentation',
+    'breastReduction',
+    'gynecomastia'
   ];
 
-  const ProcedureCard = ({ procedureKey, section, IconComponent }: { procedureKey: string; section: 'face' | 'body' | 'breast'; IconComponent: React.ComponentType<any> }) => {
+  const ProcedureCard = ({ procedureKey, section }: { procedureKey: string; section: 'face' | 'body' | 'breast' }) => {
     const procedureName = t(`plasticSurgery.${section}.procedures.${procedureKey}`);
     
     return (
       <div className="group flex flex-col items-center justify-center p-6 bg-white rounded-lg border border-gray-200 hover:border-primary-500 hover:shadow-lg transition-all duration-300 cursor-pointer">
-        <div className="w-20 h-20 bg-gradient-to-br from-primary-500 to-secondary-500 rounded-full flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
-          <IconComponent className="w-10 h-10 text-white" />
+        <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300 p-2">
+          <img
+            src="/plastic-surgery-icon.png"
+            alt="Plastic Surgery"
+            className="w-full h-full object-contain"
+            onError={(e) => {
+              const target = e.target as HTMLImageElement;
+              target.style.display = 'none';
+              // Fallback: show a simple placeholder if image doesn't exist
+              const parent = target.parentElement;
+              if (parent) {
+                parent.innerHTML = '<div class="w-full h-full bg-gradient-to-br from-primary-500 to-secondary-500 rounded-full"></div>';
+              }
+            }}
+          />
         </div>
         <h3 className="text-center text-gray-900 font-medium text-sm leading-tight">{procedureName}</h3>
       </div>
@@ -125,12 +119,11 @@ const PlasticSurgeryDepartment: React.FC = () => {
         <section className="mb-16">
           <h2 className="text-3xl font-bold text-gray-900 mb-8">{t('plasticSurgery.face.title')}</h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4">
-            {faceProcedures.map((procedure) => (
+            {faceProcedures.map((procedureKey) => (
               <ProcedureCard 
-                key={procedure.key} 
-                procedureKey={procedure.key} 
+                key={procedureKey} 
+                procedureKey={procedureKey} 
                 section="face"
-                IconComponent={procedure.icon}
               />
             ))}
           </div>
@@ -140,12 +133,11 @@ const PlasticSurgeryDepartment: React.FC = () => {
         <section className="mb-16">
           <h2 className="text-3xl font-bold text-gray-900 mb-8">{t('plasticSurgery.body.title')}</h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4">
-            {bodyProcedures.map((procedure) => (
+            {bodyProcedures.map((procedureKey) => (
               <ProcedureCard 
-                key={procedure.key} 
-                procedureKey={procedure.key} 
+                key={procedureKey} 
+                procedureKey={procedureKey} 
                 section="body"
-                IconComponent={procedure.icon}
               />
             ))}
           </div>
@@ -155,12 +147,11 @@ const PlasticSurgeryDepartment: React.FC = () => {
         <section className="mb-16">
           <h2 className="text-3xl font-bold text-gray-900 mb-8">{t('plasticSurgery.breast.title')}</h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4">
-            {breastProcedures.map((procedure) => (
+            {breastProcedures.map((procedureKey) => (
               <ProcedureCard 
-                key={procedure.key} 
-                procedureKey={procedure.key} 
+                key={procedureKey} 
+                procedureKey={procedureKey} 
                 section="breast"
-                IconComponent={procedure.icon}
               />
             ))}
           </div>
