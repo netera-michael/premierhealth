@@ -437,67 +437,431 @@
         }
       },
       "facelift": {
-        "description": "A facelift is a cosmetic surgical procedure that reduces visible signs of aging in the face and neck.",
-        "details": [
-          "This procedure can address sagging skin, deep creases, jowls, and loose neck skin.",
-          "The surgery involves tightening underlying muscles and removing excess skin.",
-          "Recovery time is typically 2-3 weeks, with full results visible after several months.",
-          "Results can last 10-15 years, providing a more youthful appearance."
-        ]
+        "introDescription": "A facelift is a comprehensive cosmetic surgical procedure designed to reduce visible signs of aging in the face and neck, restoring a more youthful and refreshed appearance.",
+        "whatIs": [
+          "A facelift is a cosmetic surgical procedure that reduces visible signs of aging in the face and neck. This procedure can address sagging skin, deep creases, jowls, and loose neck skin, creating a more youthful and refreshed appearance.",
+          "The surgery involves tightening underlying muscles and removing excess skin through carefully placed incisions, typically along the hairline and around the ears. Modern facelift techniques focus on creating natural-looking results that enhance your features while maintaining facial expression and character."
+        ],
+        "whyHave": [
+          "A facelift is sought by individuals who want to address significant signs of aging in the lower two-thirds of the face and neck. It can restore a more youthful appearance, improve self-confidence, and help you look as young as you feel. The procedure is particularly effective for addressing jowls, deep nasolabial folds, and loose neck skin."
+        ],
+        "faqs": [
+          {
+            "question": "How long do facelift results last?",
+            "answer": "Facelift results typically last 10-15 years, though individual results vary based on genetics, lifestyle, and skin care. While the procedure can't stop the aging process, it can turn back the clock and provide long-lasting improvements."
+          },
+          {
+            "question": "Can I combine a facelift with other procedures?",
+            "answer": "Yes, facelifts are often combined with other procedures such as eyelid surgery (blepharoplasty), brow lift, or neck lift for more comprehensive facial rejuvenation. Your surgeon will discuss the best combination for your goals."
+          },
+          {
+            "question": "Will a facelift look natural?",
+            "answer": "Modern facelift techniques focus on creating natural-looking results. A skilled surgeon will enhance your features while maintaining your unique facial characteristics and expressions. The goal is to make you look refreshed and youthful, not 'done' or artificial."
+          }
+        ],
+        "quickFacts": {
+          "cost": "TBD",
+          "duration": "3-5 hours",
+          "hospitalStay": "No",
+          "stitchesRemoved": "7-10 days",
+          "socialDowntime": "2-3 weeks"
+        },
+        "afterSurgery": {
+          "downtimeRecovery": "Recovery from a facelift requires patience and proper care. Each person heals differently, but following your surgeon's instructions will promote optimal healing and results.",
+          "day1": "You'll have bandages and possibly drains in place. Expect swelling, bruising, and some discomfort. Keep your head elevated and rest as much as possible. Take prescribed medications as directed.",
+          "week1": "Bandages and drains are typically removed within the first week. Swelling and bruising will be most noticeable during this time. Avoid bending over, lifting heavy objects, or any strenuous activities.",
+          "weeks2to3": "Most swelling and bruising should subside significantly. You can return to light activities and work (if not physically demanding). Continue avoiding strenuous exercise and protect your incisions from the sun.",
+          "longTerm": "Final results become apparent after 3-6 months once all swelling has completely subsided. The results can last 10-15 years, providing a more youthful and refreshed appearance."
+        },
+        "beforeSurgery": [
+          "Follow pre-operative instructions: Your surgeon will provide detailed instructions including medications to avoid, when to stop eating and drinking, and preparation for surgery day.",
+          "Arrange for help: You'll need someone to drive you home and stay with you for at least the first 24-48 hours. Having support during the initial recovery period is essential.",
+          "Plan for recovery: Prepare your recovery space with extra pillows, comfortable clothing, and easy-to-prepare meals. Arrange time off work and avoid scheduling important events for at least 2-3 weeks."
+        ],
+        "howToPrepare": [
+          {
+            "title": "Comprehensive consultation",
+            "description": "Schedule a thorough consultation with an experienced plastic surgeon. Discuss your goals, review your medical history, and understand what a facelift can achieve for you. Bring photos of how you'd like to look."
+          },
+          {
+            "title": "Optimize your health",
+            "description": "Quit smoking at least 6 weeks before surgery. Maintain a healthy diet, stay hydrated, and avoid excessive sun exposure. Your surgeon may recommend certain skincare products to prepare your skin."
+          }
+        ],
+        "eligibility": {
+          "description": "Ideal candidates for facelift surgery are individuals in their 40s to 70s who have significant signs of aging in the lower face and neck, including sagging skin, jowls, and deep creases. Good skin elasticity and overall health are important factors.",
+          "factors": [
+            "Visible signs of aging: Candidates should have noticeable sagging skin, jowls, deep nasolabial folds, or loose neck skin that they wish to address.",
+            "Good overall health: Patients should be in good general health with no serious medical conditions that could complicate surgery or recovery.",
+            "Realistic expectations: Understanding what a facelift can and cannot achieve, and having realistic expectations about the results and recovery process."
+          ]
+        }
       },
       "rhinoplasty": {
-        "description": "Rhinoplasty, commonly known as a nose job, is a surgical procedure that changes the shape, size, or proportions of the nose.",
-        "details": [
-          "This procedure can address a hump, wide nostrils, a drooping tip, or other nasal concerns.",
-          "It can be performed for cosmetic reasons or to improve breathing function.",
-          "Recovery time is typically 1-2 weeks, with full results visible after 6-12 months.",
-          "Results are permanent and can significantly enhance facial harmony."
-        ]
+        "introDescription": "Rhinoplasty, commonly known as a nose job, is a surgical procedure that reshapes the nose to improve its appearance and/or function, creating better facial harmony and balance.",
+        "whatIs": [
+          "Rhinoplasty, commonly known as a nose job, is a surgical procedure that changes the shape, size, or proportions of the nose. This procedure can address a hump, wide nostrils, a drooping tip, or other nasal concerns, creating better facial harmony.",
+          "The surgery can be performed for cosmetic reasons to enhance facial appearance, or for functional reasons to improve breathing. Rhinoplasty involves reshaping the bone and cartilage of the nose through incisions made either inside the nostrils (closed rhinoplasty) or with a small external incision (open rhinoplasty)."
+        ],
+        "whyHave": [
+          "Rhinoplasty is sought by individuals who are unhappy with the size, shape, or proportions of their nose, or who have breathing difficulties. The procedure can enhance facial harmony, improve self-confidence, and in some cases, improve nasal function. It's one of the most popular cosmetic procedures because the nose is a central feature of the face."
+        ],
+        "faqs": [
+          {
+            "question": "How long until I see final rhinoplasty results?",
+            "answer": "While initial results are visible after the cast is removed (about 1 week), final results may take 6-12 months to fully develop as all swelling subsides. The nose continues to refine and settle into its final shape over this time."
+          },
+          {
+            "question": "Can rhinoplasty improve my breathing?",
+            "answer": "Yes, rhinoplasty can be combined with septoplasty to improve breathing function. If you have breathing difficulties along with cosmetic concerns, your surgeon can address both issues in one procedure."
+          },
+          {
+            "question": "Will rhinoplasty leave visible scars?",
+            "answer": "In closed rhinoplasty, all incisions are made inside the nostrils, leaving no visible scars. Open rhinoplasty uses a small incision on the columella (the strip of skin between the nostrils), which typically heals very well and becomes barely noticeable."
+          }
+        ],
+        "quickFacts": {
+          "cost": "TBD",
+          "duration": "2-3 hours",
+          "hospitalStay": "No",
+          "stitchesRemoved": "5-7 days",
+          "socialDowntime": "2-3 weeks"
+        },
+        "afterSurgery": {
+          "downtimeRecovery": "Recovery from rhinoplasty requires careful attention to your surgeon's instructions. The healing process is gradual, with results improving over several months.",
+          "day1": "You'll have a nasal splint and possibly packing in place. Expect swelling, bruising around the eyes, and some discomfort. Keep your head elevated and avoid any activities that could bump your nose.",
+          "week1": "The splint is typically removed within the first week. Swelling and bruising will be most noticeable. Avoid blowing your nose, wearing glasses, or any activities that could affect the nose.",
+          "weeks2to3": "Most visible bruising should fade, and swelling will decrease. You can return to most normal activities, but continue avoiding contact sports and activities that could injure your nose.",
+          "longTerm": "Final results become apparent after 6-12 months as all swelling subsides completely. The nose will continue to refine and settle into its final shape. Results are permanent."
+        },
+        "beforeSurgery": [
+          "Follow pre-operative instructions: Your surgeon will provide detailed instructions including medications to avoid, when to stop eating and drinking, and what to expect on surgery day.",
+          "Arrange for help: You'll need someone to drive you home after surgery. Having assistance for the first 24-48 hours is recommended.",
+          "Plan for recovery: Prepare for some nasal congestion and facial swelling. Stock up on soft foods, extra pillows for elevation, and ensure you have time to rest."
+        ],
+        "howToPrepare": [
+          {
+            "title": "Consultation and planning",
+            "description": "Schedule a comprehensive consultation with a qualified plastic surgeon. Discuss your goals, review computer imaging if available, and understand what can be achieved. Bring photos of noses you like (and don't like) to help communicate your vision."
+          },
+          {
+            "title": "Medical evaluation",
+            "description": "Undergo a thorough medical evaluation including nasal examination. Your surgeon will assess your nasal structure, breathing function, and skin quality to plan the best approach for your rhinoplasty."
+          }
+        ],
+        "eligibility": {
+          "description": "Ideal candidates for rhinoplasty are individuals who are unhappy with the size, shape, or proportions of their nose, or who have breathing difficulties. The procedure is suitable for adults and older teenagers whose facial growth is complete.",
+          "factors": [
+            "Nasal concerns: Candidates should have specific concerns about their nose's appearance or function that they wish to address.",
+            "Facial growth complete: For teenagers, it's important that facial growth is complete (typically age 15-16 for girls, 17-18 for boys) before undergoing rhinoplasty.",
+            "Realistic expectations: Understanding what rhinoplasty can achieve and having realistic expectations about the results and recovery timeline is crucial for satisfaction."
+          ]
+        }
       },
       "neckLift": {
-        "description": "A neck lift is a cosmetic surgical procedure that improves the appearance of the neck by removing excess skin and fat.",
-        "details": [
-          "This procedure can address sagging skin, excess fat, and muscle banding in the neck.",
-          "It can be performed alone or in combination with a facelift.",
-          "Recovery time is typically 1-2 weeks, with full results visible after several months.",
-          "Results can last 10-15 years, providing a more defined and youthful neck appearance."
-        ]
+        "introDescription": "A neck lift is a cosmetic surgical procedure designed to improve the appearance of the neck by removing excess skin and fat, creating a more defined and youthful neck contour.",
+        "whatIs": [
+          "A neck lift is a cosmetic surgical procedure that improves the appearance of the neck by removing excess skin and fat. This procedure can address sagging skin, excess fat, and muscle banding in the neck, creating a more defined and youthful appearance.",
+          "The surgery involves making incisions typically behind the ears and under the chin. The surgeon tightens the underlying muscles, removes excess fat, and trims away loose skin. A neck lift can be performed alone or in combination with a facelift for more comprehensive facial rejuvenation."
+        ],
+        "whyHave": [
+          "A neck lift is sought by individuals who are bothered by sagging skin, excess fat, or muscle banding in the neck area. These concerns can create an aged appearance even when the face looks relatively youthful. The procedure can restore a more defined jawline and smoother neck contour."
+        ],
+        "faqs": [
+          {
+            "question": "Can a neck lift be combined with other procedures?",
+            "answer": "Yes, neck lifts are often combined with facelifts for comprehensive facial rejuvenation. They can also be combined with liposuction if excess fat is a primary concern. Your surgeon will discuss the best approach for your specific needs."
+          },
+          {
+            "question": "How long do neck lift results last?",
+            "answer": "Neck lift results typically last 10-15 years, similar to facelift results. Individual longevity depends on genetics, lifestyle factors, and skin care. Maintaining a stable weight and protecting your skin from sun damage can help preserve results."
+          },
+          {
+            "question": "Will I have visible scars after a neck lift?",
+            "answer": "Incisions are strategically placed behind the ears and under the chin where they are well-hidden. With proper healing, scars typically fade significantly and become barely noticeable over time."
+          }
+        ],
+        "quickFacts": {
+          "cost": "TBD",
+          "duration": "2-3 hours",
+          "hospitalStay": "No",
+          "stitchesRemoved": "7-10 days",
+          "socialDowntime": "2-3 weeks"
+        },
+        "afterSurgery": {
+          "downtimeRecovery": "Recovery from a neck lift is similar to facelift recovery, requiring careful attention to post-operative care for optimal healing.",
+          "day1": "You'll have bandages and possibly drains in place. Expect swelling, bruising, and some discomfort in the neck area. Keep your head elevated and avoid turning your head excessively.",
+          "week1": "Bandages and drains are typically removed within the first week. Swelling and bruising will be most noticeable. Avoid activities that strain the neck muscles.",
+          "weeks2to3": "Most swelling and bruising should subside significantly. You can return to light activities. Continue avoiding strenuous exercise and protect your incisions from the sun.",
+          "longTerm": "Final results become apparent after 3-6 months once all swelling has subsided. Results can last 10-15 years, providing a more defined and youthful neck appearance."
+        },
+        "beforeSurgery": [
+          "Follow pre-operative instructions: Your surgeon will provide detailed instructions including medications to avoid, when to stop eating and drinking, and preparation for surgery.",
+          "Arrange for help: You'll need someone to drive you home and assist you during the initial recovery period, especially with activities that require neck movement.",
+          "Plan for recovery: Prepare your recovery space with extra pillows for head elevation. Arrange time off work and avoid scheduling important events for at least 2-3 weeks."
+        ],
+        "howToPrepare": [
+          {
+            "title": "Consultation and evaluation",
+            "description": "Schedule a comprehensive consultation with an experienced plastic surgeon. Discuss your neck concerns, review your medical history, and understand what a neck lift can achieve for you."
+          },
+          {
+            "title": "Optimize your health",
+            "description": "Quit smoking at least 6 weeks before surgery. Maintain a healthy lifestyle, stay hydrated, and follow any pre-operative skincare recommendations from your surgeon."
+          }
+        ],
+        "eligibility": {
+          "description": "Ideal candidates for neck lift surgery are individuals with sagging skin, excess fat, or muscle banding in the neck area. The procedure is most suitable for those in good overall health with realistic expectations about the results.",
+          "factors": [
+            "Neck concerns: Candidates should have specific concerns about their neck appearance, such as sagging skin, excess fat, or visible muscle bands.",
+            "Good overall health: Patients should be in good general health with no serious medical conditions that could complicate surgery or recovery.",
+            "Realistic expectations: Understanding what a neck lift can achieve and having realistic expectations about the results and recovery process."
+          ]
+        }
       },
       "doubleChinLiposuction": {
-        "description": "Double chin liposuction is a cosmetic procedure that removes excess fat from under the chin and jawline area.",
-        "details": [
-          "This procedure creates a more defined jawline and reduces the appearance of a double chin.",
-          "The surgery is minimally invasive and typically performed under local anesthesia.",
-          "Recovery time is usually 3-5 days, with results visible immediately.",
-          "Results are permanent, as fat cells are permanently removed."
-        ]
+        "introDescription": "Double chin liposuction is a minimally invasive cosmetic procedure designed to remove excess fat from under the chin and jawline area, creating a more defined and contoured profile.",
+        "whatIs": [
+          "Double chin liposuction is a cosmetic procedure that removes excess fat from under the chin and jawline area. This procedure creates a more defined jawline and reduces the appearance of a double chin, enhancing facial profile and contour.",
+          "The surgery is minimally invasive and typically performed under local anesthesia. Small incisions are made under the chin, and a thin cannula is used to suction out excess fat. The procedure is relatively quick and involves minimal downtime compared to more extensive facial procedures."
+        ],
+        "whyHave": [
+          "Double chin liposuction is sought by individuals who are bothered by excess fat under the chin that creates a double chin appearance. This can be genetic or due to weight gain, and it often doesn't respond well to diet and exercise alone. The procedure can create a more defined jawline and improve facial profile."
+        ],
+        "faqs": [
+          {
+            "question": "Is double chin liposuction permanent?",
+            "answer": "Yes, the results are permanent. Once fat cells are removed, they don't grow back. However, significant weight gain can cause remaining fat cells to enlarge, so maintaining a stable weight helps preserve results."
+          },
+          {
+            "question": "How long is the recovery from double chin liposuction?",
+            "answer": "Recovery is relatively quick. Most patients can return to work and normal activities within 3-5 days. You'll need to wear a compression garment for a week or two to help with healing and contouring."
+          },
+          {
+            "question": "Will I have scars after double chin liposuction?",
+            "answer": "The incisions are very small (typically 2-3mm) and are placed in inconspicuous locations under the chin. They usually heal very well and become barely noticeable over time."
+          }
+        ],
+        "quickFacts": {
+          "cost": "TBD",
+          "duration": "30-60 minutes",
+          "hospitalStay": "No",
+          "stitchesRemoved": "Self-dissolving",
+          "socialDowntime": "3-5 days"
+        },
+        "afterSurgery": {
+          "downtimeRecovery": "Recovery from double chin liposuction is typically quick and straightforward, with most patients experiencing minimal discomfort.",
+          "day1": "You'll have a compression garment in place. Expect some swelling, mild bruising, and slight discomfort. Keep your head elevated and follow your surgeon's care instructions.",
+          "week1": "Swelling should decrease significantly. Continue wearing the compression garment as directed. You can return to most normal activities, but avoid strenuous exercise.",
+          "weeks2to3": "Most swelling should subside, and you'll begin to see the initial results. You can resume all normal activities. The final contour will continue to refine over the coming weeks.",
+          "longTerm": "Final results are typically visible after 2-3 months once all swelling has completely subsided. The results are permanent, providing a more defined jawline and improved facial profile."
+        },
+        "beforeSurgery": [
+          "Follow pre-operative instructions: Your surgeon will provide instructions including when to stop eating and drinking, medications to avoid, and what to expect on the day of the procedure.",
+          "Arrange for transportation: You'll need someone to drive you home after the procedure, even though it's minimally invasive.",
+          "Plan for recovery: Prepare for wearing a compression garment and some initial swelling. Ensure you have time to rest for a few days."
+        ],
+        "howToPrepare": [
+          {
+            "title": "Consultation and evaluation",
+            "description": "Schedule a consultation with a qualified plastic surgeon. Discuss your goals, have your neck and jawline evaluated, and determine if you're a good candidate for the procedure."
+          },
+          {
+            "title": "Maintain stable weight",
+            "description": "It's best to be at or near your ideal weight before the procedure. Significant weight fluctuations after surgery can affect the results."
+          }
+        ],
+        "eligibility": {
+          "description": "Ideal candidates for double chin liposuction are individuals with excess fat under the chin that creates a double chin appearance. Good skin elasticity is important for optimal results.",
+          "factors": [
+            "Excess submental fat: Candidates should have excess fat under the chin that doesn't respond well to diet and exercise.",
+            "Good skin elasticity: Patients with good skin elasticity will achieve the best results, as the skin needs to contract after fat removal.",
+            "Realistic expectations: Understanding what the procedure can achieve and having realistic expectations about the results."
+          ]
+        }
       },
       "chinAugmentation": {
-        "description": "Chin augmentation is a cosmetic procedure that enhances the size and shape of the chin using implants or fat grafting.",
-        "details": [
-          "This procedure can improve facial balance and create a more defined jawline.",
-          "It can be performed using silicone implants or the patient's own fat.",
-          "Recovery time is typically 1-2 weeks, with full results visible after several months.",
-          "Results are long-lasting and can significantly improve facial harmony."
-        ]
+        "introDescription": "Chin augmentation is a cosmetic procedure designed to enhance the size and shape of the chin using implants or fat grafting, improving facial balance and creating a more defined jawline.",
+        "whatIs": [
+          "Chin augmentation is a cosmetic procedure that enhances the size and shape of the chin using implants or fat grafting. This procedure can improve facial balance and create a more defined jawline, enhancing overall facial harmony.",
+          "The procedure can be performed using silicone implants, which are placed through a small incision either under the chin or inside the mouth. Alternatively, fat grafting uses your own fat harvested from another area of your body. Both methods can effectively enhance chin projection and improve facial proportions."
+        ],
+        "whyHave": [
+          "Chin augmentation is sought by individuals with a weak or recessed chin who want to improve facial balance and create a more defined jawline. A well-proportioned chin can enhance the entire facial profile and is often combined with rhinoplasty for comprehensive facial harmony."
+        ],
+        "faqs": [
+          {
+            "question": "How long do chin augmentation results last?",
+            "answer": "Results from chin implants are permanent. Fat grafting results can vary, as some of the transferred fat may be reabsorbed by the body, but the fat that survives becomes permanent."
+          },
+          {
+            "question": "Can chin augmentation be combined with other procedures?",
+            "answer": "Yes, chin augmentation is often combined with rhinoplasty for comprehensive facial harmony. It can also be combined with neck liposuction or other facial procedures. Your surgeon will discuss the best combination for your goals."
+          },
+          {
+            "question": "Will I have visible scars after chin augmentation?",
+            "answer": "Incisions are typically placed either under the chin in a natural crease or inside the mouth, making them well-hidden. With proper healing, scars become barely noticeable."
+          }
+        ],
+        "quickFacts": {
+          "cost": "TBD",
+          "duration": "1-2 hours",
+          "hospitalStay": "No",
+          "stitchesRemoved": "5-7 days",
+          "socialDowntime": "1-2 weeks"
+        },
+        "afterSurgery": {
+          "downtimeRecovery": "Recovery from chin augmentation is typically straightforward, with most patients able to return to normal activities within 1-2 weeks.",
+          "day1": "You may have a compression garment or bandage in place. Expect some swelling, mild bruising, and discomfort in the chin area. Follow a soft diet and avoid excessive talking or facial movements.",
+          "week1": "Swelling should decrease significantly. You can gradually return to normal activities, but continue avoiding strenuous exercise and activities that could impact the chin area.",
+          "weeks2to3": "Most swelling should subside, and you'll begin to see the initial results. You can resume all normal activities. The final contour will continue to refine over the coming weeks.",
+          "longTerm": "Final results are typically visible after 2-3 months once all swelling has completely subsided. Results are long-lasting, providing improved facial balance and a more defined jawline."
+        },
+        "beforeSurgery": [
+          "Follow pre-operative instructions: Your surgeon will provide detailed instructions including when to stop eating and drinking, medications to avoid, and what to expect on surgery day.",
+          "Arrange for help: You'll need someone to drive you home after surgery. Having assistance for the first 24 hours is recommended.",
+          "Plan for recovery: Prepare for a soft diet for the first few days and some initial swelling. Ensure you have time to rest and recover."
+        ],
+        "howToPrepare": [
+          {
+            "title": "Consultation and planning",
+            "description": "Schedule a comprehensive consultation with a qualified plastic surgeon. Discuss your goals, review your facial anatomy, and determine the best approach (implant vs. fat grafting) for your needs."
+          },
+          {
+            "title": "Medical evaluation",
+            "description": "Ensure you're in good overall health. Your surgeon may require medical clearance and will review your medical history to ensure you're a good candidate for the procedure."
+          }
+        ],
+        "eligibility": {
+          "description": "Ideal candidates for chin augmentation are individuals with a weak or recessed chin who want to improve facial balance and create a more defined jawline. The procedure is suitable for adults whose facial growth is complete.",
+          "factors": [
+            "Weak or recessed chin: Candidates should have a chin that is proportionally small or recessed compared to other facial features.",
+            "Good overall health: Patients should be in good general health with no serious medical conditions that could complicate surgery or recovery.",
+            "Realistic expectations: Understanding what chin augmentation can achieve and having realistic expectations about the results is important for satisfaction."
+          ]
+        }
       },
       "brachioplasty": {
-        "description": "Brachioplasty, also known as an arm lift, is a surgical procedure that removes excess skin and fat from the upper arms.",
-        "details": [
-          "This procedure is ideal for individuals with sagging skin on the upper arms, often after significant weight loss.",
-          "The surgery involves removing excess skin and fat, resulting in tighter, more toned arms.",
-          "Recovery time is typically 2-3 weeks, with full results visible after several months.",
-          "Results are long-lasting, providing improved arm contour and appearance."
-        ]
+        "introDescription": "Brachioplasty, also known as an arm lift, is a surgical procedure designed to remove excess skin and fat from the upper arms, creating tighter, more toned and youthful-looking arms.",
+        "whatIs": [
+          "Brachioplasty, also known as an arm lift, is a surgical procedure that removes excess skin and fat from the upper arms. This procedure is ideal for individuals with sagging skin on the upper arms, often after significant weight loss, aging, or genetics.",
+          "The surgery involves making an incision along the inner or back of the upper arm, through which excess skin and fat are removed. The remaining skin is then tightened and sutured, resulting in tighter, more toned arms. The incision is strategically placed to be as inconspicuous as possible."
+        ],
+        "whyHave": [
+          "Brachioplasty is sought by individuals who are self-conscious about sagging or flabby upper arms, often referred to as 'bat wings.' This condition can result from significant weight loss, aging, or genetics, and typically doesn't respond well to exercise alone. The procedure can restore confidence and allow you to wear sleeveless clothing comfortably."
+        ],
+        "faqs": [
+          {
+            "question": "Will I have visible scars after brachioplasty?",
+            "answer": "Yes, there will be a scar along the inner or back of your upper arm. However, your surgeon will place the incision in the most inconspicuous location possible. With proper healing and care, scars typically fade significantly over time and become less noticeable."
+          },
+          {
+            "question": "Can I combine brachioplasty with other procedures?",
+            "answer": "Yes, brachioplasty is often combined with other body contouring procedures such as tummy tuck, thigh lift, or body lift as part of a comprehensive body transformation, especially after significant weight loss."
+          },
+          {
+            "question": "How long do brachioplasty results last?",
+            "answer": "Results are long-lasting, but maintaining a stable weight is important. Significant weight gain can cause the remaining skin to stretch again. The procedure permanently removes excess skin and fat, providing lasting improvements."
+          }
+        ],
+        "quickFacts": {
+          "cost": "TBD",
+          "duration": "2-3 hours",
+          "hospitalStay": "No",
+          "stitchesRemoved": "10-14 days",
+          "socialDowntime": "2-3 weeks"
+        },
+        "afterSurgery": {
+          "downtimeRecovery": "Recovery from brachioplasty requires careful attention to your surgeon's instructions to ensure optimal healing and minimize scarring.",
+          "day1": "You'll have bandages and possibly drains in place. Expect swelling, bruising, and some discomfort in the arm area. Keep your arms elevated and avoid lifting or strenuous arm movements.",
+          "week1": "Bandages and drains are typically removed within the first week. Continue keeping your arms elevated when possible. Avoid lifting anything heavy or engaging in activities that strain the arms.",
+          "weeks2to3": "Most swelling and bruising should subside. You can gradually return to light activities, but continue avoiding heavy lifting and strenuous arm exercises for at least 4-6 weeks.",
+          "longTerm": "Final results become apparent after 3-6 months once all swelling has subsided and scars have begun to fade. Results are long-lasting, providing improved arm contour and appearance."
+        },
+        "beforeSurgery": [
+          "Follow pre-operative instructions: Your surgeon will provide detailed instructions including medications to avoid, when to stop eating and drinking, and preparation for surgery day.",
+          "Arrange for help: You'll need someone to drive you home and assist you during the initial recovery period, especially with tasks requiring arm use.",
+          "Plan for recovery: Prepare for limited arm mobility initially. Arrange time off work and avoid scheduling activities that require arm strength for at least 2-3 weeks."
+        ],
+        "howToPrepare": [
+          {
+            "title": "Consultation and evaluation",
+            "description": "Schedule a comprehensive consultation with an experienced plastic surgeon. Discuss your goals, have your arms evaluated, and understand what brachioplasty can achieve for you."
+          },
+          {
+            "title": "Maintain stable weight",
+            "description": "It's crucial to be at or near your ideal weight before the procedure. Significant weight fluctuations after surgery can affect the results and may require revision surgery."
+          }
+        ],
+        "eligibility": {
+          "description": "Ideal candidates for brachioplasty are individuals with significant excess skin and fat on the upper arms, often after major weight loss. Good overall health and realistic expectations are important factors.",
+          "factors": [
+            "Excess arm skin: Candidates should have noticeable sagging or excess skin on the upper arms that doesn't improve with exercise.",
+            "Stable weight: It's essential to be at or near your ideal weight and maintain it, as significant weight gain can compromise results.",
+            "Good overall health: Patients should be in good general health with no serious medical conditions that could complicate surgery or recovery."
+          ]
+        }
       },
       "panniculectomy": {
-        "description": "Panniculectomy is a surgical procedure that removes excess skin and fat from the lower abdomen, typically after significant weight loss.",
-        "details": [
-          "This procedure addresses the hanging apron of skin and fat that can develop after weight loss or pregnancy.",
-          "It differs from a tummy tuck in that it focuses primarily on removing excess tissue rather than muscle tightening.",
-          "Recovery time is typically 2-4 weeks, with full results visible after several months.",
-          "Results are permanent and can significantly improve comfort and appearance."
-        ]
+        "introDescription": "Panniculectomy is a surgical procedure designed to remove the hanging apron of excess skin and fat from the lower abdomen, typically after significant weight loss or pregnancy.",
+        "whatIs": [
+          "Panniculectomy is a surgical procedure that removes excess skin and fat from the lower abdomen, typically after significant weight loss. This procedure addresses the hanging apron of skin and fat (pannus) that can develop after weight loss or pregnancy, causing discomfort and hygiene issues.",
+          "It differs from a tummy tuck in that it focuses primarily on removing excess tissue rather than muscle tightening. Panniculectomy is often considered a functional procedure that improves comfort and mobility, while also providing aesthetic benefits."
+        ],
+        "whyHave": [
+          "Panniculectomy is sought by individuals who have a significant hanging pannus that causes physical discomfort, skin irritation, difficulty with hygiene, or limits mobility. The procedure can improve comfort, reduce skin infections, and enhance quality of life while also improving body appearance."
+        ],
+        "faqs": [
+          {
+            "question": "What's the difference between panniculectomy and tummy tuck?",
+            "answer": "Panniculectomy focuses on removing excess skin and fat, while a tummy tuck (abdominoplasty) also tightens the abdominal muscles. Panniculectomy is often covered by insurance when performed for medical reasons, while tummy tucks are typically cosmetic procedures."
+          },
+          {
+            "question": "Is panniculectomy covered by insurance?",
+            "answer": "Panniculectomy may be covered by insurance when performed for medical reasons such as chronic skin infections, difficulty with hygiene, or mobility issues. Coverage varies by insurance provider, so it's important to check with your insurance company."
+          },
+          {
+            "question": "Can panniculectomy be combined with other procedures?",
+            "answer": "Yes, panniculectomy can be combined with other body contouring procedures. Some patients choose to combine it with muscle tightening (making it more like a tummy tuck) or other body lift procedures for comprehensive results."
+          }
+        ],
+        "quickFacts": {
+          "cost": "TBD",
+          "duration": "2-4 hours",
+          "hospitalStay": "Possibly 1 night",
+          "stitchesRemoved": "10-14 days",
+          "socialDowntime": "2-4 weeks"
+        },
+        "afterSurgery": {
+          "downtimeRecovery": "Recovery from panniculectomy requires careful attention to wound care and activity restrictions to ensure optimal healing.",
+          "day1": "You'll have bandages and drains in place. Expect swelling, bruising, and some discomfort. Keep your abdomen supported and avoid bending or lifting. Stay slightly bent at the waist to reduce tension on the incision.",
+          "week1": "Drains are typically removed within the first week. Continue wearing compression garments as directed. Avoid standing straight or engaging in activities that strain the abdominal area.",
+          "weeks2to3": "Most swelling should decrease. You can gradually return to light activities, but continue avoiding heavy lifting and strenuous exercise for at least 6 weeks.",
+          "longTerm": "Final results become apparent after 3-6 months once all swelling has subsided and the incision has fully healed. Results are permanent, providing improved comfort and appearance."
+        },
+        "beforeSurgery": [
+          "Follow pre-operative instructions: Your surgeon will provide detailed instructions including medications to avoid, when to stop eating and drinking, and preparation for surgery.",
+          "Arrange for help: You'll need someone to drive you home and assist you during the initial recovery period, especially with tasks requiring bending or lifting.",
+          "Plan for recovery: Prepare your recovery space with extra pillows for support. Arrange significant time off work and avoid scheduling important activities for at least 2-4 weeks."
+        ],
+        "howToPrepare": [
+          {
+            "title": "Medical evaluation and insurance",
+            "description": "Undergo a thorough medical evaluation. If seeking insurance coverage, work with your surgeon to document medical necessity. This may include photos, medical records, and documentation of related health issues."
+          },
+          {
+            "title": "Optimize your health",
+            "description": "Maintain a stable weight before surgery. Quit smoking at least 6 weeks in advance. Ensure any skin infections in the pannus area are treated before surgery."
+          }
+        ],
+        "eligibility": {
+          "description": "Ideal candidates for panniculectomy are individuals with a significant hanging pannus that causes medical issues or significant discomfort. The procedure is most suitable for those who have achieved stable weight loss and are in good overall health.",
+          "factors": [
+            "Significant pannus: Candidates should have a substantial hanging apron of skin and fat that causes functional problems or significant discomfort.",
+            "Stable weight: It's essential to be at a stable weight, as significant weight gain after surgery can compromise results.",
+            "Good overall health: Patients should be in good general health with no serious medical conditions that could complicate surgery or recovery."
+          ]
+        }
       },
       "bodyContouring360": {
         "description": "360 body contouring is a comprehensive surgical procedure that addresses excess skin and fat around the entire torso.",
