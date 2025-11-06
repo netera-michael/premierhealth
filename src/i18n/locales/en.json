@@ -118,62 +118,53 @@
     }
   },
   "plasticSurgery": {
-    "title": "Plastic Surgery Department",
-    "description": "Modern Day Surgery Clinic with advanced operating theaters and the best plastic surgeons in the region",
-    "intro": {
-      "title": "Advanced Plastic Surgery Services",
-      "description": "We offer a comprehensive range of plastic surgery procedures from simple to sophisticated, with a focus on safety and patient satisfaction",
-      "feature1": "State-of-the-art surgical facilities",
-      "feature2": "Board-certified plastic surgeons",
-      "feature3": "Personalized treatment plans"
+    "title": "Plastic Surgery",
+    "description": "Our Plastic Surgery Department at The Clinics in Riyadh, housed in a modern Day Surgery Clinic with three advanced operating theaters, features the best plastic surgeons in the region. We perform a wide range of procedures, from the simplest to the most sophisticated, always prioritizing safety and patient satisfaction. Your journey to renewed confidence begins here!",
+    "face": {
+      "title": "Face",
+      "procedures": {
+        "blepharoplasty": "Blepharoplasty",
+        "buccalFatRemoval": "Buccal Fat Removal",
+        "septoplasty": "Septoplasty",
+        "otoplasty": "Otoplasty",
+        "facelift": "Facelift",
+        "rhinoplasty": "Rhinoplasty",
+        "neckLift": "Neck Lift",
+        "doubleChinLiposuction": "Double Chin Liposuction",
+        "chinAugmentation": "Chin Augmentation"
+      }
     },
-    "categories": {
-      "title": "Our Plastic Surgery Services",
-      "face": {
-        "title": "Face Procedures",
-        "procedures": {
-          "0": "Blepharoplasty (Eyelid Surgery)",
-          "1": "Buccal Fat Removal",
-          "2": "Septoplasty",
-          "3": "Otoplasty (Ear Surgery)",
-          "4": "Facelift",
-          "5": "Rhinoplasty (Nose Surgery)",
-          "6": "Neck Lift",
-          "7": "Double Chin Liposuction",
-          "8": "Chin Augmentation"
-        }
-      },
-      "body": {
-        "title": "Body Procedures",
-        "procedures": {
-          "0": "Brachioplasty (Arm Lift)",
-          "1": "Panniculectomy",
-          "2": "Body Contouring 360",
-          "3": "Tummy Tuck",
-          "4": "Gluteal Augmentation and Remodeling",
-          "5": "Thigh Lift",
-          "6": "Mommy Makeover",
-          "7": "Body Lift Surgery after Weight Loss",
-          "8": "J-Plasma",
-          "9": "Fat Grafting",
-          "10": "Liposuction"
-        }
-      },
-      "breast": {
-        "title": "Breast Procedures",
-        "procedures": {
-          "0": "Breast Implant Removal",
-          "1": "Breast Lift",
-          "2": "Breast Augmentation",
-          "3": "Breast Reduction",
-          "4": "Gynecomastia"
-        }
+    "body": {
+      "title": "Body",
+      "procedures": {
+        "brachioplasty": "Brachioplasty (Arm Lift)",
+        "panniculectomy": "Panniculectomy",
+        "bodyContouring360": "Body contouring 360",
+        "tummyTuck": "Tummy Tuck",
+        "glutealAugmentation": "Gluteal Augmentation and remodelling",
+        "thighLift": "Thigh Lift",
+        "mommyMakeover": "Mommy makeover",
+        "bodyLiftSurgery": "Body lift surgery after weight loss",
+        "jPlasma": "J-Plasma",
+        "fatGrafting": "Fat Grafting",
+        "liposuction": "Liposuction"
+      }
+    },
+    "breast": {
+      "title": "Breast",
+      "procedures": {
+        "breastImplantRemoval": "Breast Implant Removal",
+        "breastLift": "Breast Lift",
+        "breastAugmentation": "Breast Augmentation",
+        "breastReduction": "Breast Reduction",
+        "gynecomastia": "Gynecomastia"
       }
     },
     "cta": {
-      "title": "Ready to Transform Your Appearance?",
-    "description": "Schedule a consultation with our board-certified plastic surgeons to discuss your personalized treatment plan",
-    "button": "Schedule Consultation"
+      "title": "REQUEST An Appointment",
+      "description": "Kindly complete the form, and one of our customer service representatives will reach out to you during our business hours.",
+      "button": "Request An Appointment"
+    }
   },
   "dermatologyDepartment": {
     "hero": {
@@ -328,7 +319,6 @@
       "description": "Schedule a consultation with our dermatology experts and receive a tailored treatment roadmap for lasting results.",
       "button": "Book Your Visit"
     }
-  }
   },
   "benefits": {
     "title": "Why Choose IV Vitamin Therapy?",

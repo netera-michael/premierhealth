@@ -1,5 +1,4 @@
 import React from 'react';
-import { useTranslation } from 'react-i18next';
 import Hero from '../components/Hero';
 import PlasticSurgery from '../components/PlasticSurgery';
 import VitaminDrips from '../components/VitaminDrips';
@@ -11,7 +10,6 @@ import FAQ from '../components/FAQ';
 import Contact from '../components/Contact';
 
 const Home: React.FC = () => {
-  const { t } = useTranslation();
 
   return (
     <div className="min-h-screen">

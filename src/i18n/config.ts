@@ -22,6 +22,8 @@ i18n
       }
     },
     fallbackLng: 'en',
+    supportedLngs: ['en', 'ru', 'ar'],
+    load: 'languageOnly',
     debug: false,
     interpolation: {
       escapeValue: false

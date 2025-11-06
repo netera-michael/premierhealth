@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Search, ChevronDown, Calendar, MapPin, Star } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
