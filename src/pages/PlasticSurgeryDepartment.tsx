@@ -47,20 +47,11 @@ const PlasticSurgeryDepartment: React.FC = () => {
     
     return (
       <div className="group flex flex-col items-center justify-center p-6 bg-white rounded-lg border border-gray-200 hover:border-primary-500 hover:shadow-lg transition-all duration-300 cursor-pointer">
-        <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300 p-2">
+        <div className="w-20 h-20 mb-4 group-hover:scale-110 transition-transform duration-300 flex items-center justify-center">
           <img
-            src="/plastic-surgery-icon.png"
-            alt="Plastic Surgery"
+            src="/plastic-surgery-icon.svg"
+            alt={procedureName}
             className="w-full h-full object-contain"
-            onError={(e) => {
-              const target = e.target as HTMLImageElement;
-              target.style.display = 'none';
-              // Fallback: show a simple placeholder if image doesn't exist
-              const parent = target.parentElement;
-              if (parent) {
-                parent.innerHTML = '<div class="w-full h-full bg-gradient-to-br from-primary-500 to-secondary-500 rounded-full"></div>';
-              }
-            }}
           />
         </div>
         <h3 className="text-center text-gray-900 font-medium text-sm leading-tight">{procedureName}</h3>
