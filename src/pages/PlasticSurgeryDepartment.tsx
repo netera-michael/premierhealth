@@ -49,7 +49,7 @@ const PlasticSurgeryDepartment: React.FC = () => {
       <div className="group flex flex-col items-center justify-center p-6 bg-white rounded-lg border border-gray-200 hover:border-primary-500 hover:shadow-lg transition-all duration-300 cursor-pointer">
         <div className="w-20 h-20 mb-4 group-hover:scale-110 transition-transform duration-300 flex items-center justify-center">
           <img
-            src="/cosmetic-surgery.png"
+            src="/abdominoplasty.png"
             alt={procedureName}
             className="w-full h-full object-contain"
           />
