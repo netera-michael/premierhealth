@@ -1,75 +1,85 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
+import { 
+  Eye, 
+  User, 
+  Smile, 
+  Ear, 
+  Circle, 
+  Scissors,
+  TrendingUp,
+  Trash2,
+  Heart,
+  Baby,
+  Dumbbell,
+  Zap,
+  Droplets,
+  Syringe,
+  Shield,
+  Grid,
+  Activity
+} from 'lucide-react';
 
 const PlasticSurgeryDepartment: React.FC = () => {
   const { t } = useTranslation();
 
-  // Face procedures
+  // Face procedures with icons
   const faceProcedures = [
-    'blepharoplasty',
-    'buccalFatRemoval',
-    'septoplasty',
-    'otoplasty',
-    'facelift',
-    'rhinoplasty',
-    'neckLift',
-    'doubleChinLiposuction',
-    'chinAugmentation'
+    { key: 'blepharoplasty', icon: Eye },
+    { key: 'buccalFatRemoval', icon: Smile },
+    { key: 'septoplasty', icon: Circle },
+    { key: 'otoplasty', icon: Ear },
+    { key: 'facelift', icon: User },
+    { key: 'rhinoplasty', icon: Circle },
+    { key: 'neckLift', icon: User },
+    { key: 'doubleChinLiposuction', icon: Droplets },
+    { key: 'chinAugmentation', icon: User }
   ];
 
-  // Body procedures
+  // Body procedures with icons
   const bodyProcedures = [
-    'brachioplasty',
-    'panniculectomy',
-    'bodyContouring360',
-    'tummyTuck',
-    'glutealAugmentation',
-    'thighLift',
-    'mommyMakeover',
-    'bodyLiftSurgery',
-    'jPlasma',
-    'fatGrafting',
-    'liposuction'
+    { key: 'brachioplasty', icon: Activity },
+    { key: 'panniculectomy', icon: Scissors },
+    { key: 'bodyContouring360', icon: Grid },
+    { key: 'tummyTuck', icon: Circle },
+    { key: 'glutealAugmentation', icon: TrendingUp },
+    { key: 'thighLift', icon: Dumbbell },
+    { key: 'mommyMakeover', icon: Baby },
+    { key: 'bodyLiftSurgery', icon: Dumbbell },
+    { key: 'jPlasma', icon: Zap },
+    { key: 'fatGrafting', icon: Droplets },
+    { key: 'liposuction', icon: Syringe }
   ];
 
-  // Breast procedures
+  // Breast procedures with icons
   const breastProcedures = [
-    'breastImplantRemoval',
-    'breastLift',
-    'breastAugmentation',
-    'breastReduction',
-    'gynecomastia'
+    { key: 'breastImplantRemoval', icon: Trash2 },
+    { key: 'breastLift', icon: TrendingUp },
+    { key: 'breastAugmentation', icon: Heart },
+    { key: 'breastReduction', icon: Shield },
+    { key: 'gynecomastia', icon: User }
   ];
 
-  const ProcedureCard = ({ procedureKey, section }: { procedureKey: string; section: 'face' | 'body' | 'breast' }) => {
+  const ProcedureCard = ({ procedureKey, section, IconComponent }: { procedureKey: string; section: 'face' | 'body' | 'breast'; IconComponent: React.ComponentType<any> }) => {
     const procedureName = t(`plasticSurgery.${section}.procedures.${procedureKey}`);
     
-    // Generate a unique image based on procedure key for variety
-    const imageId = procedureKey.length + section.length;
-    const imageUrl = `https://images.unsplash.com/photo-${1552693673 + imageId}?ixlib=rb-4.1.0&auto=format&fit=crop&w=600&h=400&q=80`;
-    
     return (
-      <div className="group relative overflow-hidden rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300 bg-white cursor-pointer">
-        <div className="relative h-64 bg-gradient-to-br from-gray-100 to-gray-200">
-          <img
-            src={imageUrl}
-            alt={procedureName}
-            className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-            onError={(e) => {
-              const target = e.target as HTMLImageElement;
-              target.onerror = null;
-              target.src = `https://placehold.co/600x400/365a74/ffffff?text=${encodeURIComponent(procedureName)}`;
-            }}
-          />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
+      <div className="group flex flex-col items-center justify-center p-6 bg-white rounded-lg border border-gray-200 hover:border-primary-500 hover:shadow-lg transition-all duration-300 cursor-pointer">
+        <div className="w-20 h-20 bg-gradient-to-br from-primary-500 to-secondary-500 rounded-full flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
+          <IconComponent className="w-10 h-10 text-white" />
         </div>
-        <div className="absolute bottom-0 left-0 right-0 p-4">
-          <h3 className="text-white font-bold text-lg leading-tight drop-shadow-lg">{procedureName}</h3>
-        </div>
+        <h3 className="text-center text-gray-900 font-medium text-sm leading-tight">{procedureName}</h3>
       </div>
     );
   };
+
+  // YouTube videos data - get from translations
+  const youtubeVideos = t('plasticSurgery.videos.items', { returnObjects: true }) as Array<{
+    id: string;
+    title: string;
+    thumbnail?: string;
+  }>;
 
   return (
     <div className="min-h-screen bg-white">
@@ -99,9 +109,14 @@ const PlasticSurgeryDepartment: React.FC = () => {
         {/* Face Section */}
         <section className="mb-16">
           <h2 className="text-3xl font-bold text-gray-900 mb-8">{t('plasticSurgery.face.title')}</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-6">
-            {faceProcedures.map((procedureKey) => (
-              <ProcedureCard key={procedureKey} procedureKey={procedureKey} section="face" />
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4">
+            {faceProcedures.map((procedure) => (
+              <ProcedureCard 
+                key={procedure.key} 
+                procedureKey={procedure.key} 
+                section="face"
+                IconComponent={procedure.icon}
+              />
             ))}
           </div>
         </section>
@@ -109,9 +124,14 @@ const PlasticSurgeryDepartment: React.FC = () => {
         {/* Body Section */}
         <section className="mb-16">
           <h2 className="text-3xl font-bold text-gray-900 mb-8">{t('plasticSurgery.body.title')}</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-            {bodyProcedures.map((procedureKey) => (
-              <ProcedureCard key={procedureKey} procedureKey={procedureKey} section="body" />
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4">
+            {bodyProcedures.map((procedure) => (
+              <ProcedureCard 
+                key={procedure.key} 
+                procedureKey={procedure.key} 
+                section="body"
+                IconComponent={procedure.icon}
+              />
             ))}
           </div>
         </section>
@@ -119,10 +139,55 @@ const PlasticSurgeryDepartment: React.FC = () => {
         {/* Breast Section */}
         <section className="mb-16">
           <h2 className="text-3xl font-bold text-gray-900 mb-8">{t('plasticSurgery.breast.title')}</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-5 gap-6">
-            {breastProcedures.map((procedureKey) => (
-              <ProcedureCard key={procedureKey} procedureKey={procedureKey} section="breast" />
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4">
+            {breastProcedures.map((procedure) => (
+              <ProcedureCard 
+                key={procedure.key} 
+                procedureKey={procedure.key} 
+                section="breast"
+                IconComponent={procedure.icon}
+              />
             ))}
+          </div>
+        </section>
+
+        {/* YouTube Videos Section */}
+        <section className="mb-16">
+          <h2 className="text-3xl font-bold text-gray-900 mb-8">{t('plasticSurgery.videos.title', 'Videos')}</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {youtubeVideos && Array.isArray(youtubeVideos) && youtubeVideos.map((video: any, index: number) => {
+              const thumbnail = video.thumbnail || `https://img.youtube.com/vi/${video.id}/maxresdefault.jpg`;
+              return (
+                <div 
+                  key={index} 
+                  className="group relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 cursor-pointer"
+                  onClick={() => window.open(`https://www.youtube.com/watch?v=${video.id}`, '_blank')}
+                >
+                  <div className="relative aspect-video bg-gray-200">
+                    <img
+                      src={thumbnail}
+                      alt={video.title}
+                      className="w-full h-full object-cover"
+                      onError={(e) => {
+                        const target = e.target as HTMLImageElement;
+                        target.onerror = null;
+                        target.src = 'https://placehold.co/800x450/365a74/ffffff?text=Video';
+                      }}
+                    />
+                    <div className="absolute inset-0 bg-black/30 group-hover:bg-black/20 transition-colors duration-300 flex items-center justify-center">
+                      <div className="w-16 h-16 bg-red-600 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                        <svg className="w-8 h-8 text-white ml-1" fill="currentColor" viewBox="0 0 24 24">
+                          <path d="M8 5v14l11-7z"/>
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="p-4 bg-white">
+                    <h3 className="text-lg font-semibold text-gray-900">{video.title}</h3>
+                  </div>
+                </div>
+              );
+            })}
           </div>
         </section>
 

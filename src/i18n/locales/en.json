@@ -160,6 +160,32 @@
         "gynecomastia": "Gynecomastia"
       }
     },
+    "videos": {
+      "title": "Videos",
+      "description": "Watch our procedure videos and patient testimonials",
+      "items": [
+        {
+          "id": "dQw4w9WgXcQ",
+          "title": "Plastic Surgery Overview"
+        },
+        {
+          "id": "dQw4w9WgXcQ",
+          "title": "Face Procedures"
+        },
+        {
+          "id": "dQw4w9WgXcQ",
+          "title": "Body Contouring"
+        },
+        {
+          "id": "dQw4w9WgXcQ",
+          "title": "Breast Procedures"
+        },
+        {
+          "id": "dQw4w9WgXcQ",
+          "title": "Patient Testimonials"
+        }
+      ]
+    },
     "cta": {
       "title": "REQUEST An Appointment",
       "description": "Kindly complete the form, and one of our customer service representatives will reach out to you during our business hours.",
