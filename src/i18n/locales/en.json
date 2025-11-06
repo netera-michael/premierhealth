@@ -209,6 +209,28 @@
       "button": "Request An Appointment"
     }
   },
+  "laser": {
+    "title": "Laser",
+    "description": "Experience the confidence of radiant skin! At our Laser Department, advanced technology meets tailored solutions. Our skilled professionals are committed to helping you achieve smooth, hair-free skin and safely remove unwanted tattoos. We proudly offer our services to females and males, ensuring effective results for all!",
+    "treatments": {
+      "title": "Laser Treatments",
+      "laserHairRemoval": "Laser Hair Removal",
+      "laserTattooRemoval": "Laser Tattoo Removal"
+    },
+    "devices": {
+      "title": "Laser Devices",
+      "cynosure": "Cynosure",
+      "splendorX": "Splendor X",
+      "fotona": "Fotona",
+      "clarityII": "Clarity II",
+      "gentleMaxPro": "GentleMax Pro"
+    },
+    "cta": {
+      "title": "REQUEST An Appointment",
+      "description": "Kindly complete the form, and one of our customer service representatives will reach out to you during our business hours.",
+      "button": "Request An Appointment"
+    }
+  },
   "dermatologyDepartment": {
     "hero": {
       "badge": "Advanced Skin Health Center",
