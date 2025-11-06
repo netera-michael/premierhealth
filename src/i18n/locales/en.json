@@ -864,130 +864,858 @@
         }
       },
       "bodyContouring360": {
-        "description": "360 body contouring is a comprehensive surgical procedure that addresses excess skin and fat around the entire torso.",
-        "details": [
-          "This procedure combines multiple techniques to contour the front, back, and sides of the body.",
-          "It is ideal for individuals who have lost significant weight and have excess skin.",
-          "Recovery time is typically 4-6 weeks, with full results visible after several months.",
-          "Results are transformative, providing a more sculpted and toned body appearance."
-        ]
+        "introDescription": "360 body contouring is a comprehensive surgical procedure designed to address excess skin and fat around the entire torso, creating a more sculpted and toned body appearance from all angles.",
+        "whatIs": [
+          "360 body contouring is a comprehensive surgical procedure that addresses excess skin and fat around the entire torso. This procedure combines multiple techniques to contour the front, back, and sides of the body, providing comprehensive body transformation.",
+          "It is ideal for individuals who have lost significant weight and have excess skin and fat around their midsection. The procedure typically involves a combination of liposuction, skin excision, and muscle tightening to create a more defined and sculpted body contour from all angles."
+        ],
+        "whyHave": [
+          "360 body contouring is sought by individuals who want comprehensive body transformation after significant weight loss. Unlike procedures that address only one area, 360 body contouring addresses the entire torso, creating balanced and harmonious results from every angle."
+        ],
+        "faqs": [
+          {
+            "question": "How is 360 body contouring different from a tummy tuck?",
+            "answer": "360 body contouring addresses the entire torso (front, back, and sides), while a tummy tuck focuses primarily on the front abdomen. 360 body contouring is more comprehensive and is ideal for individuals who need contouring all around their midsection."
+          },
+          {
+            "question": "Can 360 body contouring be done in stages?",
+            "answer": "Yes, depending on the extent of correction needed, 360 body contouring can be performed in stages for safety and optimal results. Your surgeon will discuss the best approach for your specific situation."
+          },
+          {
+            "question": "How long is the recovery from 360 body contouring?",
+            "answer": "Recovery typically takes 4-6 weeks, with full results visible after several months. The recovery period may be longer than single-area procedures due to the comprehensive nature of the surgery."
+          }
+        ],
+        "quickFacts": {
+          "cost": "TBD",
+          "duration": "4-6 hours",
+          "hospitalStay": "Possibly 1-2 nights",
+          "stitchesRemoved": "10-14 days",
+          "socialDowntime": "4-6 weeks"
+        },
+        "afterSurgery": {
+          "downtimeRecovery": "Recovery from 360 body contouring requires patience and careful attention to your surgeon's instructions, as this is a comprehensive procedure affecting multiple areas.",
+          "day1": "You'll have bandages, compression garments, and drains in place. Expect significant swelling, bruising, and discomfort. Keep your body supported and avoid any strenuous movements.",
+          "week1": "Drains are typically removed within the first week. Continue wearing compression garments as directed. Avoid standing straight or engaging in activities that strain your torso.",
+          "weeks2to3": "Most swelling should begin to decrease. You can gradually return to light activities, but continue avoiding heavy lifting and strenuous exercise for at least 6-8 weeks.",
+          "longTerm": "Final results become apparent after 6-12 months once all swelling has completely subsided. Results are transformative, providing a more sculpted and toned body appearance from all angles."
+        },
+        "beforeSurgery": [
+          "Follow pre-operative instructions: Your surgeon will provide detailed instructions including medications to avoid, when to stop eating and drinking, and comprehensive preparation for surgery.",
+          "Arrange for extensive help: You'll need significant assistance during recovery. Arrange for someone to help you for at least the first 1-2 weeks, as mobility will be limited.",
+          "Plan for extended recovery: Prepare for a longer recovery period. Arrange substantial time off work and avoid scheduling any important activities for at least 4-6 weeks."
+        ],
+        "howToPrepare": [
+          {
+            "title": "Comprehensive consultation",
+            "description": "Schedule a thorough consultation with an experienced plastic surgeon. Discuss your goals, have your entire torso evaluated, and understand what 360 body contouring can achieve. This is a major procedure requiring careful planning."
+          },
+          {
+            "title": "Stable weight and health optimization",
+            "description": "It's crucial to be at a stable weight before surgery. Quit smoking at least 6 weeks in advance. Optimize your nutrition and ensure you're in the best possible health for this comprehensive procedure."
+          }
+        ],
+        "eligibility": {
+          "description": "Ideal candidates for 360 body contouring are individuals who have lost significant weight and have excess skin and fat around their entire torso. The procedure is most suitable for those who have achieved stable weight loss and are in good overall health.",
+          "factors": [
+            "Significant weight loss: Candidates should have lost a substantial amount of weight and have excess skin and fat around their entire midsection.",
+            "Stable weight: It's essential to be at a stable weight and maintain it, as weight fluctuations can compromise results.",
+            "Good overall health: Patients must be in excellent health, as this is a major surgical procedure requiring significant recovery."
+          ]
+        }
       },
       "tummyTuck": {
-        "description": "A tummy tuck, or abdominoplasty, is a surgical procedure that removes excess skin and fat from the abdomen and tightens abdominal muscles.",
-        "details": [
-          "This procedure can address loose abdominal skin, stretch marks, and separated abdominal muscles.",
-          "It is ideal for individuals who have lost weight or had multiple pregnancies.",
-          "Recovery time is typically 2-4 weeks, with full results visible after several months.",
-          "Results are long-lasting, providing a flatter, more toned abdomen."
-        ]
+        "introDescription": "A tummy tuck, or abdominoplasty, is a surgical procedure designed to remove excess skin and fat from the abdomen and tighten abdominal muscles, creating a flatter, more toned midsection.",
+        "whatIs": [
+          "A tummy tuck, or abdominoplasty, is a surgical procedure that removes excess skin and fat from the abdomen and tightens abdominal muscles. This procedure can address loose abdominal skin, stretch marks, and separated abdominal muscles (diastasis recti), creating a flatter and more toned appearance.",
+          "The surgery involves making an incision across the lower abdomen, through which excess skin and fat are removed and the abdominal muscles are tightened. The remaining skin is then pulled down and sutured, creating a smoother, flatter abdominal contour. A tummy tuck can be performed as a full or mini procedure depending on the extent of correction needed."
+        ],
+        "whyHave": [
+          "A tummy tuck is sought by individuals who are bothered by loose abdominal skin, excess fat, or separated abdominal muscles that don't respond to diet and exercise. This is common after pregnancy, significant weight loss, or due to aging. The procedure can restore a flatter, more toned abdomen and improve self-confidence."
+        ],
+        "faqs": [
+          {
+            "question": "Can I get pregnant after a tummy tuck?",
+            "answer": "While you can get pregnant after a tummy tuck, it's generally recommended to wait until after you've completed your family. Pregnancy can stretch the abdominal muscles and skin again, potentially compromising the results of your tummy tuck."
+          },
+          {
+            "question": "Will a tummy tuck remove stretch marks?",
+            "answer": "A tummy tuck can remove stretch marks that are located on the skin that is excised (typically below the belly button). Stretch marks above the belly button will remain, though they may appear less noticeable due to the tighter skin."
+          },
+          {
+            "question": "What's the difference between a full and mini tummy tuck?",
+            "answer": "A full tummy tuck addresses the entire abdomen including muscle tightening and removal of excess skin above and below the belly button. A mini tummy tuck focuses on the lower abdomen only and involves less extensive surgery and recovery."
+          }
+        ],
+        "quickFacts": {
+          "cost": "TBD",
+          "duration": "2-4 hours",
+          "hospitalStay": "No",
+          "stitchesRemoved": "10-14 days",
+          "socialDowntime": "2-4 weeks"
+        },
+        "afterSurgery": {
+          "downtimeRecovery": "Recovery from a tummy tuck requires careful attention to activity restrictions and wound care to ensure optimal healing and results.",
+          "day1": "You'll have bandages, compression garments, and drains in place. Expect significant swelling, bruising, and discomfort. Stay slightly bent at the waist to reduce tension on the incision. Keep your abdomen supported.",
+          "week1": "Drains are typically removed within the first week. Continue wearing compression garments as directed. Avoid standing completely straight or engaging in activities that strain the abdominal area.",
+          "weeks2to3": "Most swelling should decrease. You can gradually return to light activities, but continue avoiding heavy lifting, bending, and strenuous exercise for at least 6-8 weeks.",
+          "longTerm": "Final results become apparent after 3-6 months once all swelling has subsided and the incision has fully healed. Results are long-lasting, providing a flatter, more toned abdomen."
+        },
+        "beforeSurgery": [
+          "Follow pre-operative instructions: Your surgeon will provide detailed instructions including medications to avoid, when to stop eating and drinking, and preparation for surgery day.",
+          "Arrange for help: You'll need someone to drive you home and assist you during the initial recovery period, especially with tasks requiring bending or lifting.",
+          "Plan for recovery: Prepare your recovery space with extra pillows for support. Arrange time off work and avoid scheduling important activities for at least 2-4 weeks."
+        ],
+        "howToPrepare": [
+          {
+            "title": "Consultation and planning",
+            "description": "Schedule a comprehensive consultation with an experienced plastic surgeon. Discuss your goals, have your abdomen evaluated, and determine whether a full or mini tummy tuck is best for you."
+          },
+          {
+            "title": "Achieve stable weight",
+            "description": "It's essential to be at or near your ideal weight before surgery. Significant weight fluctuations after surgery can compromise results. If you plan to lose more weight, do so before the procedure."
+          }
+        ],
+        "eligibility": {
+          "description": "Ideal candidates for tummy tuck surgery are individuals with excess abdominal skin and fat, separated abdominal muscles, or both. The procedure is most suitable for those who have completed their family, achieved stable weight, and are in good overall health.",
+          "factors": [
+            "Excess abdominal tissue: Candidates should have noticeable excess skin, fat, or separated muscles in the abdominal area that don't improve with diet and exercise.",
+            "Stable weight: It's essential to be at a stable weight, as significant weight gain after surgery can compromise results.",
+            "Good overall health: Patients should be in good general health with no serious medical conditions that could complicate surgery or recovery."
+          ]
+        }
       },
       "glutealAugmentation": {
-        "description": "Gluteal augmentation, also known as a Brazilian butt lift, enhances the size and shape of the buttocks using implants or fat transfer.",
-        "details": [
-          "This procedure can create a fuller, more rounded buttock appearance.",
-          "It can be performed using silicone implants or the patient's own fat (fat transfer).",
-          "Recovery time is typically 2-3 weeks, with full results visible after several months.",
-          "Results are long-lasting and can significantly enhance body proportions."
-        ]
+        "introDescription": "Gluteal augmentation, also known as a Brazilian butt lift, is a surgical procedure designed to enhance the size and shape of the buttocks using implants or fat transfer, creating a fuller, more rounded appearance.",
+        "whatIs": [
+          "Gluteal augmentation, also known as a Brazilian butt lift, enhances the size and shape of the buttocks using implants or fat transfer. This procedure can create a fuller, more rounded buttock appearance, enhancing body proportions and curves.",
+          "The procedure can be performed using silicone implants, which are surgically placed, or through fat transfer (Brazilian butt lift), where fat is harvested from other areas of your body and injected into the buttocks. Fat transfer is often preferred as it provides a more natural look and feel while also contouring the donor areas."
+        ],
+        "whyHave": [
+          "Gluteal augmentation is sought by individuals who want to enhance their buttock size and shape for improved body proportions. The procedure can create a more curvaceous silhouette, enhance body confidence, and help achieve the desired hourglass figure."
+        ],
+        "faqs": [
+          {
+            "question": "What's the difference between gluteal implants and fat transfer?",
+            "answer": "Gluteal implants use silicone implants to add volume, while fat transfer (Brazilian butt lift) uses your own fat harvested from other areas. Fat transfer provides a more natural look and also contours the donor areas, but results may vary as some fat may be reabsorbed."
+          },
+          {
+            "question": "How long do gluteal augmentation results last?",
+            "answer": "Results from implants are permanent. Fat transfer results are long-lasting, as the fat that survives the transfer becomes permanent. However, some fat may be reabsorbed in the first few months, so your surgeon may overfill slightly to account for this."
+          },
+          {
+            "question": "What are the risks of gluteal augmentation?",
+            "answer": "As with any surgery, there are risks including infection, bleeding, and complications. For fat transfer, there's a risk of fat embolism if fat is injected too deeply. It's crucial to choose a qualified, experienced surgeon who follows proper safety protocols."
+          }
+        ],
+        "quickFacts": {
+          "cost": "TBD",
+          "duration": "2-4 hours",
+          "hospitalStay": "No",
+          "stitchesRemoved": "7-10 days",
+          "socialDowntime": "2-3 weeks"
+        },
+        "afterSurgery": {
+          "downtimeRecovery": "Recovery from gluteal augmentation requires special care, especially for fat transfer procedures, to ensure the transferred fat survives and optimal results are achieved.",
+          "day1": "You'll have bandages and possibly drains in place. For fat transfer, you'll need to avoid sitting directly on your buttocks for the first 2-3 weeks. Use special pillows or cushions when you must sit. Expect swelling and discomfort.",
+          "week1": "Continue avoiding direct pressure on the buttocks. Sleep on your stomach or side. Wear compression garments as directed. Avoid sitting for extended periods.",
+          "weeks2to3": "You can gradually begin sitting with a special cushion, but continue avoiding prolonged sitting. Most swelling should decrease. You can return to light activities, but avoid strenuous exercise.",
+          "longTerm": "Final results become apparent after 3-6 months once all swelling has subsided and the final shape has settled. For fat transfer, the final volume will be determined after the initial reabsorption period. Results are long-lasting."
+        },
+        "beforeSurgery": [
+          "Follow pre-operative instructions: Your surgeon will provide detailed instructions including medications to avoid, when to stop eating and drinking, and preparation for surgery.",
+          "Arrange for help: You'll need someone to drive you home and assist you during recovery. For fat transfer, you'll need special cushions and pillows for sitting.",
+          "Plan for recovery: Prepare for limited sitting ability. Arrange time off work and ensure you have the necessary support cushions and recovery supplies."
+        ],
+        "howToPrepare": [
+          {
+            "title": "Consultation and planning",
+            "description": "Schedule a comprehensive consultation with an experienced plastic surgeon. Discuss your goals, understand the differences between implants and fat transfer, and determine which approach is best for you."
+          },
+          {
+            "title": "Maintain stable weight",
+            "description": "For fat transfer, having adequate donor fat is important. Maintain a stable weight and discuss with your surgeon whether you have enough fat for the procedure. For implants, stable weight helps ensure long-lasting results."
+          }
+        ],
+        "eligibility": {
+          "description": "Ideal candidates for gluteal augmentation are individuals who want to enhance their buttock size and shape. For fat transfer, having adequate donor fat is important. Good overall health and realistic expectations are essential.",
+          "factors": [
+            "Desire for enhancement: Candidates should have a clear desire to enhance their buttock size and shape for improved body proportions.",
+            "Adequate donor fat (for fat transfer): For Brazilian butt lift, having enough fat in donor areas (abdomen, thighs, etc.) is necessary.",
+            "Good overall health: Patients should be in good general health with no serious medical conditions that could complicate surgery or recovery."
+          ]
+        }
       },
       "thighLift": {
-        "description": "A thigh lift is a surgical procedure that removes excess skin and fat from the thighs to create a smoother, more toned appearance.",
-        "details": [
-          "This procedure can address sagging skin on the inner or outer thighs, often after weight loss.",
-          "It involves removing excess tissue and tightening the remaining skin.",
-          "Recovery time is typically 2-3 weeks, with full results visible after several months.",
-          "Results are long-lasting, providing improved thigh contour and appearance."
-        ]
+        "introDescription": "A thigh lift is a surgical procedure designed to remove excess skin and fat from the thighs, creating a smoother, more toned and youthful appearance.",
+        "whatIs": [
+          "A thigh lift is a surgical procedure that removes excess skin and fat from the thighs to create a smoother, more toned appearance. This procedure can address sagging skin on the inner or outer thighs, often after significant weight loss or due to aging.",
+          "The surgery involves making incisions (typically in the groin area for inner thigh lift or along the upper thigh for outer thigh lift), through which excess skin and fat are removed. The remaining skin is then tightened and sutured, creating improved thigh contour and appearance."
+        ],
+        "whyHave": [
+          "A thigh lift is sought by individuals who are bothered by sagging or excess skin on their thighs, often after significant weight loss. This condition can cause discomfort, chafing, and self-consciousness. The procedure can restore confidence and allow you to wear shorts, skirts, and swimwear comfortably."
+        ],
+        "faqs": [
+          {
+            "question": "Will I have visible scars after a thigh lift?",
+            "answer": "Yes, there will be scars, but your surgeon will place them in the most inconspicuous locations possible (typically in the groin crease for inner thigh lift). With proper healing and care, scars typically fade significantly over time."
+          },
+          {
+            "question": "Can a thigh lift be combined with other procedures?",
+            "answer": "Yes, thigh lifts are often combined with other body contouring procedures such as tummy tuck, body lift, or liposuction as part of a comprehensive body transformation, especially after significant weight loss."
+          },
+          {
+            "question": "How long do thigh lift results last?",
+            "answer": "Results are long-lasting, but maintaining a stable weight is crucial. Significant weight gain can cause the remaining skin to stretch again. The procedure permanently removes excess skin and fat, providing lasting improvements."
+          }
+        ],
+        "quickFacts": {
+          "cost": "TBD",
+          "duration": "2-3 hours",
+          "hospitalStay": "No",
+          "stitchesRemoved": "10-14 days",
+          "socialDowntime": "2-3 weeks"
+        },
+        "afterSurgery": {
+          "downtimeRecovery": "Recovery from a thigh lift requires careful attention to activity restrictions and wound care to ensure optimal healing and minimize scarring.",
+          "day1": "You'll have bandages, compression garments, and possibly drains in place. Expect swelling, bruising, and discomfort in the thigh area. Keep your legs elevated when possible and avoid standing for long periods.",
+          "week1": "Drains are typically removed within the first week. Continue wearing compression garments as directed. Avoid activities that strain the thighs, such as walking long distances or climbing stairs excessively.",
+          "weeks2to3": "Most swelling should decrease. You can gradually return to light activities, but continue avoiding strenuous exercise, heavy lifting, and activities that strain the thighs for at least 4-6 weeks.",
+          "longTerm": "Final results become apparent after 3-6 months once all swelling has subsided and scars have begun to fade. Results are long-lasting, providing improved thigh contour and appearance."
+        },
+        "beforeSurgery": [
+          "Follow pre-operative instructions: Your surgeon will provide detailed instructions including medications to avoid, when to stop eating and drinking, and preparation for surgery day.",
+          "Arrange for help: You'll need someone to drive you home and assist you during the initial recovery period, especially with mobility and daily tasks.",
+          "Plan for recovery: Prepare for limited mobility initially. Arrange time off work and avoid scheduling activities that require extensive walking or standing for at least 2-3 weeks."
+        ],
+        "howToPrepare": [
+          {
+            "title": "Consultation and evaluation",
+            "description": "Schedule a comprehensive consultation with an experienced plastic surgeon. Discuss your goals, have your thighs evaluated, and understand what a thigh lift can achieve for you."
+          },
+          {
+            "title": "Maintain stable weight",
+            "description": "It's crucial to be at a stable weight before surgery. Significant weight fluctuations after surgery can affect the results and may require revision surgery."
+          }
+        ],
+        "eligibility": {
+          "description": "Ideal candidates for thigh lift surgery are individuals with significant excess skin and fat on the thighs, often after major weight loss. Good overall health and realistic expectations are important factors.",
+          "factors": [
+            "Excess thigh skin: Candidates should have noticeable sagging or excess skin on the inner or outer thighs that doesn't improve with exercise.",
+            "Stable weight: It's essential to be at a stable weight and maintain it, as significant weight gain can compromise results.",
+            "Good overall health: Patients should be in good general health with no serious medical conditions that could complicate surgery or recovery."
+          ]
+        }
       },
       "mommyMakeover": {
-        "description": "A mommy makeover is a combination of cosmetic procedures designed to restore a woman's body after pregnancy and childbirth.",
-        "details": [
-          "This typically includes a tummy tuck, breast augmentation or lift, and liposuction.",
-          "Procedures are customized based on individual needs and goals.",
-          "Recovery time varies depending on the procedures performed, typically 2-4 weeks.",
-          "Results can be transformative, helping women regain their pre-pregnancy body confidence."
-        ]
+        "introDescription": "A mommy makeover is a customized combination of cosmetic procedures designed to restore a woman's body after pregnancy and childbirth, helping women regain their pre-pregnancy body confidence.",
+        "whatIs": [
+          "A mommy makeover is a combination of cosmetic procedures designed to restore a woman's body after pregnancy and childbirth. This typically includes a tummy tuck, breast augmentation or lift, and liposuction, though procedures are customized based on individual needs and goals.",
+          "The combination of procedures addresses the most common concerns women have after pregnancy: loose abdominal skin and separated muscles, sagging or deflated breasts, and stubborn fat deposits. By combining procedures, women can achieve comprehensive body transformation in a single recovery period."
+        ],
+        "whyHave": [
+          "A mommy makeover is sought by women who want to restore their pre-pregnancy body after having children. Pregnancy and childbirth can cause significant changes to the body that don't respond well to diet and exercise alone. The procedure can help women regain confidence and feel like themselves again."
+        ],
+        "faqs": [
+          {
+            "question": "What procedures are typically included in a mommy makeover?",
+            "answer": "A mommy makeover is customized but typically includes a tummy tuck, breast augmentation or lift, and liposuction. Additional procedures such as labiaplasty or thigh lift may be included based on individual needs."
+          },
+          {
+            "question": "Can I have more children after a mommy makeover?",
+            "answer": "While you can have more children after a mommy makeover, it's generally recommended to wait until after you've completed your family. Pregnancy can compromise the results of procedures like tummy tuck and breast augmentation."
+          },
+          {
+            "question": "How long is the recovery from a mommy makeover?",
+            "answer": "Recovery time varies depending on the procedures performed, typically 2-4 weeks for initial recovery. Full results may take several months to become apparent as all swelling subsides."
+          }
+        ],
+        "quickFacts": {
+          "cost": "TBD",
+          "duration": "4-6 hours",
+          "hospitalStay": "Possibly 1 night",
+          "stitchesRemoved": "10-14 days",
+          "socialDowntime": "2-4 weeks"
+        },
+        "afterSurgery": {
+          "downtimeRecovery": "Recovery from a mommy makeover requires careful attention to multiple surgical sites. The recovery period may be more extensive than single procedures due to the combination of surgeries.",
+          "day1": "You'll have bandages, compression garments, and drains in place. Expect significant swelling, bruising, and discomfort. You'll need to stay slightly bent at the waist and avoid lifting or strenuous activities. Arrange for help with childcare.",
+          "week1": "Drains are typically removed within the first week. Continue wearing compression garments as directed. Avoid lifting, bending, and any strenuous activities. You'll need continued help with daily tasks and childcare.",
+          "weeks2to3": "Most swelling should decrease. You can gradually return to light activities, but continue avoiding heavy lifting, strenuous exercise, and activities that strain the surgical areas for at least 6-8 weeks.",
+          "longTerm": "Final results become apparent after 3-6 months once all swelling has subsided. Results can be transformative, helping women regain their pre-pregnancy body confidence and feel like themselves again."
+        },
+        "beforeSurgery": [
+          "Follow pre-operative instructions: Your surgeon will provide comprehensive instructions including medications to avoid, when to stop eating and drinking, and detailed preparation for surgery.",
+          "Arrange for extensive help: You'll need significant assistance during recovery, especially with childcare. Arrange for help for at least the first 2-3 weeks, as you'll have limited mobility and lifting restrictions.",
+          "Plan for extended recovery: Prepare for a longer recovery period. Arrange substantial time off work and ensure you have support for childcare and household tasks for at least 2-4 weeks."
+        ],
+        "howToPrepare": [
+          {
+            "title": "Comprehensive consultation",
+            "description": "Schedule a thorough consultation with an experienced plastic surgeon. Discuss your goals, have your body evaluated, and create a customized treatment plan that addresses all your concerns. This is a major procedure requiring careful planning."
+          },
+          {
+            "title": "Complete your family",
+            "description": "It's generally recommended to complete your family before undergoing a mommy makeover, as future pregnancies can compromise the results. If you're planning more children, consider waiting."
+          }
+        ],
+        "eligibility": {
+          "description": "Ideal candidates for mommy makeover are women who have completed their families and want to restore their pre-pregnancy body. The procedure is most suitable for those who have achieved stable weight and are in good overall health.",
+          "factors": [
+            "Completed family: It's generally recommended to complete your family before the procedure, as future pregnancies can compromise results.",
+            "Stable weight: It's essential to be at a stable weight, as significant weight fluctuations can affect the results.",
+            "Good overall health: Patients must be in excellent health, as this involves multiple surgical procedures requiring significant recovery."
+          ]
+        }
       },
       "bodyLiftSurgery": {
-        "description": "Body lift surgery is a comprehensive procedure that removes excess skin and fat from multiple areas of the body after significant weight loss.",
-        "details": [
-          "This procedure addresses loose, hanging skin on the abdomen, thighs, buttocks, and arms.",
-          "It can be performed in stages or as a single comprehensive procedure.",
-          "Recovery time is typically 4-6 weeks, with full results visible after several months.",
-          "Results are transformative, providing a more contoured and toned body appearance."
-        ]
+        "introDescription": "Body lift surgery is a comprehensive procedure designed to remove excess skin and fat from multiple areas of the body after significant weight loss, creating a more contoured and toned appearance.",
+        "whatIs": [
+          "Body lift surgery is a comprehensive procedure that removes excess skin and fat from multiple areas of the body after significant weight loss. This procedure addresses loose, hanging skin on the abdomen, thighs, buttocks, and arms, providing comprehensive body transformation.",
+          "It can be performed in stages or as a single comprehensive procedure, depending on the extent of correction needed and patient safety considerations. The surgery typically combines techniques from tummy tuck, thigh lift, and arm lift procedures to address the entire body."
+        ],
+        "whyHave": [
+          "Body lift surgery is sought by individuals who have lost significant weight and are left with excess, hanging skin that causes discomfort, hygiene issues, and self-consciousness. The procedure can improve comfort, mobility, and quality of life while dramatically improving body appearance."
+        ],
+        "faqs": [
+          {
+            "question": "Can body lift surgery be done in one procedure?",
+            "answer": "Depending on the extent of correction needed, body lift surgery can be performed as a single comprehensive procedure or in stages. Your surgeon will determine the safest and most effective approach based on your specific situation and health."
+          },
+          {
+            "question": "How long is the recovery from body lift surgery?",
+            "answer": "Recovery typically takes 4-6 weeks for initial healing, with full results visible after several months. The recovery period may be longer than single-area procedures due to the comprehensive nature of the surgery."
+          },
+          {
+            "question": "Will I have visible scars after body lift surgery?",
+            "answer": "Yes, there will be scars, but your surgeon will place them in the most inconspicuous locations possible. Scars typically fade significantly over time with proper care and healing."
+          }
+        ],
+        "quickFacts": {
+          "cost": "TBD",
+          "duration": "5-8 hours",
+          "hospitalStay": "Possibly 1-2 nights",
+          "stitchesRemoved": "10-14 days",
+          "socialDowntime": "4-6 weeks"
+        },
+        "afterSurgery": {
+          "downtimeRecovery": "Recovery from body lift surgery is extensive, requiring careful attention to multiple surgical sites and activity restrictions.",
+          "day1": "You'll have bandages, compression garments, and multiple drains in place. Expect significant swelling, bruising, and discomfort. Keep your body supported and avoid any strenuous movements. You'll need extensive help with daily activities.",
+          "week1": "Drains are typically removed within the first week. Continue wearing compression garments as directed. Avoid standing straight or engaging in activities that strain your body. Mobility will be significantly limited.",
+          "weeks2to3": "Most swelling should begin to decrease. You can gradually return to very light activities, but continue avoiding heavy lifting, bending, and strenuous exercise for at least 6-8 weeks.",
+          "longTerm": "Final results become apparent after 6-12 months once all swelling has completely subsided. Results are transformative, providing a more contoured and toned body appearance."
+        },
+        "beforeSurgery": [
+          "Follow pre-operative instructions: Your surgeon will provide comprehensive instructions including medications to avoid, when to stop eating and drinking, and detailed preparation for this major surgery.",
+          "Arrange for extensive help: You'll need significant assistance during recovery. Arrange for someone to help you for at least the first 2-3 weeks, as mobility will be very limited.",
+          "Plan for extended recovery: Prepare for a longer recovery period. Arrange substantial time off work and avoid scheduling any important activities for at least 4-6 weeks."
+        ],
+        "howToPrepare": [
+          {
+            "title": "Comprehensive consultation and planning",
+            "description": "Schedule a thorough consultation with an experienced plastic surgeon. Discuss your goals, have your entire body evaluated, and understand what body lift surgery can achieve. This is a major procedure requiring extensive planning and preparation."
+          },
+          {
+            "title": "Stable weight and health optimization",
+            "description": "It's crucial to be at a stable weight before surgery. Quit smoking at least 6 weeks in advance. Optimize your nutrition and ensure you're in the best possible health for this comprehensive procedure."
+          }
+        ],
+        "eligibility": {
+          "description": "Ideal candidates for body lift surgery are individuals who have lost significant weight and have excess skin on multiple areas of the body. The procedure is most suitable for those who have achieved stable weight loss and are in excellent overall health.",
+          "factors": [
+            "Significant weight loss: Candidates should have lost a substantial amount of weight and have excess skin on multiple areas (abdomen, thighs, buttocks, arms).",
+            "Stable weight: It's essential to be at a stable weight and maintain it, as weight fluctuations can compromise results.",
+            "Excellent health: Patients must be in excellent health, as this is a major surgical procedure requiring significant recovery and healing capacity."
+          ]
+        }
       },
       "jPlasma": {
-        "description": "J-Plasma, also known as Renuvion, is a minimally invasive procedure that uses cold plasma energy to tighten skin and reduce fat.",
-        "details": [
-          "This procedure can be used on the face, neck, and body to improve skin laxity.",
-          "It combines helium plasma with radiofrequency energy for precise skin tightening.",
-          "Recovery time is typically 3-5 days, with results visible immediately and improving over time.",
-          "Results are long-lasting and can provide significant skin tightening without major surgery."
-        ]
+        "introDescription": "J-Plasma, also known as Renuvion, is a minimally invasive procedure that uses cold plasma energy to tighten skin and reduce fat, providing significant skin tightening without major surgery.",
+        "whatIs": [
+          "J-Plasma, also known as Renuvion, is a minimally invasive procedure that uses cold plasma energy to tighten skin and reduce fat. This procedure can be used on the face, neck, and body to improve skin laxity, providing significant skin tightening without the need for major surgery.",
+          "It combines helium plasma with radiofrequency energy for precise skin tightening. The procedure is often performed in conjunction with liposuction to both remove fat and tighten the overlying skin, providing comprehensive body contouring with minimal downtime."
+        ],
+        "whyHave": [
+          "J-Plasma is sought by individuals who want skin tightening without the extensive surgery and recovery of traditional procedures. It's particularly beneficial for those with mild to moderate skin laxity who want improvement but aren't ready for major surgery."
+        ],
+        "faqs": [
+          {
+            "question": "How does J-Plasma differ from traditional skin tightening procedures?",
+            "answer": "J-Plasma is minimally invasive with much shorter recovery time compared to traditional surgical procedures. It uses cold plasma technology to tighten skin from the inside, often in combination with liposuction for comprehensive contouring."
+          },
+          {
+            "question": "How long do J-Plasma results last?",
+            "answer": "Results are long-lasting, though they may not be as dramatic or permanent as surgical procedures. The skin tightening effects can last several years, but natural aging will continue. Maintenance treatments may be recommended."
+          },
+          {
+            "question": "Is J-Plasma painful?",
+            "answer": "J-Plasma is typically performed under local anesthesia with sedation, so discomfort during the procedure is minimal. Post-procedure, you may experience some swelling, bruising, and mild discomfort, but recovery is much quicker than traditional surgery."
+          }
+        ],
+        "quickFacts": {
+          "cost": "TBD",
+          "duration": "1-2 hours",
+          "hospitalStay": "No",
+          "stitchesRemoved": "N/A",
+          "socialDowntime": "3-5 days"
+        },
+        "afterSurgery": {
+          "downtimeRecovery": "Recovery from J-Plasma is typically quick and straightforward, with most patients able to return to normal activities within a few days.",
+          "day1": "You may have compression garments in place. Expect some swelling, mild bruising, and slight discomfort. Follow your surgeon's care instructions and wear compression garments as directed.",
+          "week1": "Most swelling should decrease. Continue wearing compression garments as directed. You can return to most normal activities, but avoid strenuous exercise.",
+          "weeks2to3": "Swelling should continue to decrease, and you'll begin to see initial results. You can resume all normal activities. Results will continue to improve over the coming weeks and months.",
+          "longTerm": "Final results become apparent after 3-6 months as the skin continues to tighten. Results are long-lasting, providing significant skin tightening without the downtime of major surgery."
+        },
+        "beforeSurgery": [
+          "Follow pre-operative instructions: Your surgeon will provide instructions including medications to avoid and what to expect on the day of the procedure.",
+          "Arrange for transportation: You'll need someone to drive you home after the procedure, as you may be under sedation.",
+          "Plan for recovery: Prepare for wearing compression garments and some initial swelling. Recovery is typically quick, but ensure you have a few days to rest."
+        ],
+        "howToPrepare": [
+          {
+            "title": "Consultation and evaluation",
+            "description": "Schedule a consultation with a qualified plastic surgeon. Discuss your goals, have your skin evaluated, and determine if J-Plasma is the right option for you or if you'd benefit more from traditional surgery."
+          },
+          {
+            "title": "Understand expectations",
+            "description": "Understand that J-Plasma provides skin tightening but may not achieve the same dramatic results as surgical procedures. Discuss realistic expectations with your surgeon."
+          }
+        ],
+        "eligibility": {
+          "description": "Ideal candidates for J-Plasma are individuals with mild to moderate skin laxity who want improvement without major surgery. The procedure is most suitable for those with good overall health and realistic expectations.",
+          "factors": [
+            "Mild to moderate skin laxity: Candidates should have some skin laxity but not severe excess skin that would require surgical removal.",
+            "Good overall health: Patients should be in good general health with no serious medical conditions that could complicate the procedure.",
+            "Realistic expectations: Understanding what J-Plasma can achieve compared to surgical procedures is important for satisfaction."
+          ]
+        }
       },
       "fatGrafting": {
-        "description": "Fat grafting, also known as fat transfer, is a procedure that uses your own fat to enhance or restore volume in various areas of the body.",
-        "details": [
-          "Fat is harvested from one area of the body and injected into another area to add volume.",
-          "Common areas include the face, breasts, and buttocks.",
-          "Recovery time is typically 1-2 weeks, with full results visible after several months.",
-          "Results are natural-looking and long-lasting, as the transferred fat becomes permanent."
-        ]
+        "introDescription": "Fat grafting, also known as fat transfer, is a procedure that uses your own fat to enhance or restore volume in various areas of the body, providing natural-looking and long-lasting results.",
+        "whatIs": [
+          "Fat grafting, also known as fat transfer, is a procedure that uses your own fat to enhance or restore volume in various areas of the body. Fat is harvested from one area of the body (donor site) through liposuction and then injected into another area (recipient site) to add volume.",
+          "Common areas for fat transfer include the face (for facial rejuvenation), breasts (for natural breast augmentation), and buttocks (for Brazilian butt lift). The procedure provides natural-looking results since it uses your own tissue, and the transferred fat that survives becomes permanent."
+        ],
+        "whyHave": [
+          "Fat grafting is sought by individuals who want to add volume or restore lost volume using their own natural tissue. It's preferred by many because it avoids foreign materials (like implants) and provides natural-looking results. The procedure also has the added benefit of contouring the donor area."
+        ],
+        "faqs": [
+          {
+            "question": "How long do fat grafting results last?",
+            "answer": "The fat that survives the transfer becomes permanent. However, some fat (typically 30-50%) may be reabsorbed by the body in the first few months. Your surgeon may overfill slightly to account for this expected reabsorption."
+          },
+          {
+            "question": "Can fat grafting be combined with other procedures?",
+            "answer": "Yes, fat grafting is often combined with other procedures. For example, it's commonly combined with liposuction (using the harvested fat for transfer) or with facelifts, breast lifts, or other procedures for comprehensive enhancement."
+          },
+          {
+            "question": "What areas can be used as donor sites for fat grafting?",
+            "answer": "Common donor sites include the abdomen, thighs, flanks, and love handles. Your surgeon will evaluate your body to determine the best donor sites based on where you have adequate fat and where you'd like contouring."
+          }
+        ],
+        "quickFacts": {
+          "cost": "TBD",
+          "duration": "2-4 hours",
+          "hospitalStay": "No",
+          "stitchesRemoved": "Self-dissolving",
+          "socialDowntime": "1-2 weeks"
+        },
+        "afterSurgery": {
+          "downtimeRecovery": "Recovery from fat grafting involves healing at both the donor and recipient sites. Recovery time varies depending on the areas treated.",
+          "day1": "You'll have compression garments on donor sites and possibly bandages on recipient sites. Expect swelling, bruising, and discomfort at both sites. Follow your surgeon's specific care instructions for each area.",
+          "week1": "Swelling should begin to decrease. Continue wearing compression garments on donor sites as directed. For certain recipient sites (like buttocks), you may need to avoid direct pressure. Follow your surgeon's specific instructions.",
+          "weeks2to3": "Most swelling should subside. You can gradually return to normal activities, but continue following your surgeon's instructions regarding pressure on recipient sites. Initial results will be visible, though some volume may decrease as fat is reabsorbed.",
+          "longTerm": "Final results become apparent after 3-6 months once all swelling has subsided and the final fat survival is determined. The fat that survives becomes permanent, providing natural-looking, long-lasting results."
+        },
+        "beforeSurgery": [
+          "Follow pre-operative instructions: Your surgeon will provide detailed instructions including medications to avoid, when to stop eating and drinking, and preparation for the procedure.",
+          "Arrange for help: You'll need someone to drive you home after the procedure. Having assistance for the first few days is recommended, especially if multiple areas are treated.",
+          "Plan for recovery: Prepare for recovery at both donor and recipient sites. For certain procedures (like Brazilian butt lift), you'll need special cushions for sitting."
+        ],
+        "howToPrepare": [
+          {
+            "title": "Consultation and planning",
+            "description": "Schedule a comprehensive consultation with a qualified plastic surgeon. Discuss your goals, have your body evaluated for adequate donor fat, and understand what fat grafting can achieve for you."
+          },
+          {
+            "title": "Maintain stable weight",
+            "description": "It's important to maintain a stable weight before the procedure. Having adequate donor fat is essential, and weight fluctuations can affect both the donor and recipient sites."
+          }
+        ],
+        "eligibility": {
+          "description": "Ideal candidates for fat grafting are individuals who want to add volume using their own natural tissue and have adequate donor fat available. Good overall health and realistic expectations are important.",
+          "factors": [
+            "Adequate donor fat: Candidates should have enough fat in donor areas (abdomen, thighs, etc.) to harvest for transfer.",
+            "Desire for natural enhancement: Individuals who prefer using their own tissue rather than implants are ideal candidates.",
+            "Good overall health: Patients should be in good general health with no serious medical conditions that could complicate the procedure or recovery."
+          ]
+        }
       },
       "liposuction": {
-        "description": "Liposuction is a surgical procedure that removes excess fat from specific areas of the body to improve contours and proportions.",
-        "details": [
-          "This procedure can target areas such as the abdomen, thighs, arms, and neck.",
-          "It is not a weight loss solution but rather a body contouring procedure.",
-          "Recovery time is typically 1-2 weeks, with full results visible after several months.",
-          "Results are permanent, as fat cells are permanently removed from treated areas."
-        ]
+        "introDescription": "Liposuction is a surgical procedure designed to remove excess fat from specific areas of the body to improve contours and proportions, creating a more sculpted appearance.",
+        "whatIs": [
+          "Liposuction is a surgical procedure that removes excess fat from specific areas of the body to improve contours and proportions. This procedure can target areas such as the abdomen, thighs, arms, neck, back, and flanks, creating a more sculpted and defined appearance.",
+          "It is not a weight loss solution but rather a body contouring procedure. Liposuction removes stubborn fat deposits that don't respond well to diet and exercise. The procedure involves making small incisions, inserting a thin cannula, and suctioning out excess fat cells."
+        ],
+        "whyHave": [
+          "Liposuction is sought by individuals who have stubborn fat deposits that don't respond to diet and exercise. The procedure can help create a more defined body contour, improve proportions, and enhance self-confidence. It's particularly effective for targeting specific problem areas."
+        ],
+        "faqs": [
+          {
+            "question": "Is liposuction a weight loss procedure?",
+            "answer": "No, liposuction is not a weight loss solution. It's a body contouring procedure that removes localized fat deposits. Ideal candidates are at or near their ideal weight with specific problem areas they want to address."
+          },
+          {
+            "question": "Will the fat come back after liposuction?",
+            "answer": "The fat cells removed during liposuction are permanently gone. However, remaining fat cells can still enlarge if you gain weight. Maintaining a stable weight through diet and exercise is important to preserve results."
+          },
+          {
+            "question": "Can liposuction be combined with other procedures?",
+            "answer": "Yes, liposuction is often combined with other procedures such as tummy tuck, breast augmentation, or body lift for comprehensive body contouring. It's also commonly combined with fat transfer procedures."
+          }
+        ],
+        "quickFacts": {
+          "cost": "TBD",
+          "duration": "1-3 hours",
+          "hospitalStay": "No",
+          "stitchesRemoved": "Self-dissolving",
+          "socialDowntime": "1-2 weeks"
+        },
+        "afterSurgery": {
+          "downtimeRecovery": "Recovery from liposuction is typically straightforward, with most patients able to return to normal activities within 1-2 weeks.",
+          "day1": "You'll have compression garments in place. Expect swelling, bruising, and some discomfort in the treated areas. Wear compression garments as directed to help with healing and contouring.",
+          "week1": "Swelling should begin to decrease. Continue wearing compression garments as directed. You can return to light activities, but avoid strenuous exercise.",
+          "weeks2to3": "Most swelling should subside, and you'll begin to see initial results. You can resume all normal activities. The final contour will continue to refine over the coming weeks and months.",
+          "longTerm": "Final results become apparent after 3-6 months once all swelling has completely subsided. Results are permanent, as the fat cells are permanently removed. Maintaining a stable weight helps preserve results."
+        },
+        "beforeSurgery": [
+          "Follow pre-operative instructions: Your surgeon will provide detailed instructions including medications to avoid, when to stop eating and drinking, and what to expect on the day of the procedure.",
+          "Arrange for help: You'll need someone to drive you home after the procedure. Having assistance for the first 24-48 hours is recommended.",
+          "Plan for recovery: Prepare for wearing compression garments and some initial swelling. Ensure you have time to rest for a few days to a week."
+        ],
+        "howToPrepare": [
+          {
+            "title": "Consultation and evaluation",
+            "description": "Schedule a comprehensive consultation with a qualified plastic surgeon. Discuss your goals, have your body evaluated, and determine which areas would benefit most from liposuction."
+          },
+          {
+            "title": "Achieve stable weight",
+            "description": "It's best to be at or near your ideal weight before liposuction. The procedure works best for individuals who are close to their target weight but have stubborn fat deposits that don't respond to diet and exercise."
+          }
+        ],
+        "eligibility": {
+          "description": "Ideal candidates for liposuction are individuals at or near their ideal weight who have stubborn fat deposits that don't respond to diet and exercise. Good skin elasticity is important for optimal results.",
+          "factors": [
+            "Stubborn fat deposits: Candidates should have specific areas of excess fat that don't improve with diet and exercise.",
+            "Near ideal weight: It's best to be at or near your ideal weight, as liposuction is not a weight loss solution.",
+            "Good skin elasticity: Patients with good skin elasticity will achieve the best results, as the skin needs to contract after fat removal."
+          ]
+        }
       },
       "breastImplantRemoval": {
-        "description": "Breast implant removal is a surgical procedure to remove previously placed breast implants, with or without replacement.",
-        "details": [
-          "This procedure may be performed for medical reasons, aesthetic preferences, or implant complications.",
-          "It can be combined with a breast lift to restore natural breast appearance.",
-          "Recovery time is typically 1-2 weeks, with full results visible after several months.",
-          "Results provide a return to natural breast appearance or improved breast shape."
-        ]
+        "introDescription": "Breast implant removal is a surgical procedure designed to remove previously placed breast implants, with or without replacement, addressing medical concerns, aesthetic preferences, or implant complications.",
+        "whatIs": [
+          "Breast implant removal is a surgical procedure to remove previously placed breast implants, with or without replacement. This procedure may be performed for medical reasons (such as implant complications, capsular contracture, or health concerns), aesthetic preferences (wanting a more natural look), or implant complications.",
+          "The procedure involves removing the implants and, in some cases, the surrounding scar tissue (capsule). It can be combined with a breast lift to restore natural breast appearance and improve breast shape after implant removal. The surgeon will discuss whether to replace the implants or remove them permanently."
+        ],
+        "whyHave": [
+          "Breast implant removal is sought by women who want to remove their implants for various reasons, including health concerns, aesthetic preferences, implant complications, or simply wanting a more natural appearance. The procedure can provide peace of mind and restore a more natural breast appearance."
+        ],
+        "faqs": [
+          {
+            "question": "Will my breasts look natural after implant removal?",
+            "answer": "After implant removal, your breasts may appear smaller, deflated, or saggy depending on how long you had the implants and your natural breast tissue. Many women choose to combine implant removal with a breast lift to restore a more youthful, natural appearance."
+          },
+          {
+            "question": "Can I get new implants after removal?",
+            "answer": "Yes, you can choose to have new implants placed during the same procedure or in a future procedure. Your surgeon will discuss your options and help you decide whether to replace, remove, or combine removal with a breast lift."
+          },
+          {
+            "question": "What happens to the scar tissue (capsule) around the implant?",
+            "answer": "Your surgeon may remove the capsule (capsulectomy) or leave it in place, depending on your specific situation. If there are concerns about the capsule, it's typically removed. Your surgeon will discuss the best approach for you."
+          }
+        ],
+        "quickFacts": {
+          "cost": "TBD",
+          "duration": "1-3 hours",
+          "hospitalStay": "No",
+          "stitchesRemoved": "7-10 days",
+          "socialDowntime": "1-2 weeks"
+        },
+        "afterSurgery": {
+          "downtimeRecovery": "Recovery from breast implant removal is typically straightforward, though it may be combined with a breast lift for optimal results.",
+          "day1": "You'll have bandages and possibly drains in place. Expect swelling, bruising, and some discomfort. Wear a supportive bra as directed and avoid lifting or strenuous activities.",
+          "week1": "Drains are typically removed within the first week. Continue wearing a supportive bra. Most swelling should begin to decrease. Avoid lifting and strenuous activities.",
+          "weeks2to3": "Most swelling should subside, and you'll begin to see the initial results. You can gradually return to normal activities, but continue avoiding strenuous exercise for at least 4-6 weeks.",
+          "longTerm": "Final results become apparent after 3-6 months once all swelling has subsided. If combined with a breast lift, the final shape will be more apparent as healing completes."
+        },
+        "beforeSurgery": [
+          "Follow pre-operative instructions: Your surgeon will provide detailed instructions including medications to avoid, when to stop eating and drinking, and preparation for surgery day.",
+          "Arrange for help: You'll need someone to drive you home after surgery. Having assistance for the first 24-48 hours is recommended.",
+          "Plan for recovery: Prepare for some initial swelling and discomfort. Arrange time off work and ensure you have supportive bras and comfortable clothing."
+        ],
+        "howToPrepare": [
+          {
+            "title": "Consultation and planning",
+            "description": "Schedule a comprehensive consultation with an experienced plastic surgeon. Discuss your reasons for removal, your goals, and whether you want to combine removal with a breast lift or other procedures."
+          },
+          {
+            "title": "Understand your options",
+            "description": "Understand the different options available: removal only, removal with breast lift, or removal with replacement. Discuss the pros and cons of each approach with your surgeon."
+          }
+        ],
+        "eligibility": {
+          "description": "Ideal candidates for breast implant removal are women who want to remove their implants for medical, aesthetic, or personal reasons. The procedure is suitable for those in good overall health with realistic expectations about the results.",
+          "factors": [
+            "Desire for removal: Candidates should have clear reasons for wanting implant removal, whether medical, aesthetic, or personal.",
+            "Good overall health: Patients should be in good general health with no serious medical conditions that could complicate surgery or recovery.",
+            "Realistic expectations: Understanding what the breasts will look like after removal and whether additional procedures (like breast lift) are needed is important."
+          ]
+        }
       },
       "breastLift": {
-        "description": "A breast lift, or mastopexy, is a surgical procedure that raises and reshapes sagging breasts.",
-        "details": [
-          "This procedure removes excess skin and tightens surrounding tissue to restore a more youthful breast position.",
-          "It can be combined with breast augmentation for enhanced size and shape.",
-          "Recovery time is typically 1-2 weeks, with full results visible after several months.",
-          "Results are long-lasting, providing improved breast shape and position."
-        ]
+        "introDescription": "A breast lift, or mastopexy, is a surgical procedure designed to raise and reshape sagging breasts, restoring a more youthful and perky breast position.",
+        "whatIs": [
+          "A breast lift, or mastopexy, is a surgical procedure that raises and reshapes sagging breasts. This procedure removes excess skin and tightens surrounding tissue to restore a more youthful breast position, improving breast shape and firmness.",
+          "The surgery involves making incisions (the pattern depends on the degree of sagging), removing excess skin, and repositioning the nipple and areola to a more youthful position. A breast lift can be performed alone or combined with breast augmentation for enhanced size and shape."
+        ],
+        "whyHave": [
+          "A breast lift is sought by women who are bothered by sagging or drooping breasts, often due to pregnancy, breastfeeding, weight loss, or aging. The procedure can restore a more youthful breast position, improve self-confidence, and allow you to wear clothing and bras more comfortably."
+        ],
+        "faqs": [
+          {
+            "question": "Can a breast lift be combined with breast augmentation?",
+            "answer": "Yes, a breast lift is often combined with breast augmentation (implants) for women who want both improved position and increased size. This combination can provide comprehensive breast enhancement."
+          },
+          {
+            "question": "Will a breast lift affect my ability to breastfeed?",
+            "answer": "A breast lift may affect your ability to breastfeed, as it involves repositioning the nipple and potentially disrupting milk ducts. If you're planning to have more children and want to breastfeed, discuss this with your surgeon."
+          },
+          {
+            "question": "How long do breast lift results last?",
+            "answer": "Results are long-lasting, but gravity and aging will continue to affect the breasts over time. Maintaining a stable weight and wearing supportive bras can help preserve results. Results typically last many years."
+          }
+        ],
+        "quickFacts": {
+          "cost": "TBD",
+          "duration": "2-3 hours",
+          "hospitalStay": "No",
+          "stitchesRemoved": "7-10 days",
+          "socialDowntime": "1-2 weeks"
+        },
+        "afterSurgery": {
+          "downtimeRecovery": "Recovery from a breast lift requires careful attention to activity restrictions to ensure optimal healing and results.",
+          "day1": "You'll have bandages and possibly drains in place. Expect swelling, bruising, and some discomfort. Wear a supportive bra as directed and avoid lifting or strenuous activities.",
+          "week1": "Drains are typically removed within the first week. Continue wearing a supportive bra. Most swelling should begin to decrease. Avoid lifting and strenuous activities.",
+          "weeks2to3": "Most swelling should subside, and you'll begin to see the initial results. You can gradually return to normal activities, but continue avoiding strenuous exercise and heavy lifting for at least 4-6 weeks.",
+          "longTerm": "Final results become apparent after 3-6 months once all swelling has subsided and the breasts have settled into their new position. Results are long-lasting, providing improved breast shape and position."
+        },
+        "beforeSurgery": [
+          "Follow pre-operative instructions: Your surgeon will provide detailed instructions including medications to avoid, when to stop eating and drinking, and preparation for surgery day.",
+          "Arrange for help: You'll need someone to drive you home after surgery. Having assistance for the first 24-48 hours is recommended, especially with tasks requiring arm movement.",
+          "Plan for recovery: Prepare for some initial swelling and discomfort. Arrange time off work and ensure you have supportive bras and comfortable clothing that opens in the front."
+        ],
+        "howToPrepare": [
+          {
+            "title": "Consultation and planning",
+            "description": "Schedule a comprehensive consultation with an experienced plastic surgeon. Discuss your goals, have your breasts evaluated, and understand what a breast lift can achieve. Discuss whether combining with augmentation would benefit you."
+          },
+          {
+            "title": "Complete your family",
+            "description": "If you're planning to have more children, consider waiting, as pregnancy and breastfeeding can affect the results of a breast lift."
+          }
+        ],
+        "eligibility": {
+          "description": "Ideal candidates for breast lift surgery are women with sagging or drooping breasts who want to restore a more youthful position. The procedure is most suitable for those who have completed their family and are in good overall health.",
+          "factors": [
+            "Sagging breasts: Candidates should have noticeable breast sagging or drooping that they wish to address.",
+            "Completed family: It's generally recommended to complete your family before the procedure, as pregnancy and breastfeeding can affect results.",
+            "Good overall health: Patients should be in good general health with no serious medical conditions that could complicate surgery or recovery."
+          ]
+        }
       },
       "breastAugmentation": {
-        "description": "Breast augmentation is a surgical procedure that increases breast size and improves breast shape using implants or fat transfer.",
-        "details": [
-          "This procedure can enhance breast size, improve symmetry, and restore volume lost after pregnancy or weight loss.",
-          "Implants can be silicone or saline, placed above or below the muscle.",
-          "Recovery time is typically 1-2 weeks, with full results visible after several months.",
-          "Results are long-lasting and can significantly enhance body proportions and confidence."
-        ]
+        "introDescription": "Breast augmentation is a surgical procedure designed to increase breast size and improve breast shape using implants or fat transfer, enhancing body proportions and confidence.",
+        "whatIs": [
+          "Breast augmentation is a surgical procedure that increases breast size and improves breast shape using implants or fat transfer. This procedure can enhance breast size, improve symmetry, and restore volume lost after pregnancy or weight loss.",
+          "Implants can be silicone or saline, placed above or below the muscle. Fat transfer uses your own fat harvested from other areas of your body. Both methods can effectively enhance breast size and shape, with implants providing more predictable size increases and fat transfer offering a more natural approach."
+        ],
+        "whyHave": [
+          "Breast augmentation is sought by women who want to increase their breast size, improve symmetry, or restore volume lost after pregnancy or weight loss. The procedure can enhance body proportions, improve self-confidence, and help you achieve your desired silhouette."
+        ],
+        "faqs": [
+          {
+            "question": "What's the difference between silicone and saline implants?",
+            "answer": "Silicone implants feel more natural and are less likely to show rippling, while saline implants are filled after placement and may feel firmer. Both are safe options, and your surgeon will help you choose based on your body type and goals."
+          },
+          {
+            "question": "How long do breast implants last?",
+            "answer": "Breast implants are not lifetime devices and may need to be replaced at some point. However, many implants last 10-20 years or longer. Regular check-ups and monitoring are important to ensure implant integrity."
+          },
+          {
+            "question": "Can I breastfeed after breast augmentation?",
+            "answer": "Many women can breastfeed after breast augmentation, though there's a small risk that milk production could be affected. The risk is lower when implants are placed below the muscle and incisions are made in certain locations."
+          }
+        ],
+        "quickFacts": {
+          "cost": "TBD",
+          "duration": "1-2 hours",
+          "hospitalStay": "No",
+          "stitchesRemoved": "7-10 days",
+          "socialDowntime": "1-2 weeks"
+        },
+        "afterSurgery": {
+          "downtimeRecovery": "Recovery from breast augmentation requires careful attention to activity restrictions to ensure optimal healing and implant positioning.",
+          "day1": "You'll have bandages and possibly drains in place. Expect swelling, bruising, and some discomfort. Wear a supportive bra as directed and avoid lifting or strenuous activities. Sleep on your back.",
+          "week1": "Drains are typically removed within the first week. Continue wearing a supportive bra. Most swelling should begin to decrease. Avoid lifting and strenuous activities.",
+          "weeks2to3": "Most swelling should subside, and you'll begin to see the initial results. You can gradually return to normal activities, but continue avoiding strenuous exercise and heavy lifting for at least 4-6 weeks.",
+          "longTerm": "Final results become apparent after 3-6 months once all swelling has subsided and the implants have settled into their final position. Results are long-lasting, providing enhanced breast size and improved body proportions."
+        },
+        "beforeSurgery": [
+          "Follow pre-operative instructions: Your surgeon will provide detailed instructions including medications to avoid, when to stop eating and drinking, and preparation for surgery day.",
+          "Arrange for help: You'll need someone to drive you home after surgery. Having assistance for the first 24-48 hours is recommended, especially with tasks requiring arm movement.",
+          "Plan for recovery: Prepare for some initial swelling and discomfort. Arrange time off work and ensure you have supportive bras and comfortable clothing that opens in the front."
+        ],
+        "howToPrepare": [
+          {
+            "title": "Consultation and planning",
+            "description": "Schedule a comprehensive consultation with an experienced plastic surgeon. Discuss your goals, try on different implant sizes, and understand the differences between silicone and saline implants. Your surgeon will help you choose the best option for your body type and goals."
+          },
+          {
+            "title": "Understand your options",
+            "description": "Learn about the different implant types, sizes, and placement options (above vs. below muscle). Bring photos of your desired look to help communicate your vision."
+          }
+        ],
+        "eligibility": {
+          "description": "Ideal candidates for breast augmentation are women who want to increase their breast size or improve breast shape. The procedure is most suitable for those who have completed their family (or are comfortable with potential effects on breastfeeding) and are in good overall health.",
+          "factors": [
+            "Desire for enhancement: Candidates should have a clear desire to enhance their breast size or shape for improved body proportions.",
+            "Good overall health: Patients should be in good general health with no serious medical conditions that could complicate surgery or recovery.",
+            "Realistic expectations: Understanding what breast augmentation can achieve and having realistic expectations about the results is important for satisfaction."
+          ]
+        }
       },
       "breastReduction": {
-        "description": "Breast reduction, or reduction mammoplasty, is a surgical procedure that reduces breast size and reshapes the breasts.",
-        "details": [
-          "This procedure can relieve physical discomfort, improve posture, and enhance body proportions.",
-          "It involves removing excess breast tissue, fat, and skin.",
-          "Recovery time is typically 2-3 weeks, with full results visible after several months.",
-          "Results are permanent and can significantly improve quality of life and comfort."
-        ]
+        "introDescription": "Breast reduction, or reduction mammoplasty, is a surgical procedure designed to reduce breast size and reshape the breasts, relieving physical discomfort and improving quality of life.",
+        "whatIs": [
+          "Breast reduction, or reduction mammoplasty, is a surgical procedure that reduces breast size and reshapes the breasts. This procedure can relieve physical discomfort (such as back, neck, and shoulder pain), improve posture, and enhance body proportions.",
+          "The surgery involves removing excess breast tissue, fat, and skin, and repositioning the nipple and areola to a more youthful position. Breast reduction can significantly improve quality of life for women with overly large breasts that cause physical and emotional discomfort."
+        ],
+        "whyHave": [
+          "Breast reduction is sought by women who experience physical discomfort, pain, or limitations due to overly large breasts. The procedure can relieve back, neck, and shoulder pain, improve posture, reduce skin irritation, and enhance self-confidence and quality of life."
+        ],
+        "faqs": [
+          {
+            "question": "Is breast reduction covered by insurance?",
+            "answer": "Breast reduction may be covered by insurance when performed for medical reasons such as chronic pain, skin irritation, or postural problems. Coverage varies by insurance provider, so it's important to check with your insurance company and work with your surgeon to document medical necessity."
+          },
+          {
+            "question": "Will I be able to breastfeed after breast reduction?",
+            "answer": "Breastfeeding may be possible after breast reduction, but there's a risk that milk production could be affected since the procedure involves removing breast tissue and repositioning the nipple. If you're planning to have children and want to breastfeed, discuss this with your surgeon."
+          },
+          {
+            "question": "How much can my breasts be reduced?",
+            "answer": "The amount of reduction depends on your body proportions, goals, and safety considerations. Your surgeon will discuss realistic expectations based on your specific situation. Most patients achieve a reduction of one to several cup sizes."
+          }
+        ],
+        "quickFacts": {
+          "cost": "TBD",
+          "duration": "2-4 hours",
+          "hospitalStay": "Possibly 1 night",
+          "stitchesRemoved": "10-14 days",
+          "socialDowntime": "2-3 weeks"
+        },
+        "afterSurgery": {
+          "downtimeRecovery": "Recovery from breast reduction requires careful attention to activity restrictions to ensure optimal healing and results.",
+          "day1": "You'll have bandages, compression garments, and possibly drains in place. Expect swelling, bruising, and some discomfort. Wear a supportive bra as directed and avoid lifting or strenuous activities.",
+          "week1": "Drains are typically removed within the first week. Continue wearing a supportive bra. Most swelling should begin to decrease. Avoid lifting and strenuous activities.",
+          "weeks2to3": "Most swelling should subside, and you'll begin to see the initial results. You can gradually return to normal activities, but continue avoiding strenuous exercise and heavy lifting for at least 4-6 weeks.",
+          "longTerm": "Final results become apparent after 3-6 months once all swelling has subsided and the breasts have settled into their new shape. Results are permanent and can significantly improve quality of life, comfort, and self-confidence."
+        },
+        "beforeSurgery": [
+          "Follow pre-operative instructions: Your surgeon will provide detailed instructions including medications to avoid, when to stop eating and drinking, and preparation for surgery day.",
+          "Arrange for help: You'll need someone to drive you home after surgery. Having assistance for the first few days is recommended, especially with tasks requiring arm movement.",
+          "Plan for recovery: Prepare for some initial swelling and discomfort. Arrange time off work and ensure you have supportive bras and comfortable clothing that opens in the front."
+        ],
+        "howToPrepare": [
+          {
+            "title": "Consultation and medical evaluation",
+            "description": "Schedule a comprehensive consultation with an experienced plastic surgeon. Discuss your symptoms, have your breasts evaluated, and understand what breast reduction can achieve. If seeking insurance coverage, work with your surgeon to document medical necessity."
+          },
+          {
+            "title": "Complete your family",
+            "description": "If you're planning to have more children, consider waiting, as pregnancy and breastfeeding can affect the results of breast reduction."
+          }
+        ],
+        "eligibility": {
+          "description": "Ideal candidates for breast reduction are women with overly large breasts that cause physical discomfort, pain, or limitations. The procedure is most suitable for those who have completed their family and are in good overall health.",
+          "factors": [
+            "Physical symptoms: Candidates should experience physical discomfort such as back, neck, or shoulder pain, skin irritation, or postural problems due to large breasts.",
+            "Completed family: It's generally recommended to complete your family before the procedure, as pregnancy and breastfeeding can affect results.",
+            "Good overall health: Patients should be in good general health with no serious medical conditions that could complicate surgery or recovery."
+          ]
+        }
       },
       "gynecomastia": {
-        "description": "Gynecomastia surgery is a procedure to reduce enlarged male breasts through the removal of excess glandular tissue and fat.",
-        "details": [
-          "This procedure can address male breast enlargement caused by excess tissue, fat, or both.",
-          "It typically involves liposuction and/or surgical excision of glandular tissue.",
-          "Recovery time is typically 1-2 weeks, with full results visible after several months.",
-          "Results are permanent and can significantly improve chest appearance and confidence."
-        ]
+        "introDescription": "Gynecomastia surgery is a procedure designed to reduce enlarged male breasts through the removal of excess glandular tissue and fat, restoring a more masculine chest appearance.",
+        "whatIs": [
+          "Gynecomastia surgery is a procedure to reduce enlarged male breasts through the removal of excess glandular tissue and fat. This procedure can address male breast enlargement caused by excess tissue, fat, or both, restoring a more masculine, defined chest appearance.",
+          "The surgery typically involves liposuction to remove excess fat and/or surgical excision to remove excess glandular tissue. The approach depends on the specific cause and composition of the enlargement. Incisions are strategically placed to be as inconspicuous as possible."
+        ],
+        "whyHave": [
+          "Gynecomastia surgery is sought by men who are self-conscious about enlarged breasts, which can cause embarrassment, discomfort, and avoidance of activities like swimming or going shirtless. The procedure can restore confidence and allow men to feel comfortable in their own skin."
+        ],
+        "faqs": [
+          {
+            "question": "What causes gynecomastia?",
+            "answer": "Gynecomastia can be caused by hormonal imbalances, certain medications, weight gain, genetics, or medical conditions. In many cases, the cause is unknown. Your surgeon will evaluate your specific situation to determine the best treatment approach."
+          },
+          {
+            "question": "Will gynecomastia come back after surgery?",
+            "answer": "The tissue and fat removed during surgery are permanently gone. However, if the underlying cause (such as hormonal imbalance or medication) isn't addressed, gynecomastia could potentially recur. Maintaining a stable weight and addressing any underlying causes helps prevent recurrence."
+          },
+          {
+            "question": "Will I have visible scars after gynecomastia surgery?",
+            "answer": "Incisions are strategically placed to be as inconspicuous as possible, typically around the areola or in natural creases. With proper healing, scars typically fade significantly and become barely noticeable over time."
+          }
+        ],
+        "quickFacts": {
+          "cost": "TBD",
+          "duration": "1-2 hours",
+          "hospitalStay": "No",
+          "stitchesRemoved": "7-10 days",
+          "socialDowntime": "1-2 weeks"
+        },
+        "afterSurgery": {
+          "downtimeRecovery": "Recovery from gynecomastia surgery is typically straightforward, with most patients able to return to normal activities within 1-2 weeks.",
+          "day1": "You'll have compression garments in place. Expect swelling, bruising, and some discomfort in the chest area. Wear compression garments as directed and avoid lifting or strenuous activities.",
+          "week1": "Most swelling should begin to decrease. Continue wearing compression garments as directed. You can return to light activities, but avoid strenuous exercise and heavy lifting.",
+          "weeks2to3": "Most swelling should subside, and you'll begin to see the initial results. You can gradually return to normal activities, but continue avoiding strenuous exercise for at least 4-6 weeks.",
+          "longTerm": "Final results become apparent after 3-6 months once all swelling has subsided. Results are permanent, providing a more masculine, defined chest appearance and significantly improved confidence."
+        },
+        "beforeSurgery": [
+          "Follow pre-operative instructions: Your surgeon will provide detailed instructions including medications to avoid, when to stop eating and drinking, and preparation for the procedure.",
+          "Arrange for help: You'll need someone to drive you home after the procedure. Having assistance for the first 24-48 hours is recommended.",
+          "Plan for recovery: Prepare for wearing compression garments and some initial swelling. Ensure you have time to rest for a few days to a week."
+        ],
+        "howToPrepare": [
+          {
+            "title": "Consultation and evaluation",
+            "description": "Schedule a comprehensive consultation with a qualified plastic surgeon. Discuss your concerns, have your chest evaluated, and understand what gynecomastia surgery can achieve. Your surgeon may recommend medical evaluation to rule out underlying causes."
+          },
+          {
+            "title": "Address underlying causes",
+            "description": "If there are underlying causes (such as medications or hormonal issues), work with your doctor to address them before or in conjunction with surgery to prevent recurrence."
+          }
+        ],
+        "eligibility": {
+          "description": "Ideal candidates for gynecomastia surgery are men with enlarged breasts that cause self-consciousness or discomfort. The procedure is most suitable for those in good overall health with realistic expectations about the results.",
+          "factors": [
+            "Enlarged male breasts: Candidates should have noticeable breast enlargement that doesn't improve with weight loss or exercise.",
+            "Good overall health: Patients should be in good general health with no serious medical conditions that could complicate surgery or recovery.",
+            "Realistic expectations: Understanding what gynecomastia surgery can achieve and having realistic expectations about the results is important for satisfaction."
+          ]
+        }
       }
     }
   },
