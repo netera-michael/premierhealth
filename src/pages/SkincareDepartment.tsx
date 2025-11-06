@@ -1,34 +1,30 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
-import { 
-  Sparkles, 
-  Droplets, 
-  Zap, 
-  Circle, 
-  Activity,
-  Wind
-} from 'lucide-react';
 
 const SkincareDepartment: React.FC = () => {
   const { t } = useTranslation();
 
-  // Skincare treatments with icons
+  // Skincare treatments
   const skincareTreatments = [
-    { key: 'oxygenLab', icon: Wind },
-    { key: 'stemCells', icon: Sparkles },
-    { key: 'hyperpigmentation', icon: Circle },
-    { key: 'skinPeels', icon: Droplets },
-    { key: 'hydraFacial', icon: Activity }
+    'oxygenLab',
+    'stemCells',
+    'hyperpigmentation',
+    'skinPeels',
+    'hydraFacial'
   ];
 
-  const TreatmentCard = ({ treatmentKey, IconComponent }: { treatmentKey: string; IconComponent: React.ComponentType<any> }) => {
+  const TreatmentCard = ({ treatmentKey }: { treatmentKey: string }) => {
     const treatmentName = t(`skincare.treatments.${treatmentKey}`);
     
     return (
       <div className="group flex flex-col items-center justify-center p-6 bg-white rounded-lg border border-gray-200 hover:border-primary-500 hover:shadow-lg transition-all duration-300 cursor-pointer">
-        <div className="w-20 h-20 bg-gradient-to-br from-primary-500 to-secondary-500 rounded-full flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
-          <IconComponent className="w-10 h-10 text-white" />
+        <div className="w-20 h-20 mb-4 group-hover:scale-110 transition-transform duration-300 flex items-center justify-center">
+          <img
+            src="/skin-care.png"
+            alt={treatmentName}
+            className="w-full h-full object-contain"
+          />
         </div>
         <h3 className="text-center text-gray-900 font-medium text-sm leading-tight">{treatmentName}</h3>
       </div>
@@ -79,11 +75,10 @@ const SkincareDepartment: React.FC = () => {
         <section className="mb-16">
           <h2 className="text-3xl font-bold text-gray-900 mb-8">{t('skincare.treatments.title', 'Skincare')}</h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-5 gap-4">
-            {skincareTreatments.map((treatment) => (
+            {skincareTreatments.map((treatmentKey) => (
               <TreatmentCard 
-                key={treatment.key} 
-                treatmentKey={treatment.key}
-                IconComponent={treatment.icon}
+                key={treatmentKey} 
+                treatmentKey={treatmentKey}
               />
             ))}
           </div>
