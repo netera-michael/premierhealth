@@ -1,6 +1,5 @@
 import React from 'react';
 import Hero from '../components/Hero';
-import PlasticSurgery from '../components/PlasticSurgery';
 import VitaminDrips from '../components/VitaminDrips';
 import Benefits from '../components/Benefits';
 import Process from '../components/Process';
@@ -15,7 +14,6 @@ const Home: React.FC = () => {
     <div className="min-h-screen">
       <main>
         <Hero />
-        <PlasticSurgery />
         <VitaminDrips />
         <Benefits />
         <Process />
