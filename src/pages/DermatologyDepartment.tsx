@@ -75,50 +75,24 @@ const DermatologyDepartment: React.FC = () => {
         </div>
       </div>
 
-      {/* Hero Section */}
-      <section className="relative overflow-hidden bg-gradient-to-br from-primary-50 via-white to-secondary-50 pt-8">
+      {/* Page Hero Section */}
+      <section className="pagehero relative overflow-hidden bg-gray-900">
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1594046781833-599bdd059b0f?auto=format&fit=crop&w=1600&q=80"
-            alt={t('dermatologyDepartment.hero.imageAlt')}
-            className="h-full w-full object-cover opacity-20"
+            src="https://images.unsplash.com/photo-1594046781833-599bdd059b0f?auto=format&fit=crop&w=1920&q=80"
+            alt={t('dermatologyDepartment.hero.title')}
+            className="h-full w-full object-cover opacity-60"
           />
+          <div className="absolute inset-0 bg-gradient-to-b from-black/50 to-black/70"></div>
         </div>
-
-        <div className="relative mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:flex lg:items-center lg:gap-16 lg:px-8 lg:py-24">
-          <div className="max-w-2xl space-y-8">
-            <span className="inline-flex items-center rounded-full bg-white/80 px-4 py-1 text-sm font-semibold text-primary-600 shadow-sm">
-              <Sparkles className="mr-2 h-4 w-4" />
-              {t('dermatologyDepartment.hero.badge')}
-            </span>
-            <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl lg:text-6xl">
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 sm:py-32">
+          <div className="text-center">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
               {t('dermatologyDepartment.hero.title')}
             </h1>
-            <p className="text-lg text-gray-600 sm:text-xl">
+            <p className="text-lg md:text-xl text-white/90 max-w-3xl mx-auto">
               {t('dermatologyDepartment.hero.description')}
             </p>
-
-            <div className="grid gap-4 sm:grid-cols-2">
-              {heroHighlights.map((highlight, index) => (
-                <div
-                  key={index}
-                  className="flex items-center rounded-2xl bg-white/90 px-4 py-3 shadow-sm backdrop-blur-sm"
-                >
-                  <ShieldCheck className="mr-3 h-5 w-5 text-primary-500" />
-                  <span className="text-sm font-medium text-gray-700">{highlight}</span>
-                </div>
-              ))}
-            </div>
-
-            <div className="flex flex-col gap-3 sm:flex-row">
-              <button className="inline-flex items-center justify-center rounded-full bg-gradient-to-r from-primary-500 to-secondary-500 px-8 py-3 text-base font-semibold text-white transition-transform duration-300 hover:scale-[1.02] hover:from-primary-600 hover:to-secondary-600">
-                {t('dermatologyDepartment.hero.primaryAction')}
-                <ArrowRight className="ml-2 h-5 w-5" />
-              </button>
-              <button className="inline-flex items-center justify-center rounded-full border-2 border-primary-500 px-8 py-3 text-base font-semibold text-primary-600 transition-colors duration-300 hover:bg-primary-50">
-                {t('dermatologyDepartment.hero.secondaryAction')}
-              </button>
-            </div>
           </div>
         </div>
       </section>
