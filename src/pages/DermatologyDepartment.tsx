@@ -74,7 +74,7 @@ const DermatologyDepartment: React.FC = () => {
       <section className="pagehero relative overflow-hidden bg-gray-900">
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1594046781833-599bdd059b0f?auto=format&fit=crop&w=1920&q=80"
+            src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?auto=format&fit=crop&w=1920&q=80"
             alt={t('dermatology.title')}
             className="h-full w-full object-cover opacity-60"
           />
