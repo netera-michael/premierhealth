@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import { Send } from 'lucide-react';
+import { procedureImages } from '../data/procedureImages';
 
 interface ProcedurePageProps {
   procedureKey: string;
@@ -104,7 +105,7 @@ const ProcedurePage: React.FC<ProcedurePageProps> = ({ procedureKey, section }) 
       <section className="pagehero relative overflow-hidden bg-gray-900">
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1552693673-1bf958298935?ixlib=rb-4.1.0&auto=format&fit=crop&w=1920&q=80"
+            src={procedureImages[procedureKey]?.hero || "https://images.unsplash.com/photo-1552693673-1bf958298935?ixlib=rb-4.1.0&auto=format&fit=crop&w=1920&q=80"}
             alt={procedureName}
             className="h-full w-full object-cover opacity-60"
           />
@@ -139,9 +140,9 @@ const ProcedurePage: React.FC<ProcedurePageProps> = ({ procedureKey, section }) 
             {/* Image placeholder - can be replaced with actual procedure image */}
             <div className="mt-8 mb-8">
               <img
-                src="https://images.unsplash.com/photo-1552693673-1bf958298935?ixlib=rb-4.1.0&auto=format&fit=crop&w=1200&q=80"
+                src={procedureImages[procedureKey]?.content || "https://images.unsplash.com/photo-1552693673-1bf958298935?ixlib=rb-4.1.0&auto=format&fit=crop&w=1200&q=80"}
                 alt={procedureName}
-                className="w-full h-64 object-cover rounded-lg"
+                className="w-full h-80 object-cover rounded-xl shadow-lg"
               />
             </div>
           </section>
@@ -220,9 +221,9 @@ const ProcedurePage: React.FC<ProcedurePageProps> = ({ procedureKey, section }) 
             {/* Image placeholder */}
             <div className="mt-8 mb-8">
               <img
-                src="https://images.unsplash.com/photo-1552693673-1bf958298935?ixlib=rb-4.1.0&auto=format&fit=crop&w=1200&q=80"
+                src={procedureImages[procedureKey]?.content || "https://images.unsplash.com/photo-1552693673-1bf958298935?ixlib=rb-4.1.0&auto=format&fit=crop&w=1200&q=80"}
                 alt={procedureName}
-                className="w-full h-64 object-cover rounded-lg"
+                className="w-full h-80 object-cover rounded-xl shadow-lg"
               />
             </div>
           </section>
@@ -415,7 +416,7 @@ const ProcedurePage: React.FC<ProcedurePageProps> = ({ procedureKey, section }) 
               <button
                 type="submit"
                 disabled={isSubmitting}
-                className="w-full btn-modern bg-white text-primary-900 py-3 px-8 text-lg hover:bg-white/90 shadow-lg flex items-center justify-center disabled:opacity-50 disabled:cursor-not-allowed"
+                className="w-full bg-white text-primary-900 py-3 px-8 text-lg hover:bg-white/90 shadow-lg flex items-center justify-center disabled:opacity-50 disabled:cursor-not-allowed rounded-tl-2xl rounded-br-2xl rounded-tr-none rounded-bl-none transition-all duration-300"
               >
                 <Send className="w-5 h-5 mr-2" />
                 {isSubmitting ? 'Submitting...' : t('plasticSurgery.cta.button')}
