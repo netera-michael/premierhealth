@@ -1,8 +1,100 @@
 import React from 'react';
-import GeneralDepartment from './GeneralDepartment';
+import { useTranslation } from 'react-i18next';
+import { Clock, Tag, Check, Calendar } from 'lucide-react';
 
 const VitaminDripsDepartment: React.FC = () => {
-  return <GeneralDepartment departmentKey="vitaminDrips" />;
+  const { t } = useTranslation();
+
+  const treatments = [
+    'energyBoost',
+    'immunityShield',
+    'mentalClarity',
+    'beautyGlow',
+    'detoxCleanse'
+  ];
+
+  return (
+    <div className="min-h-screen bg-gray-50">
+      {/* Hero Section */}
+      <div className="bg-primary-600 text-white py-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h1 className="text-4xl md:text-5xl font-bold mb-6">
+            {t('vitaminDrips.title')}
+          </h1>
+          <p className="text-xl max-w-3xl mx-auto text-primary-100">
+            {t('vitaminDrips.description')}
+          </p>
+        </div>
+      </div>
+
+      {/* Treatments Grid */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {treatments.map((key) => (
+            <div key={key} className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden flex flex-col">
+              <div className="p-8 flex-grow">
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">
+                  {t(`vitaminDrips.treatments.${key}.name`)}
+                </h3>
+                <p className="text-gray-600 mb-6">
+                  {t(`vitaminDrips.treatments.${key}.description`)}
+                </p>
+                
+                <div className="space-y-4 mb-6">
+                  <div className="flex items-center text-sm text-gray-500">
+                    <Clock className="w-4 h-4 mr-2 text-primary-500" />
+                    <span>{t(`vitaminDrips.treatments.${key}.duration`)}</span>
+                  </div>
+                  <div className="flex items-center text-sm text-gray-500">
+                    <Tag className="w-4 h-4 mr-2 text-primary-500" />
+                    <span>{t(`vitaminDrips.treatments.${key}.price`)}</span>
+                  </div>
+                </div>
+
+                <div className="border-t border-gray-100 pt-6">
+                  <h4 className="text-sm font-semibold text-gray-900 uppercase tracking-wider mb-4">
+                    {t('vitaminDrips.keyBenefits')}
+                  </h4>
+                  <ul className="space-y-2">
+                    {/* We assume benefits is an array in standard simple JSON, but i18next return objects/arrays differently depending on config. 
+                        Safe approach for array access in code with returnObjects: true */}
+                    {(t(`vitaminDrips.treatments.${key}.benefits`, { returnObjects: true }) as string[]).map((benefit: string, index: number) => (
+                      <li key={index} className="flex items-start text-sm text-gray-600">
+                        <Check className="w-4 h-4 mr-2 text-green-500 flex-shrink-0 mt-0.5" />
+                        <span>{benefit}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+              
+              <div className="p-6 bg-gray-50 border-t border-gray-100">
+                <button className="w-full flex items-center justify-center space-x-2 bg-white border-2 border-primary-600 text-primary-600 py-3 px-6 rounded-lg font-semibold hover:bg-primary-50 transition-colors duration-300">
+                  <Calendar className="w-4 h-4" />
+                  <span>{t('vitaminDrips.bookTreatment')}</span>
+                </button>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {/* CTA Section */}
+      <div className="bg-white py-16 border-t border-gray-200">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-3xl font-bold text-gray-900 mb-4">
+            {t('vitaminDrips.cta.title')}
+          </h2>
+          <p className="text-lg text-gray-600 mb-8">
+            {t('vitaminDrips.cta.description')}
+          </p>
+          <button className="bg-gradient-to-r from-primary-600 to-secondary-600 text-white text-lg font-semibold py-4 px-8 rounded-full shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 transition-all duration-300">
+            {t('vitaminDrips.cta.button')}
+          </button>
+        </div>
+      </div>
+    </div>
+  );
 };
 
 export default VitaminDripsDepartment;
