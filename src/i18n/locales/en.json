@@ -28,7 +28,10 @@
     "integrativeMedicine": "Integrative Medicine",
     "fertilityIVF": "Nabda Unit for Fertility and IVF",
     "stepahead": "Stepahead",
-    "diabeter": "Diabeter"
+    "diabeter": "Diabeter",
+    "peptiology": "Peptiology",
+    "peptiologyDescription": "Optimize your performance and longevity with medically guided peptide therapy.",
+    "learnMore": "Learn More"
   },
   "hero": {
     "badge": "Premium Wellness Center",
@@ -110,9 +113,7 @@
       "title": "Not Sure Which Treatment is Right for You?",
       "description": "Our medical team will help you choose the perfect vitamin drip based on your individual health needs and goals.",
       "button": "Schedule Free Consultation"
-    },
-    "peptiology": "Peptiology",
-    "peptiologyDescription": "Optimize your performance and longevity with medically guided peptide therapy."
+    }
   },
   "peptiology": {
     "title": "Peptiology (Peptide Therapy)",

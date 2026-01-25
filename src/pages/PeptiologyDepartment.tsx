@@ -35,7 +35,7 @@ const PeptiologyDepartment: React.FC = () => {
             <section className="relative overflow-hidden bg-primary-900 pt-24 pb-32">
                 <div className="absolute inset-0">
                     <img
-                        src="https://images.unsplash.com/photo-1579152276503-346747df3466?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80"
+                        src="/peptide-hero.png"
                         alt={t('peptiology.title')}
                         className="h-full w-full object-cover opacity-40"
                     />
@@ -72,8 +72,8 @@ const PeptiologyDepartment: React.FC = () => {
                         </div>
                         <div className="relative">
                             <img
-                                src="https://images.unsplash.com/photo-1581093458791-9f3c3900df4b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                                alt="Peptide Therapy"
+                                src="/peptide-science.png"
+                                alt={t('peptiology.whatIs.title')}
                                 className="rounded-2xl shadow-2xl relative z-10"
                             />
                             <div className="absolute -bottom-6 -right-6 w-64 h-64 bg-primary-100 rounded-2xl -z-0"></div>
@@ -106,7 +106,7 @@ const PeptiologyDepartment: React.FC = () => {
             <section className="py-20 bg-white border-t border-gray-100">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="bg-primary-900 rounded-[3rem] overflow-hidden shadow-2xl relative">
-                        <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')] opacity-10"></div>
+                        <div className="absolute inset-0 bg-gradient-to-br from-primary-800/20 to-transparent opacity-30"></div>
                         <div className="grid md:grid-cols-2 lg:grid-cols-2 items-center">
                             <div className="p-12 md:p-20 relative z-10">
                                 <h2 className="text-3xl md:text-4xl font-bold text-white mb-6 uppercase tracking-tight">
@@ -122,8 +122,8 @@ const PeptiologyDepartment: React.FC = () => {
                             </div>
                             <div className="hidden md:block relative h-full">
                                 <img
-                                    src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
-                                    alt="Customized Wellness"
+                                    src="/peptide-wellness.png"
+                                    alt={t('peptiology.customized.title')}
                                     className="absolute inset-0 w-full h-full object-cover"
                                 />
                             </div>

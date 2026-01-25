@@ -29,7 +29,10 @@
     "integrativeMedicine": "الطب التكاملي",
     "fertilityIVF": "وحدة التلقيح الصناعي وعلاج العقم",
     "stepahead": "Stepahead",
-    "diabeter": "Diabeter"
+    "diabeter": "Diabeter",
+    "peptiology": "بيبتيولوجي",
+    "peptiologyDescription": "حسن أدائك وطول عمرك مع علاج الببتيد الموجه طبياً.",
+    "learnMore": "اعرف المزيد"
   },
   "hero": {
     "badge": "مركز صحي متميز",
@@ -111,9 +114,7 @@
       "title": "غير متأكد من العلاج المناسب لك؟",
       "description": "سيساعدك فريقنا الطبي في اختيار المحلول الوريدي المثالي بناءً على احتياجاتك الصحية وأهدافك الفردية.",
       "button": "احجز استشارة مجانية"
-    },
-    "peptiology": "بيبتيولوجي",
-    "peptiologyDescription": "حسن أدائك وطول عمرك مع علاج الببتيد الموجه طبياً."
+    }
   },
   "peptiology": {
     "title": "بيبتيولوجي (علاج الببتيد)",
