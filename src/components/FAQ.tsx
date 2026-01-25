@@ -47,7 +47,7 @@ const FAQ = () => {
 
         <div className="mt-12 text-center">
           <p className="text-gray-600 mb-4">{t('faq.cta.text')}</p>
-          <button className="bg-gradient-to-r from-primary-500 to-secondary-500 text-white px-8 py-3 rounded-full font-semibold hover:from-primary-600 hover:to-secondary-600 transition-all duration-300">
+          <button className="btn-modern bg-primary-600 text-white px-8 py-3 shadow-lg">
             {t('faq.cta.button')}
           </button>
         </div>

@@ -17,7 +17,7 @@ const Footer = () => {
                 <img
                   src="/logo-png-lean.png"
                   alt="Premier Health Logo"
-                  className="absolute inset-0 w-full h-full object-contain"
+                  className="absolute inset-0 w-full h-full object-contain brightness-0 invert"
                   style={{
                     objectPosition: 'left center'
                   }}
