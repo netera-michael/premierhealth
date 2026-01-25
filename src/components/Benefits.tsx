@@ -31,7 +31,7 @@ const Benefits = () => {
             const IconComponent = benefit.icon;
             return (
               <div key={index} className="bg-gray-50 p-8 rounded-xl hover:shadow-lg transition-shadow duration-300">
-                <div className="w-16 h-16 bg-primary-600 rounded-lg flex items-center justify-center mb-6">
+                <div className="w-16 h-16 bg-secondary-500 rounded-lg flex items-center justify-center mb-6">
                   <IconComponent className="w-8 h-8 text-white" />
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">{t(`benefits.items.${benefit.key}.title`)}</h3>

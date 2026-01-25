@@ -44,7 +44,7 @@ const VitaminDrips = () => {
             return (
               <div key={index} className="bg-gray-50 rounded-2xl p-8 hover:shadow-xl transition-all duration-300 group">
                 <div className="flex items-center mb-6">
-                  <div className="w-14 h-14 bg-primary-600 rounded-xl flex items-center justify-center mr-4 group-hover:scale-110 transition-transform duration-300">
+                  <div className="w-14 h-14 bg-secondary-500 rounded-xl flex items-center justify-center mr-4 group-hover:scale-110 transition-transform duration-300">
                     <IconComponent className="w-7 h-7 text-white" />
                   </div>
                   <div>
