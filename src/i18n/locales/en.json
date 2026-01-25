@@ -110,6 +110,37 @@
       "title": "Not Sure Which Treatment is Right for You?",
       "description": "Our medical team will help you choose the perfect vitamin drip based on your individual health needs and goals.",
       "button": "Schedule Free Consultation"
+    },
+    "peptiology": "Peptiology",
+    "peptiologyDescription": "Optimize your performance and longevity with medically guided peptide therapy."
+  },
+  "peptiology": {
+    "title": "Peptiology (Peptide Therapy)",
+    "description": "Enhance energy, recovery, and longevity with medically guided peptide therapy. Support cellular repair and optimize your wellness with our customized treatments.",
+    "whatIs": {
+      "title": "What Is Peptide Therapy?",
+      "description": "Peptide therapy uses small chains of amino acids, known as peptides, to stimulate various biological processes in the body. When strategically administered, therapeutic peptides can mimic or enhance specific responses in the body to help support tissue repair, muscle growth, fat loss, cognitive function, or improve overall wellness."
+    },
+    "benefits": {
+      "title": "Benefits of Peptide Therapy",
+      "list": [
+        "Advanced and safe solution using bioidentical peptides",
+        "Highly targeted treatments customized to your health concerns",
+        "Supports optimal hormone function naturally declining with age",
+        "Promotes tissue repair and faster recovery from injuries",
+        "Combats daily fatigue by boosting mood and energy",
+        "Sharpens focus, memory, and mental performance",
+        "Strengthens long-term wellness and immune health"
+      ]
+    },
+    "customized": {
+      "title": "Peak Vitality, Customized to You",
+      "description": "At Premier Health, wellness is about more than just a revitalized appearance. Peptide therapy can help you achieve peak performance at every age. Whether your goals include sharper focus, improved recovery, fat loss, or restoring youthful energy, our expert team provides the tailored care you need."
+    },
+    "cta": {
+      "title": "Ready to Unlock Your Potential?",
+      "description": "Schedule a consultation with our medical team to discover how peptide therapy can help you achieve your health and wellness goals.",
+      "button": "Book a Consultation"
     }
   },
   "plasticSurgery": {

@@ -103,6 +103,12 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
                     >
                       {t('departments.vitaminDrips')}
                     </Link>
+                    <Link
+                      to="/departments/peptiology"
+                      className="block px-4 py-2 text-gray-700 hover:bg-primary-100 hover:text-primary-600 transition-colors"
+                    >
+                      {t('departments.peptiology')}
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -192,6 +198,13 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
                       onClick={() => setIsMenuOpen(false)}
                     >
                       {t('departments.vitaminDrips')}
+                    </Link>
+                    <Link
+                      to="/departments/peptiology"
+                      className="block py-1 text-gray-700 hover:text-primary-600 transition-colors"
+                      onClick={() => setIsMenuOpen(false)}
+                    >
+                      {t('departments.peptiology')}
                     </Link>
                   </div>
                 </div>

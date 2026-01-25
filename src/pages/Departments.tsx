@@ -70,6 +70,17 @@ const Departments: React.FC = () => {
               {t('departments.learnMore', 'Learn More')} →
             </button>
           </Link>
+
+          {/* Peptiology Department */}
+          <Link to="/departments/peptiology" className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-300">
+            <h2 className="text-xl font-semibold text-gray-900 mb-2">{t('departments.peptiology')}</h2>
+            <p className="text-gray-600 mb-4">
+              {t('departments.peptiologyDescription')}
+            </p>
+            <button className="text-primary-600 hover:text-primary-800 font-medium">
+              {t('departments.learnMore', 'Learn More')} →
+            </button>
+          </Link>
         </div>
       </div>
     </div>
