@@ -127,7 +127,7 @@ const PlasticSurgery = () => {
           <p className="text-lg mb-6 max-w-2xl mx-auto">
             {t('plasticSurgery.cta.description')}
           </p>
-          <button className="btn-modern bg-white text-primary-900 px-8 py-3 shadow-lg">
+          <button className="bg-white text-primary-900 px-8 py-3 rounded-tl-2xl rounded-br-2xl rounded-tr-none rounded-bl-none font-semibold hover:bg-gray-100 transition-colors">
             {t('plasticSurgery.cta.button')}
           </button>
         </div>

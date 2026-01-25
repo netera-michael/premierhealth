@@ -85,7 +85,7 @@ const VitaminDrips = () => {
             <p className="text-lg mb-6">
               {t('vitaminDrips.cta.description')}
             </p>
-            <button className="btn-modern bg-white text-primary-900 px-8 py-3 shadow-lg">
+            <button className="bg-white text-primary-900 px-8 py-3 rounded-tl-2xl rounded-br-2xl rounded-tr-none rounded-bl-none font-semibold hover:bg-gray-100 transition-colors">
               {t('vitaminDrips.cta.button')}
             </button>
           </div>
