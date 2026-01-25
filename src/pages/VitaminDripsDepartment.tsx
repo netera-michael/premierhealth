@@ -77,8 +77,8 @@ const VitaminDripsDepartment: React.FC = () => {
               </div>
 
               <div className="p-6 bg-gray-50 border-t border-gray-100">
-                <button className="w-full flex items-center justify-center space-x-2 bg-white border-2 border-primary-600 text-primary-600 py-3 px-6 rounded-lg font-semibold hover:bg-primary-50 transition-colors duration-300">
-                  <Calendar className="w-4 h-4" />
+                <button className="w-full flex items-center justify-center space-x-2 bg-primary-600 text-white py-3 px-6 rounded-tl-2xl rounded-br-2xl rounded-tr-none rounded-bl-none font-semibold hover:bg-primary-700 transition-all duration-300 shadow-md hover:shadow-lg">
+                  <Calendar className="w-5 h-5" />
                   <span>{t('vitaminDrips.bookTreatment')}</span>
                 </button>
               </div>

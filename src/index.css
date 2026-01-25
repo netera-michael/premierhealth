@@ -12,27 +12,27 @@
 }
 
 /* Fix spacing for RTL - Reset default LTR spacing and apply RTL spacing */
-[dir="rtl"] .space-x-2 > :not([hidden]) ~ :not([hidden]) {
+[dir="rtl"] .space-x-2> :not([hidden])~ :not([hidden]) {
   margin-left: 0 !important;
   margin-right: 0.5rem !important;
 }
 
-[dir="rtl"] .space-x-3 > :not([hidden]) ~ :not([hidden]) {
+[dir="rtl"] .space-x-3> :not([hidden])~ :not([hidden]) {
   margin-left: 0 !important;
   margin-right: 0.75rem !important;
 }
 
-[dir="rtl"] .space-x-4 > :not([hidden]) ~ :not([hidden]) {
+[dir="rtl"] .space-x-4> :not([hidden])~ :not([hidden]) {
   margin-left: 0 !important;
   margin-right: 1rem !important;
 }
 
-[dir="rtl"] .space-x-6 > :not([hidden]) ~ :not([hidden]) {
+[dir="rtl"] .space-x-6> :not([hidden])~ :not([hidden]) {
   margin-left: 0 !important;
   margin-right: 1.5rem !important;
 }
 
-[dir="rtl"] .space-x-8 > :not([hidden]) ~ :not([hidden]) {
+[dir="rtl"] .space-x-8> :not([hidden])~ :not([hidden]) {
   margin-left: 0 !important;
   margin-right: 2rem !important;
 }
@@ -152,9 +152,9 @@
 /* Custom Modern Button Style inspired by reference */
 .btn-modern {
   @apply bg-primary-600 text-white font-light transition-all duration-300 shadow-md hover:bg-white hover:text-primary-600 hover:shadow-lg border border-transparent hover:border-primary-600;
-  border-radius: 15px 0px 15px 0px;
+  border-radius: 1rem 0px 1rem 0px;
 }
 
 [dir="rtl"] .btn-modern {
-  border-radius: 0px 15px 0px 15px;
+  border-radius: 0px 1rem 0px 1rem;
 }

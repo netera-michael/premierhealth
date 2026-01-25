@@ -70,7 +70,7 @@ const VitaminDrips = () => {
                   </ul>
                 </div>
 
-                <button className="w-full btn-modern bg-primary-600 text-white py-3 px-6 shadow-lg flex items-center justify-center group">
+                <button className="w-full bg-primary-600 text-white py-3 px-6 rounded-tl-2xl rounded-br-2xl rounded-tr-none rounded-bl-none font-semibold hover:bg-primary-700 transition-all duration-300 shadow-md hover:shadow-lg flex items-center justify-center group">
                   {t('vitaminDrips.bookTreatment')}
                   <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
                 </button>
