@@ -122,9 +122,9 @@ const Footer = () => {
                   className="h-8 w-auto object-contain opacity-70 hover:opacity-100 transition-opacity"
                 />
                 <img
-                  src="https://tamara.co/static/images/tamara-logo-white.svg"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKCy6jLahmGQdxAJRMr84-Rp1hsg-oiN_Emg&s"
                   alt="Tamara"
-                  className="h-8 w-auto opacity-70 hover:opacity-100 transition-opacity"
+                  className="h-8 w-auto object-contain opacity-70 hover:opacity-100 transition-opacity"
                 />
               </div>
             </div>

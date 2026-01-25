@@ -51,8 +51,8 @@ const Hero = () => {
           <div className="relative">
             <div className="relative z-10">
               <img
-                src="https://images.pexels.com/photos/4386467/pexels-photo-4386467.jpeg?auto=compress&cs=tinysrgb&w=800"
-                alt="IV Vitamin Therapy Treatment"
+                src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=800&q=80"
+                alt="Cosmetic Treatment"
                 className="rounded-2xl shadow-2xl w-full h-[600px] object-cover"
               />
             </div>
