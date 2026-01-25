@@ -29,9 +29,7 @@ const Hero = () => {
                 {t('hero.bookTreatment')}
                 <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
               </button>
-              <button className="px-8 py-4 text-primary-600 font-semibold hover:text-primary-800 transition-colors border-b-2 border-primary-600">
-                {t('hero.learnMore')}
-              </button>
+
             </div>
 
             {/* Trust Indicators */}
