@@ -55,7 +55,7 @@ const Process = () => {
         <div className="mt-16 text-center">
           <div className="bg-primary-900 rounded-2xl p-8 text-white">
             <h3 className="text-2xl font-bold mb-4">{t('process.cta.title')}</h3>
-            <p className="text-lg mb-6 opacity-90">
+            <p className="text-lg mb-6">
               {t('process.cta.description')}
             </p>
             <button className="bg-white text-primary-900 px-8 py-3 rounded-tl-2xl rounded-br-2xl rounded-tr-none rounded-bl-none font-semibold hover:bg-gray-100 transition-colors">

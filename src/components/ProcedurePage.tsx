@@ -330,7 +330,7 @@ const ProcedurePage: React.FC<ProcedurePageProps> = ({ procedureKey, section }) 
         <section className="bg-primary-900 rounded-xl shadow-xl p-8 md:p-12 text-white mt-16">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold mb-4 text-center">{t('plasticSurgery.cta.title')}</h2>
-            <p className="text-lg mb-8 text-center text-white/90">Kindly complete the form, and one of our customer service representatives will reach out to you during our business hours.</p>
+            <p className="text-lg mb-8 text-center text-white">Kindly complete the form, and one of our customer service representatives will reach out to you during our business hours.</p>
 
             <form onSubmit={handleSubmit} className="space-y-6">
               <div className="grid md:grid-cols-2 gap-6">
@@ -344,7 +344,7 @@ const ProcedurePage: React.FC<ProcedurePageProps> = ({ procedureKey, section }) 
                     name="fullName"
                     value={formData.fullName}
                     onChange={handleChange}
-                    className="w-full px-4 py-3 border border-white/30 rounded-lg bg-white/10 text-white placeholder-white/50 focus:ring-2 focus:ring-white focus:border-transparent"
+                    className="w-full px-4 py-3 border border-white/50 rounded-lg bg-white/10 text-white placeholder-white focus:ring-2 focus:ring-white focus:border-transparent"
                     placeholder="Enter your full name"
                     required
                   />
@@ -359,7 +359,7 @@ const ProcedurePage: React.FC<ProcedurePageProps> = ({ procedureKey, section }) 
                     name="mobileNumber"
                     value={formData.mobileNumber}
                     onChange={handleChange}
-                    className="w-full px-4 py-3 border border-white/30 rounded-lg bg-white/10 text-white placeholder-white/50 focus:ring-2 focus:ring-white focus:border-transparent"
+                    className="w-full px-4 py-3 border border-white/50 rounded-lg bg-white/10 text-white placeholder-white focus:ring-2 focus:ring-white focus:border-transparent"
                     placeholder="Enter your mobile number"
                     required
                   />
@@ -376,7 +376,7 @@ const ProcedurePage: React.FC<ProcedurePageProps> = ({ procedureKey, section }) 
                   name="emailAddress"
                   value={formData.emailAddress}
                   onChange={handleChange}
-                  className="w-full px-4 py-3 border border-white/30 rounded-lg bg-white/10 text-white placeholder-white/50 focus:ring-2 focus:ring-white focus:border-transparent"
+                  className="w-full px-4 py-3 border border-white/50 rounded-lg bg-white/10 text-white placeholder-white focus:ring-2 focus:ring-white focus:border-transparent"
                   placeholder="Enter your email address"
                   required
                 />
@@ -391,7 +391,7 @@ const ProcedurePage: React.FC<ProcedurePageProps> = ({ procedureKey, section }) 
                   name="department"
                   value={formData.department}
                   onChange={handleChange}
-                  className="w-full px-4 py-3 border border-white/30 rounded-lg bg-white/10 text-white focus:ring-2 focus:ring-white focus:border-transparent"
+                  className="w-full px-4 py-3 border border-white/50 rounded-lg bg-white/10 text-white focus:ring-2 focus:ring-white focus:border-transparent"
                 >
                   <option value="plastic-surgery" className="text-gray-900">Plastic Surgery</option>
                 </select>
@@ -407,7 +407,7 @@ const ProcedurePage: React.FC<ProcedurePageProps> = ({ procedureKey, section }) 
                   rows={4}
                   value={formData.query}
                   onChange={handleChange}
-                  className="w-full px-4 py-3 border border-white/30 rounded-lg bg-white/10 text-white placeholder-white/50 focus:ring-2 focus:ring-white focus:border-transparent"
+                  className="w-full px-4 py-3 border border-white/50 rounded-lg bg-white/10 text-white placeholder-white focus:ring-2 focus:ring-white focus:border-transparent"
                   placeholder="Tell us about your query or any comments..."
                 ></textarea>
               </div>
