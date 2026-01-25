@@ -16,12 +16,20 @@ const VitaminDripsDepartment: React.FC = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <div className="bg-primary-600 text-white py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">
+      <div className="relative bg-primary-900 text-white py-24 sm:py-32 overflow-hidden">
+        <div className="absolute inset-0">
+          <img
+            src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?ixlib=rb-4.1.0&auto=format&fit=crop&w=1920&q=80"
+            alt={t('vitaminDrips.title')}
+            className="h-full w-full object-cover opacity-60"
+          />
+          <div className="absolute inset-0 bg-gradient-to-b from-black/50 to-black/70"></div>
+        </div>
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
             {t('vitaminDrips.title')}
           </h1>
-          <p className="text-xl max-w-3xl mx-auto text-primary-100">
+          <p className="text-xl max-w-3xl mx-auto text-primary-100/90">
             {t('vitaminDrips.description')}
           </p>
         </div>
@@ -39,7 +47,7 @@ const VitaminDripsDepartment: React.FC = () => {
                 <p className="text-gray-600 mb-6">
                   {t(`vitaminDrips.treatments.${key}.description`)}
                 </p>
-                
+
                 <div className="space-y-4 mb-6">
                   <div className="flex items-center text-sm text-gray-500">
                     <Clock className="w-4 h-4 mr-2 text-primary-500" />
@@ -67,7 +75,7 @@ const VitaminDripsDepartment: React.FC = () => {
                   </ul>
                 </div>
               </div>
-              
+
               <div className="p-6 bg-gray-50 border-t border-gray-100">
                 <button className="w-full flex items-center justify-center space-x-2 bg-white border-2 border-primary-600 text-primary-600 py-3 px-6 rounded-lg font-semibold hover:bg-primary-50 transition-colors duration-300">
                   <Calendar className="w-4 h-4" />
@@ -88,7 +96,7 @@ const VitaminDripsDepartment: React.FC = () => {
           <p className="text-lg text-gray-600 mb-8">
             {t('vitaminDrips.cta.description')}
           </p>
-          <button className="bg-gradient-to-r from-primary-600 to-secondary-600 text-white text-lg font-semibold py-4 px-8 rounded-full shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 transition-all duration-300">
+          <button className="btn-modern text-lg py-4 px-8">
             {t('vitaminDrips.cta.button')}
           </button>
         </div>

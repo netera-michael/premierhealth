@@ -16,7 +16,7 @@ const SkincareDepartment: React.FC = () => {
 
   const TreatmentCard = ({ treatmentKey }: { treatmentKey: string }) => {
     const treatmentName = t(`skincare.treatments.${treatmentKey}`);
-    
+
     return (
       <div className="group flex flex-col items-center justify-center p-6 bg-white rounded-lg border border-gray-200 hover:border-primary-500 hover:shadow-lg transition-all duration-300 cursor-pointer">
         <div className="w-20 h-20 mb-4 group-hover:scale-110 transition-transform duration-300 flex items-center justify-center">
@@ -76,8 +76,8 @@ const SkincareDepartment: React.FC = () => {
           <h2 className="text-3xl font-bold text-gray-900 mb-8">{t('skincare.treatments.title', 'Skincare')}</h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-5 gap-4">
             {skincareTreatments.map((treatmentKey) => (
-              <TreatmentCard 
-                key={treatmentKey} 
+              <TreatmentCard
+                key={treatmentKey}
                 treatmentKey={treatmentKey}
               />
             ))}
@@ -85,10 +85,10 @@ const SkincareDepartment: React.FC = () => {
         </section>
 
         {/* CTA Section */}
-        <section className="bg-gradient-to-r from-primary-500 to-secondary-500 rounded-xl shadow-xl p-8 md:p-12 text-center text-white mt-16">
+        <section className="bg-primary-900 rounded-xl shadow-xl p-8 md:p-12 text-center text-white mt-16">
           <h2 className="text-3xl font-bold mb-4">{t('skincare.cta.title')}</h2>
           <p className="text-lg mb-8 max-w-2xl mx-auto">{t('skincare.cta.description')}</p>
-          <button className="bg-white text-primary-600 px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors duration-300 shadow-lg">
+          <button className="bg-white text-primary-900 px-8 py-3 rounded-tl-2xl rounded-br-2xl rounded-tr-none rounded-bl-none font-semibold hover:bg-gray-100 transition-colors duration-300 shadow-lg">
             {t('skincare.cta.button')}
           </button>
         </section>

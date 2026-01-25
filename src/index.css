@@ -148,3 +148,13 @@
   border-top-left-radius: 0.5rem !important;
   border-bottom-left-radius: 0.5rem !important;
 }
+
+/* Custom Modern Button Style inspired by reference */
+.btn-modern {
+  @apply bg-primary-600 text-white font-light transition-all duration-300 shadow-md hover:bg-white hover:text-primary-600 hover:shadow-lg border border-transparent hover:border-primary-600;
+  border-radius: 15px 0px 15px 0px;
+}
+
+[dir="rtl"] .btn-modern {
+  border-radius: 0px 15px 0px 15px;
+}
