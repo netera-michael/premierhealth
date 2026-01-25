@@ -70,7 +70,7 @@ const VitaminDrips = () => {
                   </ul>
                 </div>
 
-                <button className="w-full bg-gradient-to-r from-primary-500 to-secondary-500 text-white py-3 px-6 rounded-lg font-semibold hover:from-primary-600 hover:to-secondary-600 transition-all duration-300 flex items-center justify-center group">
+                <button className="w-full btn-modern bg-primary-600 text-white py-3 px-6 shadow-lg flex items-center justify-center group">
                   {t('vitaminDrips.bookTreatment')}
                   <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
                 </button>
@@ -80,12 +80,12 @@ const VitaminDrips = () => {
         </div>
 
         <div className="mt-16 text-center">
-          <div className="bg-gradient-to-r from-primary-50 to-secondary-50 rounded-2xl p-8">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">{t('vitaminDrips.cta.title')}</h3>
-            <p className="text-gray-600 mb-6">
+          <div className="bg-primary-900 rounded-2xl p-8 text-white">
+            <h3 className="text-2xl font-bold mb-4">{t('vitaminDrips.cta.title')}</h3>
+            <p className="text-lg mb-6">
               {t('vitaminDrips.cta.description')}
             </p>
-            <button className="bg-gradient-to-r from-primary-500 to-secondary-500 text-white px-8 py-3 rounded-full font-semibold hover:from-primary-600 hover:to-secondary-600 transition-all duration-300">
+            <button className="btn-modern bg-white text-primary-900 px-8 py-3 shadow-lg">
               {t('vitaminDrips.cta.button')}
             </button>
           </div>
