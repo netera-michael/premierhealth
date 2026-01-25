@@ -28,7 +28,7 @@ const Process = () => {
             return (
               <div key={index} className="text-center group">
                 <div className="relative mb-6">
-                  <div className="w-20 h-20 bg-gradient-to-br from-primary-500 to-secondary-500 rounded-full flex items-center justify-center mx-auto group-hover:scale-110 transition-transform duration-300 shadow-lg">
+                  <div className="w-20 h-20 bg-primary-600 rounded-full flex items-center justify-center mx-auto group-hover:scale-110 transition-transform duration-300 shadow-lg">
                     <IconComponent className="w-10 h-10 text-white" />
                   </div>
                   <div className="absolute -top-2 -right-2 w-8 h-8 bg-secondary-500 rounded-full flex items-center justify-center text-white font-bold text-sm">
@@ -44,10 +44,10 @@ const Process = () => {
 
         {/* Process Flow Connector */}
         <div className="hidden lg:block relative mt-16">
-          <div className="absolute top-1/2 left-0 right-0 h-0.5 bg-gradient-to-r from-primary-200 via-secondary-200 to-primary-200 transform -translate-y-1/2"></div>
+          <div className="absolute top-1/2 left-0 right-0 h-0.5 bg-gray-200 transform -translate-y-1/2"></div>
           <div className="flex justify-between items-center">
             {[1, 2, 3, 4].map((num) => (
-              <div key={num} className="w-4 h-4 bg-primary-500 rounded-full border-4 border-white shadow-lg"></div>
+              <div key={num} className="w-4 h-4 bg-primary-600 rounded-full border-4 border-white shadow-lg"></div>
             ))}
           </div>
         </div>
