@@ -19,7 +19,7 @@ const VitaminDripsDepartment: React.FC = () => {
       <div className="relative bg-primary-900 text-white py-24 sm:py-32 overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?ixlib=rb-4.1.0&auto=format&fit=crop&w=1920&q=80"
+            src="https://images.unsplash.com/photo-1583830379747-195159d0de82?q=80&w=2070&auto=format&fit=crop"
             alt={t('vitaminDrips.title')}
             className="h-full w-full object-cover opacity-60"
           />
