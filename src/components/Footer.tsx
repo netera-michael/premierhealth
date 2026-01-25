@@ -28,27 +28,27 @@ const Footer = () => {
               {t('footer.description')}
             </p>
             <div className="flex space-x-4">
-              <a 
-                href="https://www.facebook.com/premierecareclinics" 
-                target="_blank" 
+              <a
+                href="https://www.facebook.com/premierecareclinics"
+                target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-primary-600 rounded-full flex items-center justify-center hover:bg-primary-700 transition-colors"
                 aria-label="Facebook"
               >
                 <Facebook className="w-5 h-5" />
               </a>
-              <a 
-                href="https://www.instagram.com/premierhealth.clinics/" 
-                target="_blank" 
+              <a
+                href="https://www.instagram.com/premierhealth.clinics/"
+                target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-primary-600 rounded-full flex items-center justify-center hover:bg-primary-700 transition-colors"
                 aria-label="Instagram"
               >
                 <Instagram className="w-5 h-5" />
               </a>
-              <a 
-                href="https://www.linkedin.com/in/premier-care-641a68179?originalSubdomain=eg" 
-                target="_blank" 
+              <a
+                href="https://www.linkedin.com/in/premier-care-641a68179?originalSubdomain=eg"
+                target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-primary-600 rounded-full flex items-center justify-center hover:bg-primary-700 transition-colors"
                 aria-label="LinkedIn"
@@ -117,9 +117,9 @@ const Footer = () => {
                   className="h-8 w-auto opacity-70 hover:opacity-100 transition-opacity"
                 />
                 <img
-                  src="https://tabby.ai/static/tabby-logo-light.svg"
+                  src="https://www.pfgrowth.com/wp-content/uploads/2023/03/tabby-logo-1.png"
                   alt="Tabby"
-                  className="h-8 w-auto opacity-70 hover:opacity-100 transition-opacity"
+                  className="h-8 w-auto object-contain opacity-70 hover:opacity-100 transition-opacity"
                 />
                 <img
                   src="https://tamara.co/static/images/tamara-logo-white.svg"
