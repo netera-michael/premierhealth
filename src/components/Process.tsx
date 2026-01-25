@@ -43,14 +43,7 @@ const Process = () => {
         </div>
 
         {/* Process Flow Connector */}
-        <div className="hidden lg:block relative mt-16">
-          <div className="absolute top-1/2 left-0 right-0 h-0.5 bg-gray-200 transform -translate-y-1/2"></div>
-          <div className="flex justify-between items-center">
-            {[1, 2, 3, 4].map((num) => (
-              <div key={num} className="w-4 h-4 bg-primary-600 rounded-full border-4 border-white shadow-lg"></div>
-            ))}
-          </div>
-        </div>
+
 
         <div className="mt-16 text-center">
           <div className="bg-primary-900 rounded-2xl p-8 text-white">

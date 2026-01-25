@@ -51,7 +51,6 @@ const VitaminDrips = () => {
                     <h3 className="text-xl font-bold text-gray-900">{t(`vitaminDrips.treatments.${treatment.key}.name`)}</h3>
                     <div className="flex items-center space-x-4 text-sm text-gray-500">
                       <span>{t(`vitaminDrips.treatments.${treatment.key}.duration`)}</span>
-                      <span className="text-primary-600 font-semibold">{t(`vitaminDrips.treatments.${treatment.key}.price`)}</span>
                     </div>
                   </div>
                 </div>

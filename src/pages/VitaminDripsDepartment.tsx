@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { Clock, Tag, Check, Calendar } from 'lucide-react';
+import { Clock, Check, Calendar } from 'lucide-react';
 
 const VitaminDripsDepartment: React.FC = () => {
   const { t } = useTranslation();
@@ -52,10 +52,6 @@ const VitaminDripsDepartment: React.FC = () => {
                   <div className="flex items-center text-sm text-gray-500">
                     <Clock className="w-4 h-4 mr-2 text-primary-500" />
                     <span>{t(`vitaminDrips.treatments.${key}.duration`)}</span>
-                  </div>
-                  <div className="flex items-center text-sm text-gray-500">
-                    <Tag className="w-4 h-4 mr-2 text-primary-500" />
-                    <span>{t(`vitaminDrips.treatments.${key}.price`)}</span>
                   </div>
                 </div>
 
