@@ -1,6 +1,5 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
-import { Phone, Mail, MapPin, Clock, Facebook, Instagram, Twitter, Linkedin } from 'lucide-react';
+import { Phone, Mail, MapPin, Clock, Facebook, Instagram, Linkedin } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
 const Footer = () => {
@@ -98,33 +97,33 @@ const Footer = () => {
         {/* Payment Methods */}
         <div className="border-t border-gray-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <div className="mb-4 md:mb-0">
-              <h4 className="text-sm font-semibold text-white mb-3">{t('footer.paymentMethods')}</h4>
-              <div className="flex items-center space-x-4">
+            <div className="mb-4 md:mb-0 w-full md:w-auto">
+              <h4 className="text-sm font-semibold text-white mb-3 text-center md:text-left">{t('footer.paymentMethods')}</h4>
+              <div className="flex flex-wrap items-center justify-center md:justify-start gap-4">
                 <img
                   src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Visa_Inc._logo.svg/2560px-Visa_Inc._logo.svg.png"
                   alt="Visa"
-                  className="h-8 w-auto opacity-70 hover:opacity-100 transition-opacity"
+                  className="h-6 md:h-8 w-auto opacity-70 hover:opacity-100 transition-opacity"
                 />
                 <img
                   src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Mastercard-logo.svg/1280px-Mastercard-logo.svg.png"
                   alt="Mastercard"
-                  className="h-8 w-auto opacity-70 hover:opacity-100 transition-opacity"
+                  className="h-6 md:h-8 w-auto opacity-70 hover:opacity-100 transition-opacity"
                 />
                 <img
                   src="https://www.valu.com.eg/assets/images/valu.webp"
                   alt="valU"
-                  className="h-8 w-auto opacity-70 hover:opacity-100 transition-opacity"
+                  className="h-6 md:h-8 w-auto opacity-70 hover:opacity-100 transition-opacity"
                 />
                 <img
                   src="https://www.pfgrowth.com/wp-content/uploads/2023/03/tabby-logo-1.png"
                   alt="Tabby"
-                  className="h-8 w-auto object-contain opacity-70 hover:opacity-100 transition-opacity"
+                  className="h-6 md:h-8 w-auto object-contain opacity-70 hover:opacity-100 transition-opacity"
                 />
                 <img
                   src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKCy6jLahmGQdxAJRMr84-Rp1hsg-oiN_Emg&s"
                   alt="Tamara"
-                  className="h-8 w-auto object-contain opacity-70 hover:opacity-100 transition-opacity"
+                  className="h-6 md:h-8 w-auto object-contain opacity-70 hover:opacity-100 transition-opacity"
                 />
               </div>
             </div>
