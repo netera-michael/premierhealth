@@ -6,10 +6,10 @@ const About = () => {
   const { t } = useTranslation();
 
   const features = [
-    { icon: Shield, key: 'safetyFirst', bgColor: 'bg-primary-100', iconColor: 'text-primary-600' },
-    { icon: Award, key: 'premiumQuality', bgColor: 'bg-secondary-100', iconColor: 'text-secondary-600' },
-    { icon: Users, key: 'expertTeam', bgColor: 'bg-primary-100', iconColor: 'text-primary-600' },
-    { icon: Heart, key: 'personalizedCare', bgColor: 'bg-secondary-100', iconColor: 'text-secondary-600' }
+    { icon: Shield, key: 'safetyFirst', bgColor: 'bg-secondary-500', iconColor: 'text-white' },
+    { icon: Award, key: 'premiumQuality', bgColor: 'bg-secondary-500', iconColor: 'text-white' },
+    { icon: Users, key: 'expertTeam', bgColor: 'bg-secondary-500', iconColor: 'text-white' },
+    { icon: Heart, key: 'personalizedCare', bgColor: 'bg-secondary-500', iconColor: 'text-white' }
   ];
 
   return (

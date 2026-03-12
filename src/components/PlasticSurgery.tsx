@@ -58,7 +58,7 @@ const PlasticSurgery = () => {
           <h3 className="text-3xl font-bold text-gray-900 text-center mb-12">
             {t('plasticSurgery.categories.title')}
           </h3>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Face Procedures */}
             <div className="bg-white rounded-xl shadow-lg overflow-hidden">
@@ -120,14 +120,14 @@ const PlasticSurgery = () => {
         </div>
 
         {/* CTA Section */}
-        <div className="bg-gradient-to-r from-primary-600 to-secondary-600 rounded-xl shadow-xl p-8 text-center text-white">
+        <div className="bg-primary-900 rounded-xl shadow-xl p-8 text-center text-white">
           <h3 className="text-2xl font-bold mb-4">
             {t('plasticSurgery.cta.title')}
           </h3>
           <p className="text-lg mb-6 max-w-2xl mx-auto">
             {t('plasticSurgery.cta.description')}
           </p>
-          <button className="bg-white text-primary-600 px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors duration-300 shadow-lg">
+          <button className="bg-white text-primary-900 px-8 py-3 rounded-tl-2xl rounded-br-2xl rounded-tr-none rounded-bl-none font-semibold hover:bg-gray-100 transition-colors">
             {t('plasticSurgery.cta.button')}
           </button>
         </div>

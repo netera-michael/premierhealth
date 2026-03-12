@@ -25,13 +25,11 @@ const Hero = () => {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <button className="bg-gradient-to-r from-primary-500 to-secondary-500 text-white px-8 py-4 rounded-full font-semibold hover:from-primary-600 hover:to-secondary-600 transition-all duration-300 flex items-center justify-center group shadow-lg">
+              <button className="btn-modern px-8 py-4 flex items-center justify-center group">
                 {t('hero.bookTreatment')}
                 <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
               </button>
-              <button className="border-2 border-primary-500 text-primary-600 px-8 py-4 rounded-full font-semibold hover:bg-primary-50 transition-colors">
-                {t('hero.learnMore')}
-              </button>
+
             </div>
 
             {/* Trust Indicators */}
@@ -51,8 +49,8 @@ const Hero = () => {
           <div className="relative">
             <div className="relative z-10">
               <img
-                src="https://images.pexels.com/photos/4386467/pexels-photo-4386467.jpeg?auto=compress&cs=tinysrgb&w=800"
-                alt="IV Vitamin Therapy Treatment"
+                src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop"
+                alt="Cosmetic Treatment"
                 className="rounded-2xl shadow-2xl w-full h-[600px] object-cover"
               />
             </div>

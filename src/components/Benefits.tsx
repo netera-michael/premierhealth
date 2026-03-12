@@ -31,7 +31,7 @@ const Benefits = () => {
             const IconComponent = benefit.icon;
             return (
               <div key={index} className="bg-gray-50 p-8 rounded-xl hover:shadow-lg transition-shadow duration-300">
-                <div className="w-16 h-16 bg-gradient-to-br from-primary-500 to-secondary-500 rounded-lg flex items-center justify-center mb-6">
+                <div className="w-16 h-16 bg-secondary-500 rounded-lg flex items-center justify-center mb-6">
                   <IconComponent className="w-8 h-8 text-white" />
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">{t(`benefits.items.${benefit.key}.title`)}</h3>
@@ -41,12 +41,12 @@ const Benefits = () => {
           })}
         </div>
 
-        <div className="mt-16 bg-gradient-to-r from-primary-500 to-secondary-500 rounded-2xl p-8 text-center text-white">
+        <div className="mt-16 bg-primary-900 rounded-2xl p-8 text-center text-white">
           <h3 className="text-2xl font-bold mb-4">{t('benefits.cta.title')}</h3>
-          <p className="text-lg mb-6 opacity-90">
+          <p className="text-lg mb-6">
             {t('benefits.cta.description')}
           </p>
-          <button className="bg-white text-primary-600 px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors">
+          <button className="bg-white text-primary-900 px-8 py-3 rounded-tl-2xl rounded-br-2xl rounded-tr-none rounded-bl-none font-semibold hover:bg-gray-100 transition-colors">
             {t('benefits.cta.button')}
           </button>
         </div>

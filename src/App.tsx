@@ -9,6 +9,7 @@ import DermatologyDepartment from './pages/DermatologyDepartment';
 import SkincareDepartment from './pages/SkincareDepartment';
 import LaserDepartment from './pages/LaserDepartment';
 import VitaminDripsDepartment from './pages/VitaminDripsDepartment';
+import PeptiologyDepartment from './pages/PeptiologyDepartment';
 import About from './pages/About';
 import Contact from './pages/Contact';
 // Face procedures
@@ -46,280 +47,288 @@ function App() {
       <ScrollToTop />
       <div className="min-h-screen">
         <Routes>
-          <Route 
-            path="/" 
+          <Route
+            path="/"
             element={
               <Layout>
                 <Home />
               </Layout>
-            } 
+            }
           />
-          <Route 
-            path="/departments" 
+          <Route
+            path="/departments"
             element={
               <Layout>
                 <Departments />
               </Layout>
-            } 
+            }
           />
-          <Route 
-            path="/departments/plastic-surgery" 
+          <Route
+            path="/departments/plastic-surgery"
             element={
               <Layout>
                 <PlasticSurgeryDepartment />
               </Layout>
-            } 
+            }
           />
-          <Route 
-            path="/departments/dermatology" 
+          <Route
+            path="/departments/dermatology"
             element={
               <Layout>
                 <DermatologyDepartment />
               </Layout>
-            } 
+            }
           />
-          <Route 
-            path="/departments/skincare" 
+          <Route
+            path="/departments/skincare"
             element={
               <Layout>
                 <SkincareDepartment />
               </Layout>
-            } 
+            }
           />
-          <Route 
-            path="/departments/laser" 
+          <Route
+            path="/departments/laser"
             element={
               <Layout>
                 <LaserDepartment />
               </Layout>
-            } 
+            }
           />
-          <Route 
-            path="/departments/vitamin-drips" 
+          <Route
+            path="/departments/vitamin-drips"
             element={
               <Layout>
                 <VitaminDripsDepartment />
               </Layout>
-            } 
+            }
           />
-          <Route 
-            path="/about" 
+          <Route
+            path="/departments/peptiology"
+            element={
+              <Layout>
+                <PeptiologyDepartment />
+              </Layout>
+            }
+          />
+          <Route
+            path="/about"
             element={
               <Layout>
                 <About />
               </Layout>
-            } 
+            }
           />
-          <Route 
-            path="/contact" 
+          <Route
+            path="/contact"
             element={
               <Layout>
                 <Contact />
               </Layout>
-            } 
+            }
           />
           {/* Face Procedure Routes */}
-          <Route 
-            path="/departments/plastic-surgery/blepharoplasty" 
+          <Route
+            path="/departments/plastic-surgery/blepharoplasty"
             element={
               <Layout>
                 <Blepharoplasty />
               </Layout>
-            } 
+            }
           />
-          <Route 
-            path="/departments/plastic-surgery/buccal-fat-removal" 
+          <Route
+            path="/departments/plastic-surgery/buccal-fat-removal"
             element={
               <Layout>
                 <BuccalFatRemoval />
               </Layout>
-            } 
+            }
           />
-          <Route 
-            path="/departments/plastic-surgery/septoplasty" 
+          <Route
+            path="/departments/plastic-surgery/septoplasty"
             element={
               <Layout>
                 <Septoplasty />
               </Layout>
-            } 
+            }
           />
-          <Route 
-            path="/departments/plastic-surgery/otoplasty" 
+          <Route
+            path="/departments/plastic-surgery/otoplasty"
             element={
               <Layout>
                 <Otoplasty />
               </Layout>
-            } 
+            }
           />
-          <Route 
-            path="/departments/plastic-surgery/facelift" 
+          <Route
+            path="/departments/plastic-surgery/facelift"
             element={
               <Layout>
                 <Facelift />
               </Layout>
-            } 
+            }
           />
-          <Route 
-            path="/departments/plastic-surgery/rhinoplasty" 
+          <Route
+            path="/departments/plastic-surgery/rhinoplasty"
             element={
               <Layout>
                 <Rhinoplasty />
               </Layout>
-            } 
+            }
           />
-          <Route 
-            path="/departments/plastic-surgery/neck-lift" 
+          <Route
+            path="/departments/plastic-surgery/neck-lift"
             element={
               <Layout>
                 <NeckLift />
               </Layout>
-            } 
+            }
           />
-          <Route 
-            path="/departments/plastic-surgery/double-chin-liposuction" 
+          <Route
+            path="/departments/plastic-surgery/double-chin-liposuction"
             element={
               <Layout>
                 <DoubleChinLiposuction />
               </Layout>
-            } 
+            }
           />
-          <Route 
-            path="/departments/plastic-surgery/chin-augmentation" 
+          <Route
+            path="/departments/plastic-surgery/chin-augmentation"
             element={
               <Layout>
                 <ChinAugmentation />
               </Layout>
-            } 
+            }
           />
           {/* Body Procedure Routes */}
-          <Route 
-            path="/departments/plastic-surgery/brachioplasty" 
+          <Route
+            path="/departments/plastic-surgery/brachioplasty"
             element={
               <Layout>
                 <Brachioplasty />
               </Layout>
-            } 
+            }
           />
-          <Route 
-            path="/departments/plastic-surgery/panniculectomy" 
+          <Route
+            path="/departments/plastic-surgery/panniculectomy"
             element={
               <Layout>
                 <Panniculectomy />
               </Layout>
-            } 
+            }
           />
-          <Route 
-            path="/departments/plastic-surgery/body-contouring-360" 
+          <Route
+            path="/departments/plastic-surgery/body-contouring-360"
             element={
               <Layout>
                 <BodyContouring360 />
               </Layout>
-            } 
+            }
           />
-          <Route 
-            path="/departments/plastic-surgery/tummy-tuck" 
+          <Route
+            path="/departments/plastic-surgery/tummy-tuck"
             element={
               <Layout>
                 <TummyTuck />
               </Layout>
-            } 
+            }
           />
-          <Route 
-            path="/departments/plastic-surgery/gluteal-augmentation" 
+          <Route
+            path="/departments/plastic-surgery/gluteal-augmentation"
             element={
               <Layout>
                 <GlutealAugmentation />
               </Layout>
-            } 
+            }
           />
-          <Route 
-            path="/departments/plastic-surgery/thigh-lift" 
+          <Route
+            path="/departments/plastic-surgery/thigh-lift"
             element={
               <Layout>
                 <ThighLift />
               </Layout>
-            } 
+            }
           />
-          <Route 
-            path="/departments/plastic-surgery/mommy-makeover" 
+          <Route
+            path="/departments/plastic-surgery/mommy-makeover"
             element={
               <Layout>
                 <MommyMakeover />
               </Layout>
-            } 
+            }
           />
-          <Route 
-            path="/departments/plastic-surgery/body-lift-surgery" 
+          <Route
+            path="/departments/plastic-surgery/body-lift-surgery"
             element={
               <Layout>
                 <BodyLiftSurgery />
               </Layout>
-            } 
+            }
           />
-          <Route 
-            path="/departments/plastic-surgery/j-plasma" 
+          <Route
+            path="/departments/plastic-surgery/j-plasma"
             element={
               <Layout>
                 <JPlasma />
               </Layout>
-            } 
+            }
           />
-          <Route 
-            path="/departments/plastic-surgery/fat-grafting" 
+          <Route
+            path="/departments/plastic-surgery/fat-grafting"
             element={
               <Layout>
                 <FatGrafting />
               </Layout>
-            } 
+            }
           />
-          <Route 
-            path="/departments/plastic-surgery/liposuction" 
+          <Route
+            path="/departments/plastic-surgery/liposuction"
             element={
               <Layout>
                 <Liposuction />
               </Layout>
-            } 
+            }
           />
           {/* Breast Procedure Routes */}
-          <Route 
-            path="/departments/plastic-surgery/breast-implant-removal" 
+          <Route
+            path="/departments/plastic-surgery/breast-implant-removal"
             element={
               <Layout>
                 <BreastImplantRemoval />
               </Layout>
-            } 
+            }
           />
-          <Route 
-            path="/departments/plastic-surgery/breast-lift" 
+          <Route
+            path="/departments/plastic-surgery/breast-lift"
             element={
               <Layout>
                 <BreastLift />
               </Layout>
-            } 
+            }
           />
-          <Route 
-            path="/departments/plastic-surgery/breast-augmentation" 
+          <Route
+            path="/departments/plastic-surgery/breast-augmentation"
             element={
               <Layout>
                 <BreastAugmentation />
               </Layout>
-            } 
+            }
           />
-          <Route 
-            path="/departments/plastic-surgery/breast-reduction" 
+          <Route
+            path="/departments/plastic-surgery/breast-reduction"
             element={
               <Layout>
                 <BreastReduction />
               </Layout>
-            } 
+            }
           />
-          <Route 
-            path="/departments/plastic-surgery/gynecomastia" 
+          <Route
+            path="/departments/plastic-surgery/gynecomastia"
             element={
               <Layout>
                 <Gynecomastia />
               </Layout>
-            } 
+            }
           />
         </Routes>
       </div>

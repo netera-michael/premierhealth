@@ -22,7 +22,7 @@ const LaserDepartment: React.FC = () => {
 
   const ItemCard = ({ itemKey, section }: { itemKey: string; section: 'treatments' | 'devices' }) => {
     const itemName = t(`laser.${section}.${itemKey}`);
-    
+
     return (
       <div className="group flex flex-col items-center justify-center p-6 bg-white rounded-lg border border-gray-200 hover:border-primary-500 hover:shadow-lg transition-all duration-300 cursor-pointer">
         <div className="w-20 h-20 mb-4 group-hover:scale-110 transition-transform duration-300 flex items-center justify-center">
@@ -56,7 +56,7 @@ const LaserDepartment: React.FC = () => {
       <section className="pagehero relative overflow-hidden bg-gray-900">
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.1.0&auto=format&fit=crop&w=1920&q=80"
+            src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?ixlib=rb-4.1.0&auto=format&fit=crop&w=1920&q=80"
             alt={t('laser.title')}
             className="h-full w-full object-cover opacity-60"
           />
@@ -82,8 +82,8 @@ const LaserDepartment: React.FC = () => {
           <h2 className="text-3xl font-bold text-gray-900 mb-8">{t('laser.treatments.title', 'Laser Treatments')}</h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-5 gap-4">
             {laserTreatments.map((treatmentKey) => (
-              <ItemCard 
-                key={treatmentKey} 
+              <ItemCard
+                key={treatmentKey}
                 itemKey={treatmentKey}
                 section="treatments"
               />
@@ -96,8 +96,8 @@ const LaserDepartment: React.FC = () => {
           <h2 className="text-3xl font-bold text-gray-900 mb-8">{t('laser.devices.title', 'Laser Devices')}</h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-5 gap-4">
             {laserDevices.map((deviceKey) => (
-              <ItemCard 
-                key={deviceKey} 
+              <ItemCard
+                key={deviceKey}
                 itemKey={deviceKey}
                 section="devices"
               />
@@ -106,10 +106,10 @@ const LaserDepartment: React.FC = () => {
         </section>
 
         {/* CTA Section */}
-        <section className="bg-gradient-to-r from-primary-500 to-secondary-500 rounded-xl shadow-xl p-8 md:p-12 text-center text-white mt-16">
+        <section className="bg-primary-900 rounded-xl shadow-xl p-8 md:p-12 text-center text-white mt-16">
           <h2 className="text-3xl font-bold mb-4">{t('laser.cta.title')}</h2>
           <p className="text-lg mb-8 max-w-2xl mx-auto">{t('laser.cta.description')}</p>
-          <button className="bg-white text-primary-600 px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors duration-300 shadow-lg">
+          <button className="bg-white text-primary-900 px-8 py-3 rounded-tl-2xl rounded-br-2xl rounded-tr-none rounded-bl-none font-semibold hover:bg-gray-100 transition-colors duration-300 shadow-lg">
             {t('laser.cta.button')}
           </button>
         </section>

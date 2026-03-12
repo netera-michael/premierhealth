@@ -19,7 +19,7 @@ const Doctors: React.FC = () => {
   const { t } = useTranslation();
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedDepartment, setSelectedDepartment] = useState('all');
-  
+
   // Sample doctor data - you can replace this with real data later
   const doctors: Doctor[] = [
     {
@@ -128,7 +128,7 @@ const Doctors: React.FC = () => {
     { value: 'Detox Programs', label: t('doctors.departments.detoxPrograms') },
     { value: 'Wellness', label: t('doctors.departments.wellness') }
   ];
-  
+
   // Pagination state
   const [currentPage, setCurrentPage] = useState(1);
   const doctorsPerPage = 6; // Show 6 doctors per page
@@ -139,8 +139,8 @@ const Doctors: React.FC = () => {
   }, [searchTerm, selectedDepartment]);
 
   const filteredDoctors = doctors.filter(doctor => {
-    const matchesSearch = doctor.name.toLowerCase().includes(searchTerm.toLowerCase()) || 
-                          doctor.title.toLowerCase().includes(searchTerm.toLowerCase());
+    const matchesSearch = doctor.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      doctor.title.toLowerCase().includes(searchTerm.toLowerCase());
     const matchesDepartment = selectedDepartment === 'all' || doctor.department === selectedDepartment;
     return matchesSearch && matchesDepartment;
   });
@@ -217,8 +217,8 @@ const Doctors: React.FC = () => {
               <div className="p-6">
                 <div className="flex items-start space-x-4">
                   <div className="flex-shrink-0">
-                    <img 
-                      src={doctor.image} 
+                    <img
+                      src={doctor.image}
                       alt={`${doctor.name} profile`}
                       className="w-16 h-16 rounded-xl object-cover"
                       onError={(e) => {
@@ -228,16 +228,16 @@ const Doctors: React.FC = () => {
                       }}
                     />
                   </div>
-                  
+
                   <div className="flex-1 min-w-0">
                     <h3 className="text-lg font-bold text-gray-900">{doctor.name}</h3>
                     <p className="text-primary-600 font-medium">{doctor.title}</p>
                     <div className="mt-2 flex items-center">
                       <div className="flex text-yellow-400">
                         {[...Array(5)].map((_, i) => (
-                          <Star 
-                            key={i} 
-                            className={`w-4 h-4 ${i < Math.floor(doctor.rating) ? 'fill-current' : ''}`} 
+                          <Star
+                            key={i}
+                            className={`w-4 h-4 ${i < Math.floor(doctor.rating) ? 'fill-current' : ''}`}
                           />
                         ))}
                       </div>
@@ -245,17 +245,17 @@ const Doctors: React.FC = () => {
                     </div>
                   </div>
                 </div>
-                
+
                 <div className="mt-4">
                   <span className="inline-block bg-primary-100 text-primary-800 text-xs px-2 py-1 rounded-full">
                     {doctor.department}
                   </span>
                 </div>
-                
+
                 <p className="mt-3 text-gray-600 text-sm">
                   {doctor.description}
                 </p>
-                
+
                 <div className="mt-4">
                   <h4 className="text-sm font-medium text-gray-900">{t('doctors.specialties')}:</h4>
                   <div className="mt-1 flex flex-wrap gap-1">
@@ -266,7 +266,7 @@ const Doctors: React.FC = () => {
                     ))}
                   </div>
                 </div>
-                
+
                 <div className="mt-4 flex justify-between text-sm text-gray-600">
                   <div className="flex items-center">
                     <Calendar className="w-4 h-4 mr-1" />
@@ -277,9 +277,9 @@ const Doctors: React.FC = () => {
                     <span>{doctor.languages.join(', ')}</span>
                   </div>
                 </div>
-                
+
                 <div className="mt-6">
-                  <button className="w-full bg-gradient-to-r from-primary-500 to-secondary-500 text-white py-2 px-4 rounded-lg font-medium hover:from-primary-600 hover:to-secondary-600 transition-all duration-300">
+                  <button className="w-full btn-modern bg-primary-600 text-white py-2 px-4 shadow-sm hover:shadow-md">
                     {t('doctors.viewProfile')}
                   </button>
                 </div>
@@ -293,37 +293,34 @@ const Doctors: React.FC = () => {
           <div className="flex justify-center">
             <nav className="flex items-center space-x-2" aria-label="Pagination">
               <button
-                className={`px-3 py-2 text-sm font-medium rounded-lg border ${
-                  currentPage === 1 
-                    ? 'text-gray-300 bg-gray-100 border-gray-200 cursor-not-allowed' 
+                className={`px-3 py-2 text-sm font-medium rounded-lg border ${currentPage === 1
+                    ? 'text-gray-300 bg-gray-100 border-gray-200 cursor-not-allowed'
                     : 'text-gray-500 bg-white border-gray-300 hover:bg-gray-50'
-                }`}
+                  }`}
                 onClick={() => setCurrentPage(prev => Math.max(prev - 1, 1))}
                 disabled={currentPage === 1}
               >
                 {t('doctors.pagination.previous')}
               </button>
-              
+
               {Array.from({ length: totalPages }, (_, index) => index + 1).map((page) => (
                 <button
                   key={page}
-                  className={`px-3 py-2 text-sm font-medium rounded-lg border ${
-                    currentPage === page
+                  className={`px-3 py-2 text-sm font-medium rounded-lg border ${currentPage === page
                       ? 'text-primary-600 bg-primary-50 border-primary-300'
                       : 'text-gray-500 bg-white border-gray-300 hover:bg-gray-50'
-                  }`}
+                    }`}
                   onClick={() => setCurrentPage(page)}
                 >
                   {page}
                 </button>
               ))}
-              
+
               <button
-                className={`px-3 py-2 text-sm font-medium rounded-lg border ${
-                  currentPage === totalPages
+                className={`px-3 py-2 text-sm font-medium rounded-lg border ${currentPage === totalPages
                     ? 'text-gray-300 bg-gray-100 border-gray-200 cursor-not-allowed'
                     : 'text-gray-500 bg-white border-gray-300 hover:bg-gray-50'
-                }`}
+                  }`}
                 onClick={() => setCurrentPage(prev => Math.min(prev + 1, totalPages))}
                 disabled={currentPage === totalPages}
               >

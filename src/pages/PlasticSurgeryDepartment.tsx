@@ -77,9 +77,9 @@ const PlasticSurgeryDepartment: React.FC = () => {
   const ProcedureCard = ({ procedureKey, section }: { procedureKey: string; section: 'face' | 'body' | 'breast' }) => {
     const procedureName = t(`plasticSurgery.${section}.procedures.${procedureKey}`);
     const procedureSlug = getProcedureSlug(procedureKey);
-    
+
     return (
-      <Link 
+      <Link
         to={`/departments/plastic-surgery/${procedureSlug}`}
         className="group flex flex-col items-center justify-center p-6 bg-white rounded-lg border border-gray-200 hover:border-primary-500 hover:shadow-lg transition-all duration-300 cursor-pointer"
       >
@@ -95,12 +95,7 @@ const PlasticSurgeryDepartment: React.FC = () => {
     );
   };
 
-  // YouTube videos data - get from translations
-  const youtubeVideos = t('plasticSurgery.videos.items', { returnObjects: true }) as Array<{
-    id: string;
-    title: string;
-    thumbnail?: string;
-  }>;
+
 
   return (
     <div className="min-h-screen bg-white">
@@ -147,9 +142,9 @@ const PlasticSurgeryDepartment: React.FC = () => {
           <h2 className="text-3xl font-bold text-gray-900 mb-8">{t('plasticSurgery.face.title')}</h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4">
             {faceProcedures.map((procedureKey) => (
-              <ProcedureCard 
-                key={procedureKey} 
-                procedureKey={procedureKey} 
+              <ProcedureCard
+                key={procedureKey}
+                procedureKey={procedureKey}
                 section="face"
               />
             ))}
@@ -161,9 +156,9 @@ const PlasticSurgeryDepartment: React.FC = () => {
           <h2 className="text-3xl font-bold text-gray-900 mb-8">{t('plasticSurgery.body.title')}</h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4">
             {bodyProcedures.map((procedureKey) => (
-              <ProcedureCard 
-                key={procedureKey} 
-                procedureKey={procedureKey} 
+              <ProcedureCard
+                key={procedureKey}
+                procedureKey={procedureKey}
                 section="body"
               />
             ))}
@@ -175,9 +170,9 @@ const PlasticSurgeryDepartment: React.FC = () => {
           <h2 className="text-3xl font-bold text-gray-900 mb-8">{t('plasticSurgery.breast.title')}</h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4">
             {breastProcedures.map((procedureKey) => (
-              <ProcedureCard 
-                key={procedureKey} 
-                procedureKey={procedureKey} 
+              <ProcedureCard
+                key={procedureKey}
+                procedureKey={procedureKey}
                 section="breast"
               />
             ))}
@@ -185,50 +180,13 @@ const PlasticSurgeryDepartment: React.FC = () => {
         </section>
 
         {/* YouTube Videos Section */}
-        <section className="mb-16">
-          <h2 className="text-3xl font-bold text-gray-900 mb-8">{t('plasticSurgery.videos.title', 'Videos')}</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {youtubeVideos && Array.isArray(youtubeVideos) && youtubeVideos.map((video: any, index: number) => {
-              const thumbnail = video.thumbnail || `https://img.youtube.com/vi/${video.id}/maxresdefault.jpg`;
-              return (
-                <div 
-                  key={index} 
-                  className="group relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 cursor-pointer"
-                  onClick={() => window.open(`https://www.youtube.com/watch?v=${video.id}`, '_blank')}
-                >
-                  <div className="relative aspect-video bg-gray-200">
-                    <img
-                      src={thumbnail}
-                      alt={video.title}
-                      className="w-full h-full object-cover"
-                      onError={(e) => {
-                        const target = e.target as HTMLImageElement;
-                        target.onerror = null;
-                        target.src = 'https://placehold.co/800x450/365a74/ffffff?text=Video';
-                      }}
-                    />
-                    <div className="absolute inset-0 bg-black/30 group-hover:bg-black/20 transition-colors duration-300 flex items-center justify-center">
-                      <div className="w-16 h-16 bg-red-600 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                        <svg className="w-8 h-8 text-white ml-1" fill="currentColor" viewBox="0 0 24 24">
-                          <path d="M8 5v14l11-7z"/>
-                        </svg>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="p-4 bg-white">
-                    <h3 className="text-lg font-semibold text-gray-900">{video.title}</h3>
-                  </div>
-                </div>
-              );
-            })}
-          </div>
-        </section>
+
 
         {/* CTA Section */}
-        <section className="bg-gradient-to-r from-primary-500 to-secondary-500 rounded-xl shadow-xl p-8 md:p-12 text-center text-white mt-16">
+        <section className="bg-primary-900 rounded-xl shadow-xl p-8 md:p-12 text-center text-white mt-16">
           <h2 className="text-3xl font-bold mb-4">{t('plasticSurgery.cta.title')}</h2>
           <p className="text-lg mb-8 max-w-2xl mx-auto">{t('plasticSurgery.cta.description')}</p>
-          <button className="bg-white text-primary-600 px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors duration-300 shadow-lg">
+          <button className="bg-white text-primary-900 px-8 py-3 rounded-tl-2xl rounded-br-2xl rounded-tr-none rounded-bl-none font-semibold hover:bg-gray-100 transition-colors duration-300 shadow-lg">
             {t('plasticSurgery.cta.button')}
           </button>
         </section>

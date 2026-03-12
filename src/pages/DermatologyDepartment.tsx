@@ -74,7 +74,7 @@ const DermatologyDepartment: React.FC = () => {
       <section className="pagehero relative overflow-hidden bg-gray-900">
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1594046781833-599bdd059b0f?auto=format&fit=crop&w=1920&q=80"
+            src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?auto=format&fit=crop&w=1920&q=80"
             alt={t('dermatology.title')}
             className="h-full w-full object-cover opacity-60"
           />
@@ -124,10 +124,10 @@ const DermatologyDepartment: React.FC = () => {
         </section>
 
         {/* CTA Section */}
-        <section className="bg-gradient-to-r from-primary-500 to-secondary-500 rounded-xl shadow-xl p-8 md:p-12 text-center text-white mt-16">
+        <section className="bg-primary-900 rounded-xl shadow-xl p-8 md:p-12 text-center text-white mt-16">
           <h2 className="text-3xl font-bold mb-4">{t('dermatology.cta.title')}</h2>
           <p className="text-lg mb-8 max-w-2xl mx-auto">{t('dermatology.cta.description')}</p>
-          <button className="bg-white text-primary-600 px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors duration-300 shadow-lg">
+          <button className="bg-white text-primary-900 px-8 py-3 rounded-tl-2xl rounded-br-2xl rounded-tr-none rounded-bl-none font-semibold hover:bg-gray-100 transition-colors duration-300 shadow-lg">
             {t('dermatology.cta.button')}
           </button>
         </section>

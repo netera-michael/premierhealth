@@ -2,7 +2,7 @@
   "header": {
     "phone": "+2 01200644663",
     "location": "Cairo, Egypt",
-    "hours": "Sat-Thu: 8AM-6PM | Fri: 2PM-8PM",
+    "hours": "Everyday: 12 PM – 10 PM",
     "nav": {
       "home": "Home",
       "departments": "Departments",
@@ -28,7 +28,10 @@
     "integrativeMedicine": "Integrative Medicine",
     "fertilityIVF": "Nabda Unit for Fertility and IVF",
     "stepahead": "Stepahead",
-    "diabeter": "Diabeter"
+    "diabeter": "Diabeter",
+    "peptiology": "Peptiology",
+    "peptiologyDescription": "Optimize your performance and longevity with medically guided peptide therapy.",
+    "learnMore": "Learn More"
   },
   "hero": {
     "badge": "Premium Wellness Center",
@@ -57,8 +60,7 @@
           "Enhanced metabolism",
           "Improved mood"
         ],
-        "duration": "45 minutes",
-        "price": "1,200 EGP"
+        "duration": "45 minutes"
       },
       "immunityShield": {
         "name": "Immunity Shield",
@@ -69,8 +71,7 @@
           "Antioxidant protection",
           "Reduced inflammation"
         ],
-        "duration": "50 minutes",
-        "price": "1,400 EGP"
+        "duration": "50 minutes"
       },
       "mentalClarity": {
         "name": "Mental Clarity",
@@ -81,8 +82,7 @@
           "Mental clarity",
           "Stress reduction"
         ],
-        "duration": "40 minutes",
-        "price": "1,300 EGP"
+        "duration": "40 minutes"
       },
       "beautyGlow": {
         "name": "Beauty Glow",
@@ -93,8 +93,7 @@
           "Anti-aging effects",
           "Collagen support"
         ],
-        "duration": "55 minutes",
-        "price": "1,500 EGP"
+        "duration": "55 minutes"
       },
       "detoxCleanse": {
         "name": "Detox Cleanse",
@@ -105,8 +104,7 @@
           "Improved digestion",
           "Enhanced wellness"
         ],
-        "duration": "60 minutes",
-        "price": "1,600 EGP"
+        "duration": "60 minutes"
       }
     },
     "keyBenefits": "Key Benefits:",
@@ -115,6 +113,35 @@
       "title": "Not Sure Which Treatment is Right for You?",
       "description": "Our medical team will help you choose the perfect vitamin drip based on your individual health needs and goals.",
       "button": "Schedule Free Consultation"
+    }
+  },
+  "peptiology": {
+    "title": "Peptiology (Peptide Therapy)",
+    "description": "Enhance energy, recovery, and longevity with medically guided peptide therapy. Support cellular repair and optimize your wellness with our customized treatments.",
+    "whatIs": {
+      "title": "What Is Peptide Therapy?",
+      "description": "Peptide therapy uses small chains of amino acids, known as peptides, to stimulate various biological processes in the body. When strategically administered, therapeutic peptides can mimic or enhance specific responses in the body to help support tissue repair, muscle growth, fat loss, cognitive function, or improve overall wellness."
+    },
+    "benefits": {
+      "title": "Benefits of Peptide Therapy",
+      "list": [
+        "Advanced and safe solution using bioidentical peptides",
+        "Highly targeted treatments customized to your health concerns",
+        "Supports optimal hormone function naturally declining with age",
+        "Promotes tissue repair and faster recovery from injuries",
+        "Combats daily fatigue by boosting mood and energy",
+        "Sharpens focus, memory, and mental performance",
+        "Strengthens long-term wellness and immune health"
+      ]
+    },
+    "customized": {
+      "title": "Peak Vitality, Customized to You",
+      "description": "At Premier Health, wellness is about more than just a revitalized appearance. Peptide therapy can help you achieve peak performance at every age. Whether your goals include sharper focus, improved recovery, fat loss, or restoring youthful energy, our expert team provides the tailored care you need."
+    },
+    "cta": {
+      "title": "Ready to Unlock Your Potential?",
+      "description": "Schedule a consultation with our medical team to discover how peptide therapy can help you achieve your health and wellness goals.",
+      "button": "Book a Consultation"
     }
   },
   "plasticSurgery": {
@@ -160,32 +187,6 @@
         "gynecomastia": "Gynecomastia"
       }
     },
-    "videos": {
-      "title": "Videos",
-      "description": "Watch our procedure videos and patient testimonials",
-      "items": [
-        {
-          "id": "dQw4w9WgXcQ",
-          "title": "Plastic Surgery Overview"
-        },
-        {
-          "id": "dQw4w9WgXcQ",
-          "title": "Face Procedures"
-        },
-        {
-          "id": "dQw4w9WgXcQ",
-          "title": "Body Contouring"
-        },
-        {
-          "id": "dQw4w9WgXcQ",
-          "title": "Breast Procedures"
-        },
-        {
-          "id": "dQw4w9WgXcQ",
-          "title": "Patient Testimonials"
-        }
-      ]
-    },
     "cta": {
       "title": "REQUEST An Appointment",
       "description": "Kindly complete the form, and one of our customer service representatives will reach out to you during our business hours.",
@@ -216,7 +217,7 @@
           }
         ],
         "quickFacts": {
-          "cost": "TBD",
+          "cost": "Upon Consultation",
           "duration": "1-2 hours",
           "hospitalStay": "No",
           "stitchesRemoved": "5-7 days",
@@ -277,7 +278,7 @@
           }
         ],
         "quickFacts": {
-          "cost": "TBD",
+          "cost": "Upon Consultation",
           "duration": "30-45 minutes",
           "hospitalStay": "No",
           "stitchesRemoved": "Self-dissolving",
@@ -338,7 +339,7 @@
           }
         ],
         "quickFacts": {
-          "cost": "TBD",
+          "cost": "Upon Consultation",
           "duration": "1-2 hours",
           "hospitalStay": "No",
           "stitchesRemoved": "Self-dissolving",
@@ -399,7 +400,7 @@
           }
         ],
         "quickFacts": {
-          "cost": "TBD",
+          "cost": "Upon Consultation",
           "duration": "1-2 hours",
           "hospitalStay": "No",
           "stitchesRemoved": "5-7 days",
@@ -460,7 +461,7 @@
           }
         ],
         "quickFacts": {
-          "cost": "TBD",
+          "cost": "Upon Consultation",
           "duration": "3-5 hours",
           "hospitalStay": "No",
           "stitchesRemoved": "7-10 days",
@@ -521,7 +522,7 @@
           }
         ],
         "quickFacts": {
-          "cost": "TBD",
+          "cost": "Upon Consultation",
           "duration": "2-3 hours",
           "hospitalStay": "No",
           "stitchesRemoved": "5-7 days",
@@ -582,7 +583,7 @@
           }
         ],
         "quickFacts": {
-          "cost": "TBD",
+          "cost": "Upon Consultation",
           "duration": "2-3 hours",
           "hospitalStay": "No",
           "stitchesRemoved": "7-10 days",
@@ -643,7 +644,7 @@
           }
         ],
         "quickFacts": {
-          "cost": "TBD",
+          "cost": "Upon Consultation",
           "duration": "30-60 minutes",
           "hospitalStay": "No",
           "stitchesRemoved": "Self-dissolving",
@@ -704,7 +705,7 @@
           }
         ],
         "quickFacts": {
-          "cost": "TBD",
+          "cost": "Upon Consultation",
           "duration": "1-2 hours",
           "hospitalStay": "No",
           "stitchesRemoved": "5-7 days",
@@ -765,7 +766,7 @@
           }
         ],
         "quickFacts": {
-          "cost": "TBD",
+          "cost": "Upon Consultation",
           "duration": "2-3 hours",
           "hospitalStay": "No",
           "stitchesRemoved": "10-14 days",
@@ -826,7 +827,7 @@
           }
         ],
         "quickFacts": {
-          "cost": "TBD",
+          "cost": "Upon Consultation",
           "duration": "2-4 hours",
           "hospitalStay": "Possibly 1 night",
           "stitchesRemoved": "10-14 days",
@@ -887,7 +888,7 @@
           }
         ],
         "quickFacts": {
-          "cost": "TBD",
+          "cost": "Upon Consultation",
           "duration": "4-6 hours",
           "hospitalStay": "Possibly 1-2 nights",
           "stitchesRemoved": "10-14 days",
@@ -948,7 +949,7 @@
           }
         ],
         "quickFacts": {
-          "cost": "TBD",
+          "cost": "Upon Consultation",
           "duration": "2-4 hours",
           "hospitalStay": "No",
           "stitchesRemoved": "10-14 days",
@@ -1009,7 +1010,7 @@
           }
         ],
         "quickFacts": {
-          "cost": "TBD",
+          "cost": "Upon Consultation",
           "duration": "2-4 hours",
           "hospitalStay": "No",
           "stitchesRemoved": "7-10 days",
@@ -1070,7 +1071,7 @@
           }
         ],
         "quickFacts": {
-          "cost": "TBD",
+          "cost": "Upon Consultation",
           "duration": "2-3 hours",
           "hospitalStay": "No",
           "stitchesRemoved": "10-14 days",
@@ -1131,7 +1132,7 @@
           }
         ],
         "quickFacts": {
-          "cost": "TBD",
+          "cost": "Upon Consultation",
           "duration": "4-6 hours",
           "hospitalStay": "Possibly 1 night",
           "stitchesRemoved": "10-14 days",
@@ -1192,7 +1193,7 @@
           }
         ],
         "quickFacts": {
-          "cost": "TBD",
+          "cost": "Upon Consultation",
           "duration": "5-8 hours",
           "hospitalStay": "Possibly 1-2 nights",
           "stitchesRemoved": "10-14 days",
@@ -1253,7 +1254,7 @@
           }
         ],
         "quickFacts": {
-          "cost": "TBD",
+          "cost": "Upon Consultation",
           "duration": "1-2 hours",
           "hospitalStay": "No",
           "stitchesRemoved": "N/A",
@@ -1314,7 +1315,7 @@
           }
         ],
         "quickFacts": {
-          "cost": "TBD",
+          "cost": "Upon Consultation",
           "duration": "2-4 hours",
           "hospitalStay": "No",
           "stitchesRemoved": "Self-dissolving",
@@ -1375,7 +1376,7 @@
           }
         ],
         "quickFacts": {
-          "cost": "TBD",
+          "cost": "Upon Consultation",
           "duration": "1-3 hours",
           "hospitalStay": "No",
           "stitchesRemoved": "Self-dissolving",
@@ -1436,7 +1437,7 @@
           }
         ],
         "quickFacts": {
-          "cost": "TBD",
+          "cost": "Upon Consultation",
           "duration": "1-3 hours",
           "hospitalStay": "No",
           "stitchesRemoved": "7-10 days",
@@ -1497,7 +1498,7 @@
           }
         ],
         "quickFacts": {
-          "cost": "TBD",
+          "cost": "Upon Consultation",
           "duration": "2-3 hours",
           "hospitalStay": "No",
           "stitchesRemoved": "7-10 days",
@@ -1558,7 +1559,7 @@
           }
         ],
         "quickFacts": {
-          "cost": "TBD",
+          "cost": "Upon Consultation",
           "duration": "1-2 hours",
           "hospitalStay": "No",
           "stitchesRemoved": "7-10 days",
@@ -1619,7 +1620,7 @@
           }
         ],
         "quickFacts": {
-          "cost": "TBD",
+          "cost": "Upon Consultation",
           "duration": "2-4 hours",
           "hospitalStay": "Possibly 1 night",
           "stitchesRemoved": "10-14 days",
@@ -1680,7 +1681,7 @@
           }
         ],
         "quickFacts": {
-          "cost": "TBD",
+          "cost": "Upon Consultation",
           "duration": "1-2 hours",
           "hospitalStay": "No",
           "stitchesRemoved": "7-10 days",
@@ -2058,7 +2059,7 @@
         "text": "I had a very positive experience with Tokyo drip at Premier Care Clinic. The staff was friendly and professional, and the procedure was quick and painless. I felt more energized and hydrated after the treatment, and I noticed an improvement in my skin health."
       },
       {
-        "name": "Maria Dimitri",
+        "name": "Dr. Lydia",
         "text": "Dr. Lydia is truly exceptional! I had Botox for wrinkles, and the results were beyond my expectations—smooth, natural, and exactly what I wanted. Her skill and attention to detail are unmatched, and I always feel confident in her hands. This wasn't my first visit, and it certainly won't be my last. Thank you for making me feel and look my best!"
       },
       {
@@ -2120,7 +2121,7 @@
       "phone": "+2 01200644663",
       "email": "info@premierhealth.com",
       "location": "New Cairo Medical District, Cairo, Egypt",
-      "hours": "Sat-Thu: 8AM-6PM, Fri: 2PM-8PM"
+      "hours": "Everyday: 12 PM – 10 PM"
     },
     "form": {
       "title": "Book a Consultation",
@@ -2161,7 +2162,7 @@
       "phone": "+2 01200644663",
       "email": "info@premierhealth.com",
       "location": "New Cairo Medical District, Cairo, Egypt",
-      "hours": "Sat-Thu: 8AM-6PM, Fri: 2PM-8PM"
+      "hours": "Everyday: 12 PM – 10 PM"
     },
     "paymentMethods": "Accepted Payment Methods",
     "copyright": "© 2025 Premier Health. All rights reserved."
