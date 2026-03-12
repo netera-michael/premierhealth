@@ -2165,5 +2165,23 @@
     },
     "paymentMethods": "Accepted Payment Methods",
     "copyright": "© 2025 Premier Health. All rights reserved."
+  },
+  "locations": {
+    "title": "Our Locations",
+    "description": "Find us at premium locations across Cairo for your convenience.",
+    "items": {
+      "fairmontNileCity": {
+        "name": "Fairmont Nile City",
+        "address": "Fairmont Nile City Hotel, Nile City Towers, Corniche El Nil, Cairo"
+      },
+      "edncSodic": {
+        "name": "EDNC – Sodic",
+        "address": "EDNC, Sodic East, New Cairo, Cairo"
+      },
+      "arkanPlaza": {
+        "name": "Arkan Plaza",
+        "address": "Arkan Plaza, Sheikh Zayed, Giza"
+      }
+    }
   }
 }
