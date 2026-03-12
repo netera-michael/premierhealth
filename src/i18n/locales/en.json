@@ -11,7 +11,8 @@
       "vitaminDrips": "Vitamin Drips",
       "about": "About Us",
       "contact": "Contact",
-      "bookAppointment": "Book Appointment"
+      "bookAppointment": "Book Appointment",
+      "branches": "Branches"
     }
   },
   "departments": {
@@ -34,9 +35,9 @@
     "learnMore": "Learn More"
   },
   "hero": {
-    "badge": "Premium Wellness Center",
+    "badge": "Premium Wellness Center · Est. 2018",
     "title": "Revitalize Your Health with IV Vitamin Therapy",
-    "description": "Experience the ultimate in wellness with our premium IV vitamin drips. Boost energy, enhance immunity, and optimize your health with direct nutrient delivery.",
+    "description": "Comprehensive wellness, IV therapy, dermatology & aesthetics since 2018. Experience the ultimate in health and beauty with our premium treatments and expert medical team.",
     "bookTreatment": "Book Your Treatment",
     "learnMore": "Learn More",
     "stats": {
@@ -2059,12 +2060,12 @@
         "text": "I had a very positive experience with Tokyo drip at Premier Care Clinic. The staff was friendly and professional, and the procedure was quick and painless. I felt more energized and hydrated after the treatment, and I noticed an improvement in my skin health."
       },
       {
-        "name": "Dr. Lydia",
-        "text": "Dr. Lydia is truly exceptional! I had Botox for wrinkles, and the results were beyond my expectations—smooth, natural, and exactly what I wanted. Her skill and attention to detail are unmatched, and I always feel confident in her hands. This wasn't my first visit, and it certainly won't be my last. Thank you for making me feel and look my best!"
+        "name": "Sara M.",
+        "text": "I had Botox for wrinkles, and the results were beyond my expectations — smooth, natural, and exactly what I wanted. The skill and attention to detail were unmatched, and I always feel confident. This wasn't my first visit, and it certainly won't be my last."
       },
       {
         "name": "Maryam Adel",
-        "text": "I had an amazing experience. I went in for Botox and filler, and they answered all my questions and made me feel incredibly comfortable. Great staff and assistants, super helpful and always smiling. I highly recommend Dr. Lydia to everyone, she has truly transformed my face, and I am absolutely thrilled with the results. Dr. Lydia is truly an artist!"
+        "text": "I had an amazing experience. I went in for Botox and filler, and the team answered all my questions and made me feel incredibly comfortable. Great staff and assistants, super helpful and always smiling. I am absolutely thrilled with the results — truly transformed!"
       }
     ],
     "rating": "4.9/5 Average Rating",
@@ -2183,6 +2184,42 @@
         "name": "Arkan Plaza",
         "address": "Arkan Plaza, Sheikh Zayed, Giza"
       }
+    }
+  },
+  "serviceCategories": {
+    "title": "Our Services",
+    "description": "Explore our four main treatment categories, each offering world-class care tailored to your needs.",
+    "explore": "Explore",
+    "items": {
+      "ivDripTherapy": {
+        "title": "IV Drip Therapy",
+        "subtitle": "Boost energy, immunity & hydration"
+      },
+      "dermatology": {
+        "title": "Dermatology",
+        "subtitle": "Expert skin diagnosis & treatment"
+      },
+      "aesthetics": {
+        "title": "Aesthetics",
+        "subtitle": "Botox, fillers & skin rejuvenation"
+      },
+      "bodyContouring": {
+        "title": "Body Contouring",
+        "subtitle": "Sculpt & reshape your body"
+      }
+    }
+  },
+  "concernNav": {
+    "title": "What's Your Concern?",
+    "description": "Find the right treatment for your specific needs.",
+    "items": {
+      "skinDiseases": "Skin Diseases",
+      "volumeLoss": "Volume Loss",
+      "wrinkles": "Wrinkles",
+      "bodyShaping": "Body Shaping",
+      "ivDrips": "IV Drips",
+      "scalpIssues": "Scalp Issues",
+      "generalSkin": "General Skin"
     }
   }
 }

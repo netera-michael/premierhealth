@@ -99,32 +99,22 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="mb-4 md:mb-0 w-full md:w-auto">
               <h4 className="text-sm font-semibold text-white mb-3 text-center md:text-left">{t('footer.paymentMethods')}</h4>
-              <div className="flex flex-wrap items-center justify-center md:justify-start gap-4">
-                <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Visa_Inc._logo.svg/2560px-Visa_Inc._logo.svg.png"
-                  alt="Visa"
-                  className="h-6 md:h-8 w-auto opacity-70 hover:opacity-100 transition-opacity"
-                />
-                <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Mastercard-logo.svg/1280px-Mastercard-logo.svg.png"
-                  alt="Mastercard"
-                  className="h-6 md:h-8 w-auto opacity-70 hover:opacity-100 transition-opacity"
-                />
-                <img
-                  src="https://www.valu.com.eg/assets/images/valu.webp"
-                  alt="valU"
-                  className="h-6 md:h-8 w-auto opacity-70 hover:opacity-100 transition-opacity"
-                />
-                <img
-                  src="https://www.pfgrowth.com/wp-content/uploads/2023/03/tabby-logo-1.png"
-                  alt="Tabby"
-                  className="h-6 md:h-8 w-auto object-contain opacity-70 hover:opacity-100 transition-opacity"
-                />
-                <img
-                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKCy6jLahmGQdxAJRMr84-Rp1hsg-oiN_Emg&s"
-                  alt="Tamara"
-                  className="h-6 md:h-8 w-auto object-contain opacity-70 hover:opacity-100 transition-opacity"
-                />
+              <div className="flex flex-wrap items-center justify-center md:justify-start gap-3">
+                {[
+                  { src: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Visa_2021.svg/2560px-Visa_2021.svg.png", alt: "Visa" },
+                  { src: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Mastercard-logo.svg/1280px-Mastercard-logo.svg.png", alt: "Mastercard" },
+                  { src: "https://www.valu.com.eg/assets/images/valu.webp", alt: "valU" },
+                  { src: "https://www.pfgrowth.com/wp-content/uploads/2023/03/tabby-logo-1.png", alt: "Tabby" },
+                  { src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKCy6jLahmGQdxAJRMr84-Rp1hsg-oiN_Emg&s", alt: "Tamara" },
+                ].map(({ src, alt }) => (
+                  <div key={alt} className="bg-white rounded-md px-2 py-1 flex items-center justify-center h-8 md:h-10">
+                    <img
+                      src={src}
+                      alt={alt}
+                      className="h-5 md:h-6 w-auto object-contain"
+                    />
+                  </div>
+                ))}
               </div>
             </div>
 
